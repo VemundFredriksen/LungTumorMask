@@ -7,5 +7,10 @@ setup(
     author="Svein Ole M Sevle, Vemund Fredriksen",
     url="https://github.com/VemundFredriksen/LungTumorMask",
     license="MIT",
-    python_requires='>=3.6'
+    python_requires='>=3.6',
+    entry_points={
+        'console_scripts': [
+            'lungtumormask = lungtumormask.__main__:main'
+        ]
+    }
 )

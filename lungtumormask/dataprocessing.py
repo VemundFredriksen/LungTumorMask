@@ -5,7 +5,6 @@ from monai.transforms.intensity.array import ThresholdIntensity
 from monai.transforms.spatial.array import Resize, Spacing
 from monai.transforms.utility.dictionary import ToTensord
 import torch
-from tqdm import tqdm
 import numpy as np
 from monai.transforms import (Compose, LoadImaged, ToNumpyd, ThresholdIntensityd, AddChanneld, NormalizeIntensityd, SpatialCropd, DivisiblePadd, Spacingd, SqueezeDimd)
 
@@ -39,7 +38,7 @@ def mask_lung(scan_path, batch_size=20):
     timage_res = np.empty((np.append(0, tvolslices[0].shape)), dtype=np.uint8)
 
     with torch.no_grad():
-        for X in tqdm(dataloader_val):
+        for X in dataloader_val:
             X = X.float().to(device)
             prediction = model(X)
             pls = torch.max(prediction, 1)[1].detach().cpu().numpy().astype(np.uint8)
