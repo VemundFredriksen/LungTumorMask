@@ -248,18 +248,3 @@ def post_process(left_mask, right_mask, preprocess_dump):
     stitched = np.logical_or(left, right).astype(int)
 
     return stitched
-
-
-if __name__ == "__main__":
-    path = "D:\\Datasets\MSD\\Images\\lung_003.nii.gz"
-    preprocess_dump = preprocess(path)
-
-    unpad = post_process(preprocess_dump['left_lung'], preprocess_dump['right_lung'], preprocess_dump)
-
-    import nibabel
-
-    nimage = nibabel.Nifti1Image(unpad, preprocess_dump['org_affine'])
-    nibabel.save(nimage, "D:\\Datasets\\stitched.nii.gz")
-    
-
-    

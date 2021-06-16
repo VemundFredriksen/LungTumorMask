@@ -29,6 +29,3 @@ def mask(image_path, save_path):
     print(f"Storing segmentation at {save_path}")
     nimage = nibabel.Nifti1Image(infered, preprocess_dump['org_affine'])
     nibabel.save(nimage, save_path)
-
-if __name__ == "__main__":
-    mask("D:\\Datasets\\MSD\\Images\\lung_003.nii.gz", "D:\\Datasets\\MSD\\Images\\out3.nii.gz")
