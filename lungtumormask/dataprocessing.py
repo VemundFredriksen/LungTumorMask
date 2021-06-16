@@ -3,6 +3,7 @@ from lungmask import mask
 from monai import transforms
 from monai.transforms.intensity.array import ThresholdIntensity
 from monai.transforms.spatial.array import Resize, Spacing
+from monai.transforms.utility.dictionary import ToTensord
 import torch
 from tqdm import tqdm
 import numpy as np
@@ -113,8 +114,9 @@ def process_lung_scan(scan_dict, extremes):
     transformer_1 = Compose(
         [
             DivisiblePadd(keys=["image"], k=16, mode='constant'),
-            SqueezeDimd(keys=["image"], dim = 0),
-            ToNumpyd(keys=["image"]),
+            ToTensord(keys=['image'])
+            #SqueezeDimd(keys=["image"], dim = 0),
+            #ToNumpyd(keys=["image"]),
         ]
     )
 
@@ -151,8 +153,8 @@ def preprocess(image_path):
     
     preprocess_dump['affine'] = left_lung_processed[1]
 
-    preprocess_dump['right_lung'] = right_lung_processed[0]
-    preprocess_dump['left_lung'] = left_lung_processed[0]
+    preprocess_dump['right_lung'] = right_lung_processed[0].unsqueeze(0)
+    preprocess_dump['left_lung'] = left_lung_processed[0].unsqueeze(0)
 
     return preprocess_dump
 
@@ -223,8 +225,19 @@ def stitch(org_shape, cropped, roi):
     return holder
 
 def post_process(left_mask, right_mask, preprocess_dump):
-    left = remove_pad(left_mask, preprocess_dump['left_lung'])
-    right = remove_pad(right_mask, preprocess_dump['right_lung'])
+
+    left_mask[left_mask >= 0.5] = 1
+    left_mask[left_mask < 0.5] = 0
+
+    left_mask = left_mask.astype(int)
+
+    right_mask[right_mask >= 0.5] = 1
+    right_mask[right_mask < 0.5] = 0
+
+    right_mask = right_mask.astype(int)
+
+    left = remove_pad(left_mask, preprocess_dump['left_lung'].squeeze(0).squeeze(0).numpy())
+    right = remove_pad(right_mask, preprocess_dump['right_lung'].squeeze(0).squeeze(0).numpy())
 
     left = voxel_space(left, preprocess_dump['left_extremes'])
     right = voxel_space(right, preprocess_dump['right_extremes'])
