@@ -1,6 +1,9 @@
 # Automatic lung tumor segmentation
 This repository offers a proof of concept release of an automatic lung tumor segmentation method given a CT scan. Pre-trained weights are available for anyone to use. The repository structure is inspired by [Johannes Hofmanninger's lungmask repo](https://github.com/JoHof/lungmask), and part of the preprocessing pipeline is based on his lungmask release.
 
+![sample of masked output](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_images.png "Sample output of two different tumors")
+![sample of 3d render](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_renders.png "3D render of two masked outputs")
+
 ## Dependencies
 In addition to the python packages specified in requirements.txt, [PyTorch](https://pytorch.org/get-started/locally/) and [Hofmanninger's lungmask](https://github.com/JoHof/lungmask) must be installed.
 
