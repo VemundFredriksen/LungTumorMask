@@ -1,17 +1,17 @@
 # Automatic lung tumor segmentation in CT
-This repository offers a proof of concept release of an automatic lung tumor segmentation method given a CT scan. Pre-trained weights are available for anyone to use. The repository structure is inspired by [Johannes Hofmanninger's lungmask repo](https://github.com/JoHof/lungmask), and part of the preprocessing pipeline is based on his lungmask release.
+This is the official repository for the paper [_"Teacher-Student Architecture for Mixed Supervised Lung Tumor Segmentation"_](https://arxiv.org/abs/2112.11541), submitted to the International Journal of Computer Assisted Radiology and Surgery ([IJCARS](https://www.springer.com/journal/11548)).
+
+A pretrained model is made available and can be used as you please. However, the current model is not intended for clinical use. The model is a result of a proof-of-concept study, and an improved model will be made available in the near future, when more training data is made available.
 
 ![sample of masked output](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_images.png "Sample output of two different tumors")
 ![sample of 3d render](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_renders.png "3D render of two masked outputs")
 
 ## Dependencies
-In addition to the python packages specified in requirements.txt, [PyTorch](https://pytorch.org/get-started/locally/) and [Hofmanninger's lungmask](https://github.com/JoHof/lungmask) must be installed.
+In addition to the python packages specified in requirements.txt, [PyTorch](https://pytorch.org/get-started/locally/) and [lungmask](https://github.com/JoHof/lungmask) must be installed.
 
 ## Installation
 ```
-
 pip install git+https://github.com/VemundFredriksen/LungTumorMask
-
 ```
 
 ## Usage
@@ -22,7 +22,16 @@ lungtumormask input_file output_file
 
 # Example
 lungtumormask patient_01.nii.gz mask_01.nii.gz
-
 ```
-## Limitations
-This repository is a proof of concept. It is not intended to be used in clinical or commercial use. However, it might be interesting for research, play a role as a baseline, or even aid semi-supervised lung tumor segmentation. 
+
+## Acknowledgements
+If you found this repository useful in your study, please, cite the following paper:
+```
+@misc{fredriksen2021teacherstudent,
+title={Teacher-Student Architecture for Mixed Supervised Lung Tumor Segmentation}, 
+author={Vemund Fredriksen and Svein Ole M. Svele and André Pedersen and Thomas Langø and Gabriel Kiss and Frank Lindseth},
+year={2021},
+eprint={2112.11541},
+archivePrefix={arXiv},
+primaryClass={eess.IV}}
+```
