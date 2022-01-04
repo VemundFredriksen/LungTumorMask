@@ -1,5 +1,5 @@
 # Automatic lung tumor segmentation in CT
-This is the official repository for the paper [_"Teacher-Student Architecture for Mixed Supervised Lung Tumor Segmentation"_](https://arxiv.org/abs/2112.11541), submitted to the International Journal of Computer Assisted Radiology and Surgery ([IJCARS](https://www.springer.com/journal/11548)).
+This is the official repository for the paper [_"Teacher-Student Architecture for Mixed Supervised Lung Tumor Segmentation"_](https://arxiv.org/abs/2112.11541), submitted to PLOS ONE.
 
 A pretrained model is made available and can be used as you please. However, the current model is not intended for clinical use. The model is a result of a proof-of-concept study, and an improved model will be made available in the near future, when more training data is made available.
 
