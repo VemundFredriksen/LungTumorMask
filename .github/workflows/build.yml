@@ -10,18 +10,13 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [windows-2019, ubuntu-18.04, macos-10.15]
-        python-version: [3.6, 3.7, 3.8, 3.9]
-
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: Set up Python 3.6
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: 3.6
 
       - name: Install dependencies
         run: |
@@ -31,20 +26,42 @@ jobs:
       - name: Build wheel
         run: python setup.py bdist_wheel --universal
 
-      - name: Install software
-        run: pip install --find-links=${{github.workspace}}/dist/ lungtumormask
+    test:
+      needs: build
+      runs-on: ${{ matrix.os }}
+      strategy:
+        matrix:
+          os: [windows-2019, ubuntu-18.04, macos-10.15]
+          python-version: [3.6, 3.7, 3.8, 3.9]
 
-      - name: Test CLI
-        run: lungtumormask --help
+      steps:
+        - name: Download artifact
+          uses: actions/download-artifact@master
+          with:
+            name: "Python wheel"
 
-      - name: Debug
-        run: |
-          ls
-          ls ${{github.workspace}}/dist/
+        - name: Install software
+          run: pip install --find-links=${{github.workspace}} lungtumormask
 
-      - name: Upload Python wheel
-        uses: actions/upload-artifact@v2
-        with:
-          name: Python wheel
-          path: ${{github.workspace}}/dist/lungtumormask-*.whl
-          if-no-files-found: error
+        - name: Test CLI
+          run: lungtumormask --help
+
+    upload:
+      needs: test
+      runs-on: ubuntu-18.04
+
+      steps:
+        - name: Download artifact
+          uses: actions/download-artifact@master
+          with:
+            name: "Python wheel"
+
+        - name: Unzip
+          run: unzip "Python wheel" && cd "Python wheel" && ls
+
+        - name: Upload Python wheel
+          uses: actions/upload-artifact@v2
+          with:
+            name: Python wheel
+            path: lungtumormask-*.whl
+            if-no-files-found: error
