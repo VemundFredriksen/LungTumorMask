@@ -12,6 +12,7 @@ setup(
         'numpy',
         'monai',
         'lungmask@git+https://github.com/JoHof/lungmask@master#egg=lungmask',
+        'nibabel',
     ],
     entry_points={
         'console_scripts': [
