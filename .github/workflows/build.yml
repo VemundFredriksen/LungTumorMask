@@ -24,7 +24,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install dependencies
-        run: pip install wheel setuptools -U
+        run: pip install wheel setuptools==39.1.0
 
       - name: Build wheel
         run: python setup.py bdist_wheel --universal
