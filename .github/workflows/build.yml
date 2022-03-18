@@ -1,4 +1,4 @@
-name: Build and upload wheels
+name: Build
 
 on:
   push:
@@ -47,7 +47,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-          
+
       - name: Download artifact
         uses: actions/download-artifact@master
         with:
