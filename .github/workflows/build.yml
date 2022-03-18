@@ -37,6 +37,11 @@ jobs:
       - name: Test CLI
         run: lungtumormask --help
 
+      - name: Debug
+        run: |
+          ls
+          ls ${{github.workspace}}/dist/
+
       - name: Upload Python wheel
         uses: actions/upload-artifact@v2
         with:

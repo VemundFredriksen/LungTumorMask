@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="LungTumorMask",
+    name="lungtumormask",
     packages=find_packages(),
     version='1.0.1',
     author="Svein Ole M Sevle, Vemund Fredriksen, Andre Pedersen",
