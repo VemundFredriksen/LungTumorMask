@@ -26,6 +26,13 @@ jobs:
       - name: Build wheel
         run: python setup.py bdist_wheel --universal
 
+      - name: Upload Python wheel
+        uses: actions/upload-artifact@v2
+        with:
+          name: Python wheel
+          path: ${{github.workspace}}/dist/lungtumormask-*.whl
+          if-no-files-found: error
+
   test:
     needs: build
     runs-on: ${{ matrix.os }}
@@ -45,23 +52,3 @@ jobs:
 
       - name: Test CLI
         run: lungtumormask --help
-
-  upload:
-    needs: test
-    runs-on: ubuntu-18.04
-
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@master
-        with:
-          name: "Python wheel"
-
-      - name: Unzip
-        run: unzip "Python wheel" && cd "Python wheel" && ls
-
-      - name: Upload Python wheel
-        uses: actions/upload-artifact@v2
-        with:
-          name: Python wheel
-          path: lungtumormask-*.whl
-          if-no-files-found: error
