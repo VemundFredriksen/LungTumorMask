@@ -26,42 +26,42 @@ jobs:
       - name: Build wheel
         run: python setup.py bdist_wheel --universal
 
-    test:
-      needs: build
-      runs-on: ${{ matrix.os }}
-      strategy:
-        matrix:
-          os: [windows-2019, ubuntu-18.04, macos-10.15]
-          python-version: [3.6, 3.7, 3.8, 3.9]
+  test:
+    needs: build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-2019, ubuntu-18.04, macos-10.15]
+        python-version: [3.6, 3.7, 3.8, 3.9]
 
-      steps:
-        - name: Download artifact
-          uses: actions/download-artifact@master
-          with:
-            name: "Python wheel"
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@master
+        with:
+          name: "Python wheel"
 
-        - name: Install software
-          run: pip install --find-links=${{github.workspace}} lungtumormask
+      - name: Install software
+        run: pip install --find-links=${{github.workspace}} lungtumormask
 
-        - name: Test CLI
-          run: lungtumormask --help
+      - name: Test CLI
+        run: lungtumormask --help
 
-    upload:
-      needs: test
-      runs-on: ubuntu-18.04
+  upload:
+    needs: test
+    runs-on: ubuntu-18.04
 
-      steps:
-        - name: Download artifact
-          uses: actions/download-artifact@master
-          with:
-            name: "Python wheel"
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@master
+        with:
+          name: "Python wheel"
 
-        - name: Unzip
-          run: unzip "Python wheel" && cd "Python wheel" && ls
+      - name: Unzip
+        run: unzip "Python wheel" && cd "Python wheel" && ls
 
-        - name: Upload Python wheel
-          uses: actions/upload-artifact@v2
-          with:
-            name: Python wheel
-            path: lungtumormask-*.whl
-            if-no-files-found: error
+      - name: Upload Python wheel
+        uses: actions/upload-artifact@v2
+        with:
+          name: Python wheel
+          path: lungtumormask-*.whl
+          if-no-files-found: error
