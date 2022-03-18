@@ -11,7 +11,7 @@ setup(
     install_requires=[
         'numpy',
         'monai',
-        'git+https://github.com/JoHof/lungmask@master#egg=lungmask',
+        'lungmask@git+https://github.com/JoHof/lungmask@master#egg=lungmask',
     ],
     entry_points={
         'console_scripts': [
