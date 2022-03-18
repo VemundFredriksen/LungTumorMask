@@ -9,9 +9,9 @@ setup(
     license="MIT",
     python_requires='>=3.6',
     install_requires=[
-        "numpy",
-        "monai",
-        "git+https://github.com/JoHof/lungmask",
+        'numpy',
+        'monai',
+        'git+https://github.com/JoHof/lungmask@master#egg=lungmask',
     ],
     entry_points={
         'console_scripts': [
