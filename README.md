@@ -1,4 +1,7 @@
 # Automatic lung tumor segmentation in CT
+
+[![Build Actions Status](https://github.com/VemundFredriksen/LungTumorMask/workflows/build/badge.svg)](https://github.com/VemundFredriksen/LungTumorMask/actions)
+
 This is the official repository for the paper [_"Teacher-Student Architecture for Mixed Supervised Lung Tumor Segmentation"_](https://arxiv.org/abs/2112.11541), **accepted for publication** in PLOS ONE.
 
 A pretrained model is made available in a command line tool and can be used as you please. However, the current model is not intended for clinical use. The model is the result of a proof-of-concept study. An improved model will be made available in the future, when more training data is made available.
