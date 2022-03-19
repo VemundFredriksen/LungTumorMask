@@ -56,5 +56,11 @@ jobs:
       - name: Install software
         run: pip install --find-links=${{github.workspace}} lungtumormask
 
+      - name: Download test data
+        run: |
+          pip install gdown
+          https://drive.google.com/uc?id=1RBCQNfb-NPfGbpYJp5KkRQpVTrN-uL3B
+          ls
+
       - name: Test CLI
         run: lungtumormask --help
