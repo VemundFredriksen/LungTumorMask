@@ -7,6 +7,7 @@ from monai.transforms.utility.dictionary import ToTensord
 import torch
 import numpy as np
 from monai.transforms import (Compose, LoadImaged, ToNumpyd, ThresholdIntensityd, AddChanneld, NormalizeIntensityd, SpatialCropd, DivisiblePadd, Spacingd, SqueezeDimd)
+from tqdm import tqdm
 
 def mask_lung(scan_path, batch_size=20):
     model = lungmask.mask.get_model('unet', 'R231')
@@ -28,7 +29,7 @@ def mask_lung(scan_path, batch_size=20):
     )
 
     scan_read = transformer(scan_dict)
-    inimg_raw = scan_read['image'].swapaxes(0,2)
+    inimg_raw = scan_read['image'].swapaxes(0, 2)
 
     tvolslices, xnew_box = lungmask.utils.preprocess(inimg_raw, resolution=[256, 256])
     tvolslices[tvolslices > 600] = 600
@@ -41,7 +42,7 @@ def mask_lung(scan_path, batch_size=20):
     timage_res = np.empty((np.append(0, tvolslices[0].shape)), dtype=np.uint8)
 
     with torch.no_grad():
-        for X in dataloader_val:
+        for X in tqdm(dataloader_val):
             X = X.float().to(device)
             prediction = model(X)
             pls = torch.max(prediction, 1)[1].detach().cpu().numpy().astype(np.uint8)
@@ -56,7 +57,6 @@ def mask_lung(scan_path, batch_size=20):
 
     outmask = np.swapaxes(outmask, 0, 2)
     #outmask = np.flip(outmask, 0)
-
 
     return outmask.astype(np.uint8), scan_read['image_meta_dict']['affine']
 
@@ -143,6 +143,7 @@ def preprocess(image_path):
     preprocess_dump['pixdim'] = im['image_meta_dict']['pixdim'][1:4]
     preprocess_dump['org_affine'] = im['image_meta_dict']['affine']
 
+    print("Segmenting lungs...")
     masked_lungs = mask_lung(image_path, 5)
     right_lung_extreme = calculate_extremes(masked_lungs[0], 1)
     preprocess_dump['right_extremes'] = right_lung_extreme
