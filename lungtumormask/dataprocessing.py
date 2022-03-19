@@ -10,7 +10,8 @@ from monai.transforms import (Compose, LoadImaged, ToNumpyd, ThresholdIntensityd
 
 def mask_lung(scan_path, batch_size=20):
     model = lungmask.mask.get_model('unet', 'R231')
-    device = torch.device('cuda')
+    if T.cuda.is_available():
+        device = torch.device('cuda')
     model.to(device)
 
     scan_dict = {
