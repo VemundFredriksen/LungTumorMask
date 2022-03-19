@@ -58,10 +58,10 @@ jobs:
 
       - name: Download test data 
         run: |
-          pip install gdown
+          pip install -U --no-cache-dir gdown --pre
           mkdir samples
           cd samples
-          gdown https://drive.google.com/uc?id=1EBU130MSupgrux-VXz2i1tY2P6kKng5w
+          gdown --no-cookies https://drive.google.com/uc?id=1EBU130MSupgrux-VXz2i1tY2P6kKng5w
           ls
 
       - name: Test CLI
