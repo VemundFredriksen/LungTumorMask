@@ -56,9 +56,9 @@ jobs:
       - name: Install software
         run: pip install --find-links=${{github.workspace}} lungtumormask
 
-      - name: Download test data 
+      - name: Download test data
         run: |
-          pip install -U --no-cache-dir gdown --pre
+          pip install --upgrade --no-cache-dir gdown
           mkdir samples
           cd samples
           gdown --no-cookies https://drive.google.com/uc?id=1EBU130MSupgrux-VXz2i1tY2P6kKng5w
