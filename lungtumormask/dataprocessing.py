@@ -12,6 +12,8 @@ def mask_lung(scan_path, batch_size=20):
     model = lungmask.mask.get_model('unet', 'R231')
     if torch.cuda.is_available():
         device = torch.device('cuda')
+    else:
+        device = torch.device('cpu')
     model.to(device)
 
     scan_dict = {

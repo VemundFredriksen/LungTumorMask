@@ -56,7 +56,7 @@ jobs:
       - name: Install software
         run: pip install --find-links=${{github.workspace}} lungtumormask
 
-      - name: Download test data
+      - name: Download test data 
         run: |
           pip install gdown
           mkdir samples
@@ -69,4 +69,3 @@ jobs:
 
       - name: Test inference
         run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz
-        
