@@ -28,7 +28,7 @@ def mask(image_path, save_path):
     right = model(preprocess_dump['right_lung']).squeeze(0).squeeze(0).detach().numpy()
 
     print("Post-processing image...")
-    infered = post_process(left, right, preprocess_dump)
+    infered = post_process(left, right, preprocess_dump).astype("uint8")
 
     print(f"Storing segmentation at {save_path}")
     nimage = nibabel.Nifti1Image(infered, preprocess_dump['org_affine'])

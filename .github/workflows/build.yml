@@ -62,7 +62,6 @@ jobs:
           mkdir samples
           cd samples
           gdown --no-cookies https://drive.google.com/uc?id=1EBU130MSupgrux-VXz2i1tY2P6kKng5w
-          ls
 
       - name: Test CLI
         run: lungtumormask --help
