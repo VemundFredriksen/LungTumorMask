@@ -145,6 +145,7 @@ def preprocess(image_path):
 
     print("Segmenting lungs...")
     masked_lungs = mask_lung(image_path, 5)
+    preprocess_dump['lungmask'] = masked_lungs
     right_lung_extreme = calculate_extremes(masked_lungs[0], 1)
     preprocess_dump['right_extremes'] = right_lung_extreme
     right_lung_processed = process_lung_scan(scan_dict, right_lung_extreme)
@@ -231,12 +232,10 @@ def post_process(left_mask, right_mask, preprocess_dump):
 
     left_mask[left_mask >= 0.5] = 1
     left_mask[left_mask < 0.5] = 0
-
     left_mask = left_mask.astype(int)
 
     right_mask[right_mask >= 0.5] = 1
     right_mask[right_mask < 0.5] = 0
-
     right_mask = right_mask.astype(int)
 
     left = remove_pad(left_mask, preprocess_dump['left_lung'].squeeze(0).squeeze(0).numpy())
@@ -249,5 +248,8 @@ def post_process(left_mask, right_mask, preprocess_dump):
     right = stitch(preprocess_dump['org_shape'], right, preprocess_dump['right_extremes'])
 
     stitched = np.logical_or(left, right).astype(int)
+
+    # filter tumor predictions outside the predicted lung area
+    stitched[preprocess_dump['lungmask'] == 0] = 0
 
     return stitched
