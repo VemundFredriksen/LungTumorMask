@@ -11,9 +11,6 @@ A pretrained model is made available in a command line tool and can be used as y
 ![sample of masked output](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_images.png "Sample output of two different tumors")
 ![sample of 3d render](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_renders.png "3D render of two masked outputs")
 
-## Dependencies
-In addition to the python packages specified in requirements.txt, [PyTorch](https://pytorch.org/get-started/locally/) and [lungmask](https://github.com/JoHof/lungmask) must be installed.
-
 ## Installation
 
 Stable latest release:
