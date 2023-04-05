@@ -15,6 +15,13 @@ A pretrained model is made available in a command line tool and can be used as y
 In addition to the python packages specified in requirements.txt, [PyTorch](https://pytorch.org/get-started/locally/) and [lungmask](https://github.com/JoHof/lungmask) must be installed.
 
 ## Installation
+
+Stable latest release:
+```
+pip install https://github.com/VemundFredriksen/LungTumorMask/releases/download/v1.1.0/lungtumormask-1.1.0-py2.py3-none-any.whl
+```
+
+Or from source:
 ```
 pip install git+https://github.com/VemundFredriksen/LungTumorMask
 ```
