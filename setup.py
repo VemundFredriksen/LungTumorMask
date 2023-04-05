@@ -10,7 +10,7 @@ setup(
     python_requires='>=3.6',
     install_requires=[
         'numpy',
-        'monai<=0.8.1'',
+        'monai<=0.8.1',
         'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
     ],
