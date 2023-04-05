@@ -9,7 +9,7 @@ setup(
     license="MIT",
     python_requires='>=3.6',
     install_requires=[
-        'numpy',
+        'numpy<=1.19',
         'monai<=0.8.1',
         'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
