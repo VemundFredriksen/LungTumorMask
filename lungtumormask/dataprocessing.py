@@ -48,7 +48,7 @@ def mask_lung(scan_path, batch_size=20):
             pls = torch.max(prediction, 1)[1].detach().cpu().numpy().astype(np.uint8)
             timage_res = np.vstack((timage_res, pls))
 
-    outmask = lungmask.utils.postrocessing(timage_res)
+    outmask = lungmask.utils.postprocessing(timage_res)
 
 
     outmask = np.asarray(
