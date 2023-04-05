@@ -11,7 +11,7 @@ setup(
     install_requires=[
         'numpy',
         'monai',
-        'lungmask@git+https://github.com/JoHof/lungmask',
+        'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
     ],
     entry_points={
