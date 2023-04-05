@@ -33,15 +33,16 @@ lungtumormask patient_01.nii.gz mask_01.nii.gz
 If you found this repository useful in your study, please, cite the following paper:
 ```
 @article{fredriksen2021teacherstudent,
-title = {Teacher-student approach for lung tumor segmentation from mixed-supervised datasets},
-author = {Fredriksen, Vemund AND Sevle, Svein Ole M. AND Pedersen, André AND Langø, Thomas AND Kiss, Gabriel AND Lindseth, Frank},
-journal = {PLOS ONE},
-publisher = {Public Library of Science},
-year = {2022},
-month = {04},
-doi = {10.1371/journal.pone.0266147},
-volume = {17},
-url = {https://doi.org/10.1371/journal.pone.0266147},
-pages = {1-14},
-number = {4}}
+  title = {Teacher-student approach for lung tumor segmentation from mixed-supervised datasets},
+  author = {Fredriksen, Vemund AND Sevle, Svein Ole M. AND Pedersen, André AND Langø, Thomas AND Kiss, Gabriel AND Lindseth, Frank},
+  journal = {PLOS ONE},
+  publisher = {Public Library of Science},
+  year = {2022},
+  month = {04},
+  doi = {10.1371/journal.pone.0266147},
+  volume = {17},
+  url = {https://doi.org/10.1371/journal.pone.0266147},
+  pages = {1-14},
+  number = {4}
+}
 ```
