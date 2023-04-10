@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="lungtumormask",
     packages=find_packages(),
-    version='1.1.0',
+    version='1.1.1',
     author="Svein Ole M Sevle, Vemund Fredriksen, and André Pedersen",
     url="https://github.com/VemundFredriksen/LungTumorMask",
     license="MIT",
