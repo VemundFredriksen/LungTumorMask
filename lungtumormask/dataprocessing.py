@@ -154,7 +154,6 @@ def preprocess(image_path):
     preprocess_dump['left_extremes'] = left_lung_extreme
     left_lung_processed = process_lung_scan(scan_dict, left_lung_extreme)
 
-    
     preprocess_dump['affine'] = left_lung_processed[1]
 
     preprocess_dump['right_lung'] = right_lung_processed[0].unsqueeze(0)
@@ -229,14 +228,8 @@ def stitch(org_shape, cropped, roi):
     return holder
 
 def post_process(left_mask, right_mask, preprocess_dump):
-
-    left_mask[left_mask >= 0.5] = 1
-    left_mask[left_mask < 0.5] = 0
-    left_mask = left_mask.astype(int)
-
-    right_mask[right_mask >= 0.5] = 1
-    right_mask[right_mask < 0.5] = 0
-    right_mask = right_mask.astype(int)
+    left_mask = (left_mask >= 0.5).astype(int)
+    right_mask = (right_mask >= 0.5).astype(int)
 
     left = remove_pad(left_mask, preprocess_dump['left_lung'].squeeze(0).squeeze(0).numpy())
     right = remove_pad(right_mask, preprocess_dump['right_lung'].squeeze(0).squeeze(0).numpy())
