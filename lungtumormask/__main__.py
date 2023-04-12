@@ -13,7 +13,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('input', metavar='input', type=path, help='Path to the input image, should be .nifti')
     parser.add_argument('output', metavar='output', type=str, help='Filepath for output tumormask')
-    parser.add_argment('lung-filter', metavar='post-process', action='store_true',
+    parser.add_argment('--lung-filter', action='store_true',
                        help="whether to apply lungmask postprocessing.")
 
     argsin = sys.argv[1:]
