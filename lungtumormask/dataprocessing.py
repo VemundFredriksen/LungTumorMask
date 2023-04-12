@@ -217,17 +217,15 @@ def voxel_space(image, target):
     image = Resize((target[0][1]-target[0][0], target[1][1]-target[1][0], target[2][1]-target[2][0]), mode='trilinear')(np.expand_dims(image, 0))[0]
     image = ThresholdIntensity(above = False, threshold = 0.5, cval = 1)(image)
     image = ThresholdIntensity(above = True, threshold = 0.5, cval = 0)(image)
-
     return image
 
 def stitch(org_shape, cropped, roi):
     holder = np.zeros(org_shape)
-
     holder[roi[0][0]:roi[0][1], roi[1][0]:roi[1][1], roi[2][0]:roi[2][1]] = cropped
 
     return holder
 
-def post_process(left_mask, right_mask, preprocess_dump):
+def post_process(left_mask, right_mask, preprocess_dump, lung_filter):
     left_mask = (left_mask >= 0.5).astype(int)
     right_mask = (right_mask >= 0.5).astype(int)
 
@@ -243,6 +241,7 @@ def post_process(left_mask, right_mask, preprocess_dump):
     stitched = np.logical_or(left, right).astype(int)
 
     # filter tumor predictions outside the predicted lung area
-    stitched[preprocess_dump['lungmask'] == 0] = 0
+    if lung_filter:
+        stitched[preprocess_dump['lungmask'] == 0] = 0
 
     return stitched
