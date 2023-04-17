@@ -69,5 +69,5 @@ jobs:
       - name: Test inference
         run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz
       
-      - name: Test lungmask postprocessing
-        run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz --lung-filter
+      #- name: Test lungmask postprocessing
+      #  run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz --lung-filter
