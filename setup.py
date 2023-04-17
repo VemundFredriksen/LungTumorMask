@@ -10,9 +10,10 @@ setup(
     python_requires='>=3.6',
     install_requires=[
         'numpy<=1.19',
-        'monai<=0.8.1',
+        'monai<=0.3.0',
         'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
+        'torch==1.11',
     ],
     entry_points={
         'console_scripts': [
