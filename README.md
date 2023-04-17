@@ -11,7 +11,7 @@ A pretrained model is made available in a command line tool and can be used as y
 ![sample of masked output](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_images.png "Sample output of two different tumors")
 ![sample of 3d render](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_renders.png "3D render of two masked outputs")
 
-## Installation
+## [Installation](https://github.com/VemundFredriksen/LungTumorMask#installation)
 
 Software has been tested against Python `3.6-3.10`.
 
@@ -25,7 +25,7 @@ Or from source:
 pip install git+https://github.com/VemundFredriksen/LungTumorMask
 ```
 
-## Usage
+## [Usage](https://github.com/VemundFredriksen/LungTumorMask#usage)
 After install, the software can be used as a command line tool. Simply specify the input and output filenames to run:
 ```
 # Format
@@ -35,7 +35,7 @@ lungtumormask input_file output_file
 lungtumormask patient_01.nii.gz mask_01.nii.gz
 ```
 
-## Acknowledgements
+## [Citation](https://github.com/VemundFredriksen/LungTumorMask#citation)
 If you found this repository useful in your study, please, cite the following paper:
 ```
 @article{fredriksen2021teacherstudent,
