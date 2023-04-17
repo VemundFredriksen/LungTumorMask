@@ -13,7 +13,7 @@ setup(
         'monai<=0.8.1',
         'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
-        'torch==1.10.2',
+        'torch>=1.10.2,<=1.11',
     ],
     entry_points={
         'console_scripts': [
