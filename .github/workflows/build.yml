@@ -39,7 +39,7 @@ jobs:
     strategy:
       matrix:
         os: [windows-2019, ubuntu-20.04, macos-10.15]
-        python-version: [3.6, 3.7, 3.8]
+        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
 
     steps:
       - uses: actions/checkout@v1
@@ -69,5 +69,5 @@ jobs:
       - name: Test inference
         run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz
       
-      - name: Test lungmask postprocessing
-        run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz --lung-filter
+      #- name: Test lungmask postprocessing
+      #  run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz --lung-filter

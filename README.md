@@ -13,6 +13,8 @@ A pretrained model is made available in a command line tool and can be used as y
 
 ## Installation
 
+Software has been tested against Python `3.6-3.10`.
+
 Stable latest release:
 ```
 pip install https://github.com/VemundFredriksen/LungTumorMask/releases/download/v1.1.0/lungtumormask-1.1.0-py2.py3-none-any.whl
