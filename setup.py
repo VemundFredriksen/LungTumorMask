@@ -9,11 +9,11 @@ setup(
     license="MIT",
     python_requires='>=3.7',
     install_requires=[
-        'numpy<=1.19',
-        'monai<=0.3.0',
+        'numpy<=1.19.0',
+        'monai<=0.8.1',
         'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
-        'torch==1.11',
+        'torch==1.10.2',
     ],
     entry_points={
         'console_scripts': [
