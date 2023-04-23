@@ -8,7 +8,7 @@ import torch
 import numpy as np
 from monai.transforms import (Compose, LoadImaged, ToNumpyd, ThresholdIntensityd, AddChanneld, NormalizeIntensityd, SpatialCropd, DivisiblePadd, Spacingd, SqueezeDimd)
 from tqdm import tqdm
-from skimage.morphology import binary_closing, ball
+from skimage.morphology import binary_closing, disk
 
 def mask_lung(scan_path, batch_size=20):
     model = lungmask.mask.get_model('unet', 'R231')
@@ -239,6 +239,7 @@ def post_process(left, right, preprocess_dump, lung_filter, threshold, radius):
         stitched[preprocess_dump['lungmask'] == 0] = 0
     
     # final post-processing - fix fragmentation
-    stitched = binary_closing(stitched, footprint=ball(radius=radius))
+    for i in range(stitched.shape[-1]):
+        stitched[..., i] = binary_closing(stitched[..., i], footprint=disk(radius=radius))
 
     return stitched
