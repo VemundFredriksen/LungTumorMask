@@ -211,12 +211,14 @@ def find_pad_edge(original):
 
 def remove_pad(mask, original):
     a_min, a_max, b_min, b_max, c_min, c_max = find_pad_edge(original)
+    
     return mask[a_min:a_max, b_min:b_max, c_min: c_max]
 
 def voxel_space(image, target):
     image = Resize((target[0][1]-target[0][0], target[1][1]-target[1][0], target[2][1]-target[2][0]), mode='trilinear')(np.expand_dims(image, 0))[0]
     image = ThresholdIntensity(above = False, threshold = 0.5, cval = 1)(image)
     image = ThresholdIntensity(above = True, threshold = 0.5, cval = 0)(image)
+
     return image
 
 def stitch(org_shape, cropped, roi):
@@ -225,9 +227,9 @@ def stitch(org_shape, cropped, roi):
 
     return holder
 
-def post_process(left_mask, right_mask, preprocess_dump, lung_filter):
-    left_mask = (left_mask >= 0.5).astype(int)
-    right_mask = (right_mask >= 0.5).astype(int)
+def post_process(left_mask, right_mask, preprocess_dump, lung_filter, threshold):
+    left_mask = (left_mask >= threshold).astype(int)
+    right_mask = (right_mask >= threshold).astype(int)
 
     left = remove_pad(left_mask, preprocess_dump['left_lung'].squeeze(0).squeeze(0).numpy())
     right = remove_pad(right_mask, preprocess_dump['right_lung'].squeeze(0).squeeze(0).numpy())
