@@ -15,7 +15,7 @@ def load_model():
     model.eval()
     return model
 
-def mask(image_path, save_path, lung_filter, threshold):
+def mask(image_path, save_path, lung_filter, threshold, radius):
     print("Loading model...")
     model = load_model()
 
@@ -27,7 +27,7 @@ def mask(image_path, save_path, lung_filter, threshold):
     right = model(preprocess_dump['right_lung']).squeeze(0).squeeze(0).detach().numpy()
 
     print("Post-processing image...")
-    inferred = post_process(left, right, preprocess_dump, lung_filter, threshold).astype("uint8")
+    inferred = post_process(left, right, preprocess_dump, lung_filter, threshold, radius).astype("uint8")
 
     print(f"Storing segmentation at {save_path}")
     nimage = nibabel.Nifti1Image(inferred, preprocess_dump['org_affine'])

@@ -219,7 +219,7 @@ def stitch(org_shape, cropped, roi):
 
     return holder
 
-def post_process(left, right, preprocess_dump, lung_filter, threshold):
+def post_process(left, right, preprocess_dump, lung_filter, threshold, radius):
     left = remove_pad(left, preprocess_dump['left_lung'].squeeze(0).squeeze(0).numpy())
     right = remove_pad(right, preprocess_dump['right_lung'].squeeze(0).squeeze(0).numpy())
 
@@ -239,6 +239,6 @@ def post_process(left, right, preprocess_dump, lung_filter, threshold):
         stitched[preprocess_dump['lungmask'] == 0] = 0
     
     # final post-processing - fix fragmentation
-    stitched = binary_closing(stitched, footprint=ball(radius=5))
+    stitched = binary_closing(stitched, footprint=ball(radius=radius))
 
     return stitched
