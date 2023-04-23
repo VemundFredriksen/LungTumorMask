@@ -1,3 +1,5 @@
 .idea/
 *.nii
 *.nii.gz
+*__pycache__/
+*.egg-info
