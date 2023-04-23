@@ -39,7 +39,7 @@ jobs:
     strategy:
       matrix:
         os: [windows-2019, ubuntu-20.04, macos-10.15]
-        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
+        python-version: ["3.7", "3.8", "3.9", "3.10"]
 
     steps:
       - uses: actions/checkout@v1
@@ -67,4 +67,4 @@ jobs:
         run: lungtumormask --help
 
       - name: Test inference
-        run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz --threshold 0.3 --lung-filter
+        run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz --threshold 0.3 --lung-filter --radius 3

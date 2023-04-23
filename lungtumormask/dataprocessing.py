@@ -8,6 +8,7 @@ import torch
 import numpy as np
 from monai.transforms import (Compose, LoadImaged, ToNumpyd, ThresholdIntensityd, AddChanneld, NormalizeIntensityd, SpatialCropd, DivisiblePadd, Spacingd, SqueezeDimd)
 from tqdm import tqdm
+from skimage.morphology import binary_closing, ball
 
 def mask_lung(scan_path, batch_size=20):
     model = lungmask.mask.get_model('unet', 'R231')
@@ -50,7 +51,6 @@ def mask_lung(scan_path, batch_size=20):
 
     outmask = lungmask.utils.postprocessing(timage_res)
 
-
     outmask = np.asarray(
         [lungmask.utils.reshape_mask(outmask[i], xnew_box[i], inimg_raw.shape[1:]) for i in range(outmask.shape[0])],
         dtype=np.uint8)
@@ -61,7 +61,6 @@ def mask_lung(scan_path, batch_size=20):
     return outmask.astype(np.uint8), scan_read['image_meta_dict']['affine']
 
 def calculate_extremes(image, annotation_value):
-
     holder = np.copy(image)
 
     x_min = float('inf')
@@ -98,7 +97,6 @@ def calculate_extremes(image, annotation_value):
     return ((x_min, x_max), (y_min, y_max), (z_min, z_max))
 
 def process_lung_scan(scan_dict, extremes):
-
     load_transformer = Compose(
         [
             LoadImaged(keys=["image"]),
@@ -123,15 +121,12 @@ def process_lung_scan(scan_dict, extremes):
     )
 
     processed_2 = transformer_1(processed_1)
-
     affine = processed_2['image_meta_dict']['affine']
-
     normalized_image = processed_2['image']
 
     return normalized_image, affine
 
 def preprocess(image_path):
-
     preprocess_dump = {}
 
     scan_dict = {
@@ -208,7 +203,6 @@ def find_pad_edge(original):
 
     return a_min, a_max + 1, b_min, b_max + 1, c_min, c_max + 1
 
-
 def remove_pad(mask, original):
     a_min, a_max, b_min, b_max, c_min, c_max = find_pad_edge(original)
     
@@ -216,26 +210,24 @@ def remove_pad(mask, original):
 
 def voxel_space(image, target):
     image = Resize((target[0][1]-target[0][0], target[1][1]-target[1][0], target[2][1]-target[2][0]), mode='trilinear')(np.expand_dims(image, 0))[0]
-    image = ThresholdIntensity(above = False, threshold = 0.5, cval = 1)(image)
-    image = ThresholdIntensity(above = True, threshold = 0.5, cval = 0)(image)
 
     return image
 
 def stitch(org_shape, cropped, roi):
-    holder = np.zeros(org_shape)
+    holder = np.zeros(org_shape, dtype="float32")
     holder[roi[0][0]:roi[0][1], roi[1][0]:roi[1][1], roi[2][0]:roi[2][1]] = cropped
 
     return holder
 
-def post_process(left_mask, right_mask, preprocess_dump, lung_filter, threshold):
-    left_mask = (left_mask >= threshold).astype(int)
-    right_mask = (right_mask >= threshold).astype(int)
-
-    left = remove_pad(left_mask, preprocess_dump['left_lung'].squeeze(0).squeeze(0).numpy())
-    right = remove_pad(right_mask, preprocess_dump['right_lung'].squeeze(0).squeeze(0).numpy())
+def post_process(left, right, preprocess_dump, lung_filter, threshold, radius):
+    left = remove_pad(left, preprocess_dump['left_lung'].squeeze(0).squeeze(0).numpy())
+    right = remove_pad(right, preprocess_dump['right_lung'].squeeze(0).squeeze(0).numpy())
 
     left = voxel_space(left, preprocess_dump['left_extremes'])
     right = voxel_space(right, preprocess_dump['right_extremes'])
+
+    left = (left >= threshold).astype(int)
+    right = (right >= threshold).astype(int)
 
     left = stitch(preprocess_dump['org_shape'], left, preprocess_dump['left_extremes'])
     right = stitch(preprocess_dump['org_shape'], right, preprocess_dump['right_extremes'])
@@ -245,5 +237,8 @@ def post_process(left_mask, right_mask, preprocess_dump, lung_filter, threshold)
     # filter tumor predictions outside the predicted lung area
     if lung_filter:
         stitched[preprocess_dump['lungmask'] == 0] = 0
+    
+    # final post-processing - fix fragmentation
+    stitched = binary_closing(stitched, footprint=ball(radius=radius))
 
     return stitched
