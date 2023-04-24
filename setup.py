@@ -13,6 +13,7 @@ setup(
         'monai<=0.8.1',
         'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
+        'scikit-image>=0.19.3',
         'torch>=1.10.2,<=1.11',
     ],
     entry_points={
@@ -21,6 +22,7 @@ setup(
         ]
     },
     classifiers=[
+         "Programming Language :: Python :: 3.6",
          "Programming Language :: Python :: 3.7",
          "Programming Language :: Python :: 3.8",
          "Programming Language :: Python :: 3.9",
