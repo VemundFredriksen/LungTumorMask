@@ -14,7 +14,7 @@ setup(
         'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
         'scikit-image>=0.17.0',
-        'torch>=1.10.2,<=1.11',
+        'torch>=1.10.2,<=1.13',
     ],
     entry_points={
         'console_scripts': [
