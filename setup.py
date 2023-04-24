@@ -13,7 +13,7 @@ setup(
         'monai<=0.8.1',
         'lungmask@git+https://github.com/andreped/lungmask',
         'nibabel',
-        'scikit-image>=0.19.3',
+        'scikit-image>=0.17.0',
         'torch>=1.10.2,<=1.11',
     ],
     entry_points={
