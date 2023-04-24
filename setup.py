@@ -7,7 +7,7 @@ setup(
     author="Svein Ole M Sevle, Vemund Fredriksen, and André Pedersen",
     url="https://github.com/VemundFredriksen/LungTumorMask",
     license="MIT",
-    python_requires='>=3.7',
+    python_requires='>=3.6',
     install_requires=[
         'numpy<=1.23.2',
         'monai<=0.8.1',
