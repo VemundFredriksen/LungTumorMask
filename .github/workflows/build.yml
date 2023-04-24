@@ -53,6 +53,11 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: "Python wheel"
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install wheel setuptools
 
       - name: Install software
         run: pip install --find-links=${{github.workspace}} lungtumormask
