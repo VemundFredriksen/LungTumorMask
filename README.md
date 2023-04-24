@@ -8,8 +8,11 @@ This is the official repository for the paper [_"Teacher-student approach for lu
 
 A pretrained model is made available in a command line tool and can be used as you please. However, the current model is not intended for clinical use. The model is the result of a proof-of-concept study. An improved model will be made available in the future, when more training data is made available.
 
-![sample of masked output](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_images.png "Sample output of two different tumors")
-![sample of 3d render](https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_renders.png "3D render of two masked outputs")
+<img src="https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_images.png" width="70%">
+
+<img src="https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_renders.png" width="70%">
+
+&nbsp;
 
 ## [Installation](https://github.com/VemundFredriksen/LungTumorMask#installation)
 
@@ -33,7 +36,13 @@ lungtumormask input_file output_file
 
 # Example
 lungtumormask patient_01.nii.gz mask_01.nii.gz
+
+# Custom arguments
+lungtumormask patient_01.nii.gz mask_01.nii.gz --lung-filter --threshold 0.3 --radius 3
 ```
+
+In the last example, we filter tumor candidates outside the lungs, use a lower probability threshold to boost recall, and use a morphological smoothing step
+to fill holes inside segmentations using a disk kernel of radius 3.
 
 ## [Citation](https://github.com/VemundFredriksen/LungTumorMask#citation)
 If you found this repository useful in your study, please, cite the following paper:
