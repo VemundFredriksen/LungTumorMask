@@ -1,7 +1,6 @@
 import sys
 import argparse
 import os
-from lungtumormask import mask
 
 def path(string):
     if os.path.exists(string):
@@ -18,8 +17,13 @@ def main():
                         help='which threshold to use for assigning voxel-wise classes.')
     parser.add_argument('--radius', metavar='radius', type=int, default=1,
                         help='which radius to use for morphological post-processing segmentation smoothing.')
+    parser.add_argument('--batch-size', metavar='batch-size', type=int, default=5,
+                        help='which batch size to use for lungmask inference.')
 
     argsin = sys.argv[1:]
     args = parser.parse_args(argsin)
-
-    mask.mask(args.input, args.output, args.lung_filter, args.threshold, args.radius)
+    
+    # import method here to enable faster testing
+    from lungtumormask import mask
+    
+    mask.mask(args.input, args.output, args.lung_filter, args.threshold, args.radius, args.batch_size)
