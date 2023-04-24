@@ -126,7 +126,7 @@ def process_lung_scan(scan_dict, extremes):
 
     return normalized_image, affine
 
-def preprocess(image_path):
+def preprocess(image_path, batch_size):
     preprocess_dump = {}
 
     scan_dict = {
@@ -139,8 +139,8 @@ def preprocess(image_path):
     preprocess_dump['org_affine'] = im['image_meta_dict']['affine']
 
     print("Segmenting lungs...")
-    masked_lungs = mask_lung(image_path, 5)
-    preprocess_dump['lungmask'] = masked_lungs
+    masked_lungs = mask_lung(image_path, batch_size=batch_size)
+    preprocess_dump['lungmask'] = masked_lungs[0]  # first output is binary segmentation of lungs
     right_lung_extreme = calculate_extremes(masked_lungs[0], 1)
     preprocess_dump['right_extremes'] = right_lung_extreme
     right_lung_processed = process_lung_scan(scan_dict, right_lung_extreme)

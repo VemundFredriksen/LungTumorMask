@@ -15,12 +15,12 @@ def load_model():
     model.eval()
     return model
 
-def mask(image_path, save_path, lung_filter, threshold, radius):
+def mask(image_path, save_path, lung_filter, threshold, radius, batch_size):
     print("Loading model...")
     model = load_model()
 
     print("Preprocessing image...")
-    preprocess_dump = preprocess(image_path)
+    preprocess_dump = preprocess(image_path, batch_size)
 
     print("Looking for tumors...")
     left = model(preprocess_dump['left_lung']).squeeze(0).squeeze(0).detach().numpy()
