@@ -68,4 +68,4 @@ jobs:
         run: lungtumormask --help
 
       - name: Test inference
-        run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz --threshold 0.3 --lung-filter --radius 3
+        run: lungtumormask samples/lung_001.nii.gz mask_001.nii.gz --threshold 0.3 --lung-filter --radius 3 --batch-size 8
