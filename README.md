@@ -16,11 +16,11 @@ A pretrained model is made available in a command line tool and can be used as y
 
 ## [Installation](https://github.com/VemundFredriksen/LungTumorMask#installation)
 
-Software has been tested against Python `3.6-3.10`.
+Software has been tested against Python `3.7-3.10`.
 
 Stable latest release:
 ```
-pip install https://github.com/VemundFredriksen/LungTumorMask/releases/download/v1.2.2/lungtumormask-1.2.2-py2.py3-none-any.whl
+pip install https://github.com/VemundFredriksen/LungTumorMask/releases/download/v1.2.1/lungtumormask-1.2.1-py2.py3-none-any.whl
 ```
 
 Or from source:

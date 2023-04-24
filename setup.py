@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 setup(
     name="lungtumormask",
     packages=find_packages(),
-    version='1.2.2',
+    version='1.2.1',
     author="Svein Ole M Sevle, Vemund Fredriksen, and André Pedersen",
     url="https://github.com/VemundFredriksen/LungTumorMask",
     license="MIT",
-    python_requires='>=3.6',
+    python_requires='>=3.7',
     install_requires=[
         'numpy<=1.23.2',
         'monai<=0.8.1',
@@ -22,7 +22,6 @@ setup(
         ]
     },
     classifiers=[
-         "Programming Language :: Python :: 3.6",
          "Programming Language :: Python :: 3.7",
          "Programming Language :: Python :: 3.8",
          "Programming Language :: Python :: 3.9",
