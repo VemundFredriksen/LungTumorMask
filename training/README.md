@@ -1,6 +1,10 @@
-# Lung Tumor 3D Segmentation - Mixed Supervision
+# Training code for Lung Tumor 3D Segmentation - Mixed Supervision
 
-End to end code base for lung tumor segmentation from CT-scan using mixed supervision for deep convolutional neural network. Takes 3D CT scans as input and outputs 3D segmentation of primary tumor. Project aims to utilize multiple different datasets with different label types (classification labels, bounding boxes, rough segmentations and fine segmentations).
+End to end code base for lung tumor segmentation from CT-scan using mixed supervision for deep convolutional neural network.
+
+Takes 3D CT scans as input and outputs 3D segmentation of primary tumor.
+
+Project aims to utilize multiple different datasets with different label types (classification labels, bounding boxes, rough segmentations, and fine segmentations).
 
 ## Installation
 
@@ -15,9 +19,6 @@ Build repository files as packages using setuptools. If you alter the code, reme
 ```
 python setupy.py install
 ```
-
-## Docker Integration
-*To be specified*
 
 ## Usage
 
@@ -95,7 +96,7 @@ evaluate:
 In this case, the paths would also need to be updated.
 
 ## Authors
-[Vemund Fredrksen](https://github.com/VemundFredriksen) & [Svein Ole M. Sevle](https://github.com/sosevle)
+[Vemund Fredrksen](https://github.com/VemundFredriksen), [Svein Ole M. Sevle](https://github.com/sosevle), & [André Pedersen](https://github.com/andreped).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
