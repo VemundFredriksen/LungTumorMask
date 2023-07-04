@@ -1,0 +1,10 @@
+numpy
+SimpleITK
+argparse
+glob2
+monai
+torch
+pyyaml
+python-csv
+matplotlib
+nibabel

@@ -1,0 +1,243 @@
+image_prefix: "/cluster/work/sosevle/full_data/MSD-Lung/Images/"
+boxes_prefix: "/cluster/work/sosevle/full_data/MSD-Lung/Boxes/"
+label_prefix: "/cluster/work/sosevle/full_data/MSD-Lung/Labels/"
+
+train:
+  [
+    {
+      'image' : 'lung_001_right.nii.gz',
+      'label': 'lung_001_right.nii.gz'
+    },
+    {
+      'image' : 'lung_003_left.nii.gz',
+      'label': 'lung_003_left.nii.gz'
+    },
+    {
+      'image' : 'lung_004_left.nii.gz',
+      'label': 'lung_004_left.nii.gz'
+    },
+    {
+      'image' : 'lung_005_right.nii.gz',
+      'label': 'lung_005_right.nii.gz'
+    },
+    {
+      'image' : 'lung_006_left.nii.gz',
+      'label': 'lung_006_left.nii.gz'
+    },
+    {
+      'image' : 'lung_009_right.nii.gz',
+      'label': 'lung_009_right.nii.gz'
+    },
+    {
+      'image' : 'lung_010_left.nii.gz',
+      'label': 'lung_010_left.nii.gz'
+    },
+    {
+      'image' : 'lung_014_right.nii.gz',
+      'label': 'lung_014_right.nii.gz'
+    },
+    {
+      'image' : 'lung_015_right.nii.gz',
+      'label': 'lung_015_right.nii.gz'
+    },
+    {
+      'image' : 'lung_016_left.nii.gz',
+      'label': 'lung_016_left.nii.gz'
+    },
+    {
+      'image' : 'lung_018_right.nii.gz',
+      'label': 'lung_018_right.nii.gz'
+    },
+    {
+      'image' : 'lung_020_right.nii.gz',
+      'label': 'lung_020_right.nii.gz'
+    },
+    {
+      'image' : 'lung_022_right.nii.gz',
+      'label': 'lung_022_right.nii.gz'
+    },
+    {
+      'image' : 'lung_023_left.nii.gz',
+      'label': 'lung_023_left.nii.gz'
+    },
+    {
+      'image' : 'lung_023_right.nii.gz',
+      'label': 'lung_023_right.nii.gz'
+    },
+    {
+      'image' : 'lung_025_left.nii.gz',
+      'label': 'lung_025_left.nii.gz'
+    },
+    {
+      'image' : 'lung_026_right.nii.gz',
+      'label': 'lung_026_right.nii.gz'
+    },
+    {
+      'image' : 'lung_027_right.nii.gz',
+      'label': 'lung_027_right.nii.gz'
+    },
+    {
+      'image' : 'lung_028_left.nii.gz',
+      'label': 'lung_028_left.nii.gz'
+    },
+    {
+      'image' : 'lung_029_left.nii.gz',
+      'label': 'lung_029_left.nii.gz'
+    },
+    {
+      'image' : 'lung_031_right.nii.gz',
+      'label': 'lung_031_right.nii.gz'
+    },
+    {
+      'image' : 'lung_033_left.nii.gz',
+      'label': 'lung_033_left.nii.gz'
+    },
+    {
+      'image' : 'lung_034_right.nii.gz',
+      'label': 'lung_034_right.nii.gz'
+    },
+    {
+      'image' : 'lung_036_left.nii.gz',
+      'label': 'lung_036_left.nii.gz'
+    },
+    {
+      'image' : 'lung_037_right.nii.gz',
+      'label': 'lung_037_right.nii.gz'
+    },
+    {
+      'image' : 'lung_038_right.nii.gz',
+      'label': 'lung_038_right.nii.gz'
+    },
+    {
+      'image' : 'lung_041_right.nii.gz',
+      'label': 'lung_041_right.nii.gz'
+    },
+    {
+      'image' : 'lung_042_right.nii.gz',
+      'label': 'lung_042_right.nii.gz'
+    },
+    {
+      'image' : 'lung_043_right.nii.gz',
+      'label': 'lung_043_right.nii.gz'
+    },
+    {
+      'image' : 'lung_044_left.nii.gz',
+      'label': 'lung_044_left.nii.gz'
+    },
+    {
+      'image' : 'lung_045_left.nii.gz',
+      'label': 'lung_045_left.nii.gz'
+    },
+    {
+      'image' : 'lung_046_left.nii.gz',
+      'label': 'lung_046_left.nii.gz'
+    },
+    {
+      'image' : 'lung_047_right.nii.gz',
+      'label': 'lung_047_right.nii.gz'
+    },
+    {
+      'image' : 'lung_048_right.nii.gz',
+      'label': 'lung_048_right.nii.gz'
+    },
+    {
+      'image' : 'lung_049_right.nii.gz',
+      'label': 'lung_049_right.nii.gz'
+    },
+    {
+      'image' : 'lung_051_left.nii.gz',
+      'label': 'lung_051_left.nii.gz'
+    },
+    {
+      'image' : 'lung_053_right.nii.gz',
+      'label': 'lung_053_right.nii.gz'
+    },
+    {
+      'image' : 'lung_054_right.nii.gz',
+      'label': 'lung_054_right.nii.gz'
+    },
+    {
+      'image' : 'lung_055_left.nii.gz',
+      'label': 'lung_055_left.nii.gz'
+    },
+    {
+      'image' : 'lung_057_left.nii.gz',
+      'label': 'lung_057_left.nii.gz'
+    },
+    {
+      'image' : 'lung_058_right.nii.gz',
+      'label': 'lung_058_right.nii.gz'
+    },
+    {
+      'image' : 'lung_059_left.nii.gz',
+      'label': 'lung_059_left.nii.gz'
+    },
+    {
+      'image' : 'lung_061_left.nii.gz',
+      'label': 'lung_061_left.nii.gz'
+    },
+    {
+      'image' : 'lung_062_left.nii.gz',
+      'label': 'lung_062_left.nii.gz'
+    },
+    {
+      'image' : 'lung_064_left.nii.gz',
+      'label': 'lung_064_left.nii.gz'
+    },
+    {
+      'image' : 'lung_065_left.nii.gz',
+      'label': 'lung_065_left.nii.gz'
+    },
+    {
+      'image' : 'lung_066_left.nii.gz',
+      'label': 'lung_066_left.nii.gz'
+    },
+    {
+      'image' : 'lung_066_right.nii.gz',
+      'label': 'lung_066_right.nii.gz'
+    },
+    {
+      'image' : 'lung_069_right.nii.gz',
+      'label': 'lung_069_right.nii.gz'
+    },
+    {
+      'image' : 'lung_070_left.nii.gz',
+      'label': 'lung_070_left.nii.gz'
+    },
+    {
+      'image' : 'lung_071_right.nii.gz',
+      'label': 'lung_071_right.nii.gz'
+    },
+    {
+      'image' : 'lung_073_left.nii.gz',
+      'label': 'lung_073_left.nii.gz'
+    },
+    {
+      'image' : 'lung_074_left.nii.gz',
+      'label': 'lung_074_left.nii.gz'
+    },
+  ]
+
+val : 
+  [
+    {
+      'image' : 'lung_075_left.nii.gz',
+      'label': 'lung_075_left.nii.gz'
+    },
+    {
+      'image' : 'lung_078_left.nii.gz',
+      'label': 'lung_078_left.nii.gz'
+    },
+    {
+      'image' : 'lung_079_right.nii.gz',
+      'label': 'lung_079_right.nii.gz'
+    },
+    {
+      'image' : 'lung_080_left.nii.gz',
+      'label': 'lung_080_left.nii.gz'
+    },
+    {
+      'image' : 'lung_081_right.nii.gz',
+      'label': 'lung_081_right.nii.gz'
+    }
+  ]

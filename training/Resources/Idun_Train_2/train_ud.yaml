@@ -1,0 +1,29 @@
+device: 'cuda'
+
+data:
+  train_dataset: "/cluster/work/sosevle/LungTumorSegmentation/Resources/Idun_Train_2/data.yaml"
+  aug_prob: 0.2
+  scale_dim:
+    d_0: 256
+    d_1: 256
+    d_2: 128
+
+model:
+  architecture: UNet_monai_double
+  loss: DiceLoss
+  weights: 
+  filter_base: 32
+  filter_expansion: 2
+  filters: [64, 128, 256, 512]
+  optimizer:
+    name: 'Adam'
+    lr: 0.00005
+
+train:
+  max_epochs: 5000
+  val_frequency: 1
+  output_threshold: 0.5
+  metric_path: "/cluster/work/sosevle/metrics/t_ud.csv"
+  save_frequency: 5
+  model_directory: "/cluster/work/sosevle/models/ud/"
+  batch_size: 10

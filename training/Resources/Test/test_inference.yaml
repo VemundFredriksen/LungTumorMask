@@ -1,0 +1,18 @@
+device: 'cuda'
+
+data:
+  dataset: "D:\\Repos\\LungTumorSegmentation\\Resources\\Test\\data_inference.yaml"
+  scale_dim:
+    d_0: 128
+    d_1: 128
+    d_2: 128
+
+model:
+  architecture: UNet_filter
+  weights: "D:\\idun_models\\1\\model_last_128.pth"
+  loss: DiceLoss
+  filter_base: 128
+  filter_expansion: 2
+
+inference:
+  save_directory: 'D:\\Repos\\LungTumorSegmentation\\models\\'

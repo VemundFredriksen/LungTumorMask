@@ -1,0 +1,2379 @@
+image_prefix: "/cluster/work/sosevle/Lung-Dx_Cropped/Cropped/Images/"
+label_prefix: ""
+boxes_prefix: "/cluster/work/sosevle/Lung-Dx_Cropped/Cropped/Boxes/"
+data:
+  [
+    {
+      'image' : 'A0001_scan1.nii',
+      'boxes': 'A0001_scan1.nii'
+    },
+    {
+      'image' : 'A0001_scan2.nii',
+      'boxes': 'A0001_scan2.nii'
+    },
+    {
+      'image' : 'A0002_scan1.nii',
+      'boxes': 'A0002_scan1.nii'
+    },
+    {
+      'image' : 'A0002_scan2.nii',
+      'boxes': 'A0002_scan2.nii'
+    },
+    {
+      'image' : 'A0003_scan1.nii',
+      'boxes': 'A0003_scan1.nii'
+    },
+    {
+      'image' : 'A0003_scan2.nii',
+      'boxes': 'A0003_scan2.nii'
+    },
+    {
+      'image' : 'A0004_scan1.nii',
+      'boxes': 'A0004_scan1.nii'
+    },
+    {
+      'image' : 'A0004_scan2.nii',
+      'boxes': 'A0004_scan2.nii'
+    },
+    {
+      'image' : 'A0006_scan1.nii',
+      'boxes': 'A0006_scan1.nii'
+    },
+    {
+      'image' : 'A0006_scan4.nii',
+      'boxes': 'A0006_scan4.nii'
+    },
+    {
+      'image' : 'A0007_scan1.nii',
+      'boxes': 'A0007_scan1.nii'
+    },
+    {
+      'image' : 'A0007_scan2.nii',
+      'boxes': 'A0007_scan2.nii'
+    },
+    {
+      'image' : 'A0008_scan1.nii',
+      'boxes': 'A0008_scan1.nii'
+    },
+    {
+      'image' : 'A0008_scan2.nii',
+      'boxes': 'A0008_scan2.nii'
+    },
+    {
+      'image' : 'A0009_scan1.nii',
+      'boxes': 'A0009_scan1.nii'
+    },
+    {
+      'image' : 'A0009_scan2.nii',
+      'boxes': 'A0009_scan2.nii'
+    },
+    {
+      'image' : 'A0010_scan1.nii',
+      'boxes': 'A0010_scan1.nii'
+    },
+    {
+      'image' : 'A0010_scan2.nii',
+      'boxes': 'A0010_scan2.nii'
+    },
+    {
+      'image' : 'A0011_scan2.nii',
+      'boxes': 'A0011_scan2.nii'
+    },
+    {
+      'image' : 'A0011_scan4.nii',
+      'boxes': 'A0011_scan4.nii'
+    },
+    {
+      'image' : 'A0013_scan3.nii',
+      'boxes': 'A0013_scan3.nii'
+    },
+    {
+      'image' : 'A0014_scan2.nii',
+      'boxes': 'A0014_scan2.nii'
+    },
+    {
+      'image' : 'A0015_scan1.nii',
+      'boxes': 'A0015_scan1.nii'
+    },
+    {
+      'image' : 'A0015_scan2.nii',
+      'boxes': 'A0015_scan2.nii'
+    },
+    {
+      'image' : 'A0018_scan3.nii',
+      'boxes': 'A0018_scan3.nii'
+    },
+    {
+      'image' : 'A0018_scan4.nii',
+      'boxes': 'A0018_scan4.nii'
+    },
+    {
+      'image' : 'A0019_scan3.nii',
+      'boxes': 'A0019_scan3.nii'
+    },
+    {
+      'image' : 'A0019_scan4.nii',
+      'boxes': 'A0019_scan4.nii'
+    },
+    {
+      'image' : 'A0019_scan5.nii',
+      'boxes': 'A0019_scan5.nii'
+    },
+    {
+      'image' : 'A0022_scan2.nii',
+      'boxes': 'A0022_scan2.nii'
+    },
+    {
+      'image' : 'A0022_scan3.nii',
+      'boxes': 'A0022_scan3.nii'
+    },
+    {
+      'image' : 'A0022_scan4.nii',
+      'boxes': 'A0022_scan4.nii'
+    },
+    {
+      'image' : 'A0022_scan5.nii',
+      'boxes': 'A0022_scan5.nii'
+    },
+    {
+      'image' : 'A0023_scan2.nii',
+      'boxes': 'A0023_scan2.nii'
+    },
+    {
+      'image' : 'A0026_scan1.nii',
+      'boxes': 'A0026_scan1.nii'
+    },
+    {
+      'image' : 'A0026_scan2.nii',
+      'boxes': 'A0026_scan2.nii'
+    },
+    {
+      'image' : 'A0028_scan1.nii',
+      'boxes': 'A0028_scan1.nii'
+    },
+    {
+      'image' : 'A0028_scan2.nii',
+      'boxes': 'A0028_scan2.nii'
+    },
+    {
+      'image' : 'A0029_scan4.nii',
+      'boxes': 'A0029_scan4.nii'
+    },
+    {
+      'image' : 'A0029_scan5.nii',
+      'boxes': 'A0029_scan5.nii'
+    },
+    {
+      'image' : 'A0029_scan7.nii',
+      'boxes': 'A0029_scan7.nii'
+    },
+    {
+      'image' : 'A0029_scan8.nii',
+      'boxes': 'A0029_scan8.nii'
+    },
+    {
+      'image' : 'A0031_scan2.nii',
+      'boxes': 'A0031_scan2.nii'
+    },
+    {
+      'image' : 'A0032_scan2.nii',
+      'boxes': 'A0032_scan2.nii'
+    },
+    {
+      'image' : 'A0033_scan2.nii',
+      'boxes': 'A0033_scan2.nii'
+    },
+    {
+      'image' : 'A0034_scan1.nii',
+      'boxes': 'A0034_scan1.nii'
+    },
+    {
+      'image' : 'A0034_scan2.nii',
+      'boxes': 'A0034_scan2.nii'
+    },
+    {
+      'image' : 'A0035_scan1.nii',
+      'boxes': 'A0035_scan1.nii'
+    },
+    {
+      'image' : 'A0035_scan2.nii',
+      'boxes': 'A0035_scan2.nii'
+    },
+    {
+      'image' : 'A0036_scan2.nii',
+      'boxes': 'A0036_scan2.nii'
+    },
+    {
+      'image' : 'A0037_scan2.nii',
+      'boxes': 'A0037_scan2.nii'
+    },
+    {
+      'image' : 'A0039_scan3.nii',
+      'boxes': 'A0039_scan3.nii'
+    },
+    {
+      'image' : 'A0040_scan3.nii',
+      'boxes': 'A0040_scan3.nii'
+    },
+    {
+      'image' : 'A0041_scan2.nii',
+      'boxes': 'A0041_scan2.nii'
+    },
+    {
+      'image' : 'A0041_scan3.nii',
+      'boxes': 'A0041_scan3.nii'
+    },
+    {
+      'image' : 'A0041_scan4.nii',
+      'boxes': 'A0041_scan4.nii'
+    },
+    {
+      'image' : 'A0041_scan5.nii',
+      'boxes': 'A0041_scan5.nii'
+    },
+    {
+      'image' : 'A0042_scan3.nii',
+      'boxes': 'A0042_scan3.nii'
+    },
+    {
+      'image' : 'A0043_scan1.nii',
+      'boxes': 'A0043_scan1.nii'
+    },
+    {
+      'image' : 'A0043_scan2.nii',
+      'boxes': 'A0043_scan2.nii'
+    },
+    {
+      'image' : 'A0044_scan1.nii',
+      'boxes': 'A0044_scan1.nii'
+    },
+    {
+      'image' : 'A0044_scan2.nii',
+      'boxes': 'A0044_scan2.nii'
+    },
+    {
+      'image' : 'A0046_scan2.nii',
+      'boxes': 'A0046_scan2.nii'
+    },
+    {
+      'image' : 'A0047_scan1.nii',
+      'boxes': 'A0047_scan1.nii'
+    },
+    {
+      'image' : 'A0048_scan1.nii',
+      'boxes': 'A0048_scan1.nii'
+    },
+    {
+      'image' : 'A0048_scan2.nii',
+      'boxes': 'A0048_scan2.nii'
+    },
+    {
+      'image' : 'A0049_scan3.nii',
+      'boxes': 'A0049_scan3.nii'
+    },
+    {
+      'image' : 'A0051_scan1.nii',
+      'boxes': 'A0051_scan1.nii'
+    },
+    {
+      'image' : 'A0051_scan2.nii',
+      'boxes': 'A0051_scan2.nii'
+    },
+    {
+      'image' : 'A0053_scan3.nii',
+      'boxes': 'A0053_scan3.nii'
+    },
+    {
+      'image' : 'A0054_scan3.nii',
+      'boxes': 'A0054_scan3.nii'
+    },
+    {
+      'image' : 'A0056_scan1.nii',
+      'boxes': 'A0056_scan1.nii'
+    },
+    {
+      'image' : 'A0056_scan2.nii',
+      'boxes': 'A0056_scan2.nii'
+    },
+    {
+      'image' : 'A0059_scan1.nii',
+      'boxes': 'A0059_scan1.nii'
+    },
+    {
+      'image' : 'A0059_scan2.nii',
+      'boxes': 'A0059_scan2.nii'
+    },
+    {
+      'image' : 'A0061_scan2.nii',
+      'boxes': 'A0061_scan2.nii'
+    },
+    {
+      'image' : 'A0063_scan3.nii',
+      'boxes': 'A0063_scan3.nii'
+    },
+    {
+      'image' : 'A0063_scan4.nii',
+      'boxes': 'A0063_scan4.nii'
+    },
+    {
+      'image' : 'A0063_scan6.nii',
+      'boxes': 'A0063_scan6.nii'
+    },
+    {
+      'image' : 'A0063_scan7.nii',
+      'boxes': 'A0063_scan7.nii'
+    },
+    {
+      'image' : 'A0063_scan8.nii',
+      'boxes': 'A0063_scan8.nii'
+    },
+    {
+      'image' : 'A0064_scan2.nii',
+      'boxes': 'A0064_scan2.nii'
+    },
+    {
+      'image' : 'A0065_scan2.nii',
+      'boxes': 'A0065_scan2.nii'
+    },
+    {
+      'image' : 'A0069_scan2.nii',
+      'boxes': 'A0069_scan2.nii'
+    },
+    {
+      'image' : 'A0070_scan1.nii',
+      'boxes': 'A0070_scan1.nii'
+    },
+    {
+      'image' : 'A0070_scan3.nii',
+      'boxes': 'A0070_scan3.nii'
+    },
+    {
+      'image' : 'A0071_scan2.nii',
+      'boxes': 'A0071_scan2.nii'
+    },
+    {
+      'image' : 'A0073_scan1.nii',
+      'boxes': 'A0073_scan1.nii'
+    },
+    {
+      'image' : 'A0073_scan2.nii',
+      'boxes': 'A0073_scan2.nii'
+    },
+    {
+      'image' : 'A0074_scan1.nii',
+      'boxes': 'A0074_scan1.nii'
+    },
+    {
+      'image' : 'A0074_scan2.nii',
+      'boxes': 'A0074_scan2.nii'
+    },
+    {
+      'image' : 'A0075_scan2.nii',
+      'boxes': 'A0075_scan2.nii'
+    },
+    {
+      'image' : 'A0077_scan2.nii',
+      'boxes': 'A0077_scan2.nii'
+    },
+    {
+      'image' : 'A0078_scan3.nii',
+      'boxes': 'A0078_scan3.nii'
+    },
+    {
+      'image' : 'A0078_scan4.nii',
+      'boxes': 'A0078_scan4.nii'
+    },
+    {
+      'image' : 'A0078_scan5.nii',
+      'boxes': 'A0078_scan5.nii'
+    },
+    {
+      'image' : 'A0078_scan6.nii',
+      'boxes': 'A0078_scan6.nii'
+    },
+    {
+      'image' : 'A0080_scan1.nii',
+      'boxes': 'A0080_scan1.nii'
+    },
+    {
+      'image' : 'A0080_scan2.nii',
+      'boxes': 'A0080_scan2.nii'
+    },
+    {
+      'image' : 'A0080_scan3.nii',
+      'boxes': 'A0080_scan3.nii'
+    },
+    {
+      'image' : 'A0081_scan1.nii',
+      'boxes': 'A0081_scan1.nii'
+    },
+    {
+      'image' : 'A0081_scan2.nii',
+      'boxes': 'A0081_scan2.nii'
+    },
+    {
+      'image' : 'A0082_scan2.nii',
+      'boxes': 'A0082_scan2.nii'
+    },
+    {
+      'image' : 'A0083_scan1.nii',
+      'boxes': 'A0083_scan1.nii'
+    },
+    {
+      'image' : 'A0083_scan2.nii',
+      'boxes': 'A0083_scan2.nii'
+    },
+    {
+      'image' : 'A0083_scan3.nii',
+      'boxes': 'A0083_scan3.nii'
+    },
+    {
+      'image' : 'A0083_scan4.nii',
+      'boxes': 'A0083_scan4.nii'
+    },
+    {
+      'image' : 'A0083_scan5.nii',
+      'boxes': 'A0083_scan5.nii'
+    },
+    {
+      'image' : 'A0083_scan6.nii',
+      'boxes': 'A0083_scan6.nii'
+    },
+    {
+      'image' : 'A0084_scan1.nii',
+      'boxes': 'A0084_scan1.nii'
+    },
+    {
+      'image' : 'A0084_scan2.nii',
+      'boxes': 'A0084_scan2.nii'
+    },
+    {
+      'image' : 'A0084_scan3.nii',
+      'boxes': 'A0084_scan3.nii'
+    },
+    {
+      'image' : 'A0084_scan4.nii',
+      'boxes': 'A0084_scan4.nii'
+    },
+    {
+      'image' : 'A0084_scan5.nii',
+      'boxes': 'A0084_scan5.nii'
+    },
+    {
+      'image' : 'A0084_scan6.nii',
+      'boxes': 'A0084_scan6.nii'
+    },
+    {
+      'image' : 'A0085_scan1.nii',
+      'boxes': 'A0085_scan1.nii'
+    },
+    {
+      'image' : 'A0085_scan2.nii',
+      'boxes': 'A0085_scan2.nii'
+    },
+    {
+      'image' : 'A0086_scan1.nii',
+      'boxes': 'A0086_scan1.nii'
+    },
+    {
+      'image' : 'A0086_scan2.nii',
+      'boxes': 'A0086_scan2.nii'
+    },
+    {
+      'image' : 'A0087_scan1.nii',
+      'boxes': 'A0087_scan1.nii'
+    },
+    {
+      'image' : 'A0087_scan2.nii',
+      'boxes': 'A0087_scan2.nii'
+    },
+    {
+      'image' : 'A0087_scan3.nii',
+      'boxes': 'A0087_scan3.nii'
+    },
+    {
+      'image' : 'A0087_scan4.nii',
+      'boxes': 'A0087_scan4.nii'
+    },
+    {
+      'image' : 'A0087_scan5.nii',
+      'boxes': 'A0087_scan5.nii'
+    },
+    {
+      'image' : 'A0088_scan1.nii',
+      'boxes': 'A0088_scan1.nii'
+    },
+    {
+      'image' : 'A0088_scan2.nii',
+      'boxes': 'A0088_scan2.nii'
+    },
+    {
+      'image' : 'A0089_scan1.nii',
+      'boxes': 'A0089_scan1.nii'
+    },
+    {
+      'image' : 'A0089_scan2.nii',
+      'boxes': 'A0089_scan2.nii'
+    },
+    {
+      'image' : 'A0090_scan1.nii',
+      'boxes': 'A0090_scan1.nii'
+    },
+    {
+      'image' : 'A0090_scan2.nii',
+      'boxes': 'A0090_scan2.nii'
+    },
+    {
+      'image' : 'A0090_scan3.nii',
+      'boxes': 'A0090_scan3.nii'
+    },
+    {
+      'image' : 'A0090_scan4.nii',
+      'boxes': 'A0090_scan4.nii'
+    },
+    {
+      'image' : 'A0090_scan5.nii',
+      'boxes': 'A0090_scan5.nii'
+    },
+    {
+      'image' : 'A0090_scan6.nii',
+      'boxes': 'A0090_scan6.nii'
+    },
+    {
+      'image' : 'A0091_scan1.nii',
+      'boxes': 'A0091_scan1.nii'
+    },
+    {
+      'image' : 'A0091_scan2.nii',
+      'boxes': 'A0091_scan2.nii'
+    },
+    {
+      'image' : 'A0091_scan3.nii',
+      'boxes': 'A0091_scan3.nii'
+    },
+    {
+      'image' : 'A0091_scan4.nii',
+      'boxes': 'A0091_scan4.nii'
+    },
+    {
+      'image' : 'A0092_scan1.nii',
+      'boxes': 'A0092_scan1.nii'
+    },
+    {
+      'image' : 'A0092_scan2.nii',
+      'boxes': 'A0092_scan2.nii'
+    },
+    {
+      'image' : 'A0093_scan1.nii',
+      'boxes': 'A0093_scan1.nii'
+    },
+    {
+      'image' : 'A0093_scan2.nii',
+      'boxes': 'A0093_scan2.nii'
+    },
+    {
+      'image' : 'A0094_scan1.nii',
+      'boxes': 'A0094_scan1.nii'
+    },
+    {
+      'image' : 'A0094_scan2.nii',
+      'boxes': 'A0094_scan2.nii'
+    },
+    {
+      'image' : 'A0094_scan3.nii',
+      'boxes': 'A0094_scan3.nii'
+    },
+    {
+      'image' : 'A0094_scan4.nii',
+      'boxes': 'A0094_scan4.nii'
+    },
+    {
+      'image' : 'A0095_scan1.nii',
+      'boxes': 'A0095_scan1.nii'
+    },
+    {
+      'image' : 'A0095_scan2.nii',
+      'boxes': 'A0095_scan2.nii'
+    },
+    {
+      'image' : 'A0096_scan1.nii',
+      'boxes': 'A0096_scan1.nii'
+    },
+    {
+      'image' : 'A0096_scan2.nii',
+      'boxes': 'A0096_scan2.nii'
+    },
+    {
+      'image' : 'A0096_scan3.nii',
+      'boxes': 'A0096_scan3.nii'
+    },
+    {
+      'image' : 'A0097_scan1.nii',
+      'boxes': 'A0097_scan1.nii'
+    },
+    {
+      'image' : 'A0097_scan2.nii',
+      'boxes': 'A0097_scan2.nii'
+    },
+    {
+      'image' : 'A0098_scan1.nii',
+      'boxes': 'A0098_scan1.nii'
+    },
+    {
+      'image' : 'A0098_scan2.nii',
+      'boxes': 'A0098_scan2.nii'
+    },
+    {
+      'image' : 'A0098_scan3.nii',
+      'boxes': 'A0098_scan3.nii'
+    },
+    {
+      'image' : 'A0099_scan2.nii',
+      'boxes': 'A0099_scan2.nii'
+    },
+    {
+      'image' : 'A0101_scan2.nii',
+      'boxes': 'A0101_scan2.nii'
+    },
+    {
+      'image' : 'A0102_scan1.nii',
+      'boxes': 'A0102_scan1.nii'
+    },
+    {
+      'image' : 'A0103_scan1.nii',
+      'boxes': 'A0103_scan1.nii'
+    },
+    {
+      'image' : 'A0103_scan2.nii',
+      'boxes': 'A0103_scan2.nii'
+    },
+    {
+      'image' : 'A0103_scan3.nii',
+      'boxes': 'A0103_scan3.nii'
+    },
+    {
+      'image' : 'A0103_scan4.nii',
+      'boxes': 'A0103_scan4.nii'
+    },
+    {
+      'image' : 'A0103_scan5.nii',
+      'boxes': 'A0103_scan5.nii'
+    },
+    {
+      'image' : 'A0104_scan1.nii',
+      'boxes': 'A0104_scan1.nii'
+    },
+    {
+      'image' : 'A0104_scan2.nii',
+      'boxes': 'A0104_scan2.nii'
+    },
+    {
+      'image' : 'A0104_scan3.nii',
+      'boxes': 'A0104_scan3.nii'
+    },
+    {
+      'image' : 'A0104_scan4.nii',
+      'boxes': 'A0104_scan4.nii'
+    },
+    {
+      'image' : 'A0104_scan5.nii',
+      'boxes': 'A0104_scan5.nii'
+    },
+    {
+      'image' : 'A0104_scan6.nii',
+      'boxes': 'A0104_scan6.nii'
+    },
+    {
+      'image' : 'A0106_scan1.nii',
+      'boxes': 'A0106_scan1.nii'
+    },
+    {
+      'image' : 'A0106_scan2.nii',
+      'boxes': 'A0106_scan2.nii'
+    },
+    {
+      'image' : 'A0106_scan3.nii',
+      'boxes': 'A0106_scan3.nii'
+    },
+    {
+      'image' : 'A0106_scan4.nii',
+      'boxes': 'A0106_scan4.nii'
+    },
+    {
+      'image' : 'A0108_scan2.nii',
+      'boxes': 'A0108_scan2.nii'
+    },
+    {
+      'image' : 'A0109_scan1.nii',
+      'boxes': 'A0109_scan1.nii'
+    },
+    {
+      'image' : 'A0109_scan2.nii',
+      'boxes': 'A0109_scan2.nii'
+    },
+    {
+      'image' : 'A0109_scan3.nii',
+      'boxes': 'A0109_scan3.nii'
+    },
+    {
+      'image' : 'A0110_scan1.nii',
+      'boxes': 'A0110_scan1.nii'
+    },
+    {
+      'image' : 'A0110_scan2.nii',
+      'boxes': 'A0110_scan2.nii'
+    },
+    {
+      'image' : 'A0110_scan3.nii',
+      'boxes': 'A0110_scan3.nii'
+    },
+    {
+      'image' : 'A0111_scan1.nii',
+      'boxes': 'A0111_scan1.nii'
+    },
+    {
+      'image' : 'A0111_scan2.nii',
+      'boxes': 'A0111_scan2.nii'
+    },
+    {
+      'image' : 'A0111_scan3.nii',
+      'boxes': 'A0111_scan3.nii'
+    },
+    {
+      'image' : 'A0112_scan2.nii',
+      'boxes': 'A0112_scan2.nii'
+    },
+    {
+      'image' : 'A0112_scan3.nii',
+      'boxes': 'A0112_scan3.nii'
+    },
+    {
+      'image' : 'A0112_scan4.nii',
+      'boxes': 'A0112_scan4.nii'
+    },
+    {
+      'image' : 'A0113_scan1.nii',
+      'boxes': 'A0113_scan1.nii'
+    },
+    {
+      'image' : 'A0113_scan2.nii',
+      'boxes': 'A0113_scan2.nii'
+    },
+    {
+      'image' : 'A0113_scan3.nii',
+      'boxes': 'A0113_scan3.nii'
+    },
+    {
+      'image' : 'A0113_scan4.nii',
+      'boxes': 'A0113_scan4.nii'
+    },
+    {
+      'image' : 'A0113_scan5.nii',
+      'boxes': 'A0113_scan5.nii'
+    },
+    {
+      'image' : 'A0114_scan2.nii',
+      'boxes': 'A0114_scan2.nii'
+    },
+    {
+      'image' : 'A0115_scan2.nii',
+      'boxes': 'A0115_scan2.nii'
+    },
+    {
+      'image' : 'A0116_scan1.nii',
+      'boxes': 'A0116_scan1.nii'
+    },
+    {
+      'image' : 'A0116_scan2.nii',
+      'boxes': 'A0116_scan2.nii'
+    },
+    {
+      'image' : 'A0117_scan1.nii',
+      'boxes': 'A0117_scan1.nii'
+    },
+    {
+      'image' : 'A0117_scan2.nii',
+      'boxes': 'A0117_scan2.nii'
+    },
+    {
+      'image' : 'A0117_scan3.nii',
+      'boxes': 'A0117_scan3.nii'
+    },
+    {
+      'image' : 'A0117_scan4.nii',
+      'boxes': 'A0117_scan4.nii'
+    },
+    {
+      'image' : 'A0117_scan5.nii',
+      'boxes': 'A0117_scan5.nii'
+    },
+    {
+      'image' : 'A0117_scan6.nii',
+      'boxes': 'A0117_scan6.nii'
+    },
+    {
+      'image' : 'A0119_scan1.nii',
+      'boxes': 'A0119_scan1.nii'
+    },
+    {
+      'image' : 'A0119_scan2.nii',
+      'boxes': 'A0119_scan2.nii'
+    },
+    {
+      'image' : 'A0120_scan2.nii',
+      'boxes': 'A0120_scan2.nii'
+    },
+    {
+      'image' : 'A0121_scan1.nii',
+      'boxes': 'A0121_scan1.nii'
+    },
+    {
+      'image' : 'A0121_scan2.nii',
+      'boxes': 'A0121_scan2.nii'
+    },
+    {
+      'image' : 'A0123_scan2.nii',
+      'boxes': 'A0123_scan2.nii'
+    },
+    {
+      'image' : 'A0125_scan2.nii',
+      'boxes': 'A0125_scan2.nii'
+    },
+    {
+      'image' : 'A0126_scan1.nii',
+      'boxes': 'A0126_scan1.nii'
+    },
+    {
+      'image' : 'A0126_scan2.nii',
+      'boxes': 'A0126_scan2.nii'
+    },
+    {
+      'image' : 'A0126_scan3.nii',
+      'boxes': 'A0126_scan3.nii'
+    },
+    {
+      'image' : 'A0126_scan4.nii',
+      'boxes': 'A0126_scan4.nii'
+    },
+    {
+      'image' : 'A0126_scan5.nii',
+      'boxes': 'A0126_scan5.nii'
+    },
+    {
+      'image' : 'A0127_scan2.nii',
+      'boxes': 'A0127_scan2.nii'
+    },
+    {
+      'image' : 'A0128_scan1.nii',
+      'boxes': 'A0128_scan1.nii'
+    },
+    {
+      'image' : 'A0128_scan2.nii',
+      'boxes': 'A0128_scan2.nii'
+    },
+    {
+      'image' : 'A0129_scan1.nii',
+      'boxes': 'A0129_scan1.nii'
+    },
+    {
+      'image' : 'A0129_scan2.nii',
+      'boxes': 'A0129_scan2.nii'
+    },
+    {
+      'image' : 'A0129_scan3.nii',
+      'boxes': 'A0129_scan3.nii'
+    },
+    {
+      'image' : 'A0130_scan2.nii',
+      'boxes': 'A0130_scan2.nii'
+    },
+    {
+      'image' : 'A0131_scan2.nii',
+      'boxes': 'A0131_scan2.nii'
+    },
+    {
+      'image' : 'A0132_scan1.nii',
+      'boxes': 'A0132_scan1.nii'
+    },
+    {
+      'image' : 'A0132_scan2.nii',
+      'boxes': 'A0132_scan2.nii'
+    },
+    {
+      'image' : 'A0133_scan1.nii',
+      'boxes': 'A0133_scan1.nii'
+    },
+    {
+      'image' : 'A0133_scan2.nii',
+      'boxes': 'A0133_scan2.nii'
+    },
+    {
+      'image' : 'A0134_scan1.nii',
+      'boxes': 'A0134_scan1.nii'
+    },
+    {
+      'image' : 'A0134_scan2.nii',
+      'boxes': 'A0134_scan2.nii'
+    },
+    {
+      'image' : 'A0134_scan3.nii',
+      'boxes': 'A0134_scan3.nii'
+    },
+    {
+      'image' : 'A0134_scan4.nii',
+      'boxes': 'A0134_scan4.nii'
+    },
+    {
+      'image' : 'A0134_scan5.nii',
+      'boxes': 'A0134_scan5.nii'
+    },
+    {
+      'image' : 'A0134_scan6.nii',
+      'boxes': 'A0134_scan6.nii'
+    },
+    {
+      'image' : 'A0135_scan2.nii',
+      'boxes': 'A0135_scan2.nii'
+    },
+    {
+      'image' : 'A0136_scan2.nii',
+      'boxes': 'A0136_scan2.nii'
+    },
+    {
+      'image' : 'A0137_scan1.nii',
+      'boxes': 'A0137_scan1.nii'
+    },
+    {
+      'image' : 'A0137_scan2.nii',
+      'boxes': 'A0137_scan2.nii'
+    },
+    {
+      'image' : 'A0138_scan1.nii',
+      'boxes': 'A0138_scan1.nii'
+    },
+    {
+      'image' : 'A0138_scan2.nii',
+      'boxes': 'A0138_scan2.nii'
+    },
+    {
+      'image' : 'A0139_scan2.nii',
+      'boxes': 'A0139_scan2.nii'
+    },
+    {
+      'image' : 'A0141_scan1.nii',
+      'boxes': 'A0141_scan1.nii'
+    },
+    {
+      'image' : 'A0141_scan2.nii',
+      'boxes': 'A0141_scan2.nii'
+    },
+    {
+      'image' : 'A0142_scan1.nii',
+      'boxes': 'A0142_scan1.nii'
+    },
+    {
+      'image' : 'A0143_scan2.nii',
+      'boxes': 'A0143_scan2.nii'
+    },
+    {
+      'image' : 'A0144_scan1.nii',
+      'boxes': 'A0144_scan1.nii'
+    },
+    {
+      'image' : 'A0144_scan2.nii',
+      'boxes': 'A0144_scan2.nii'
+    },
+    {
+      'image' : 'A0145_scan1.nii',
+      'boxes': 'A0145_scan1.nii'
+    },
+    {
+      'image' : 'A0145_scan2.nii',
+      'boxes': 'A0145_scan2.nii'
+    },
+    {
+      'image' : 'A0146_scan1.nii',
+      'boxes': 'A0146_scan1.nii'
+    },
+    {
+      'image' : 'A0147_scan1.nii',
+      'boxes': 'A0147_scan1.nii'
+    },
+    {
+      'image' : 'A0147_scan2.nii',
+      'boxes': 'A0147_scan2.nii'
+    },
+    {
+      'image' : 'A0148_scan1.nii',
+      'boxes': 'A0148_scan1.nii'
+    },
+    {
+      'image' : 'A0148_scan2.nii',
+      'boxes': 'A0148_scan2.nii'
+    },
+    {
+      'image' : 'A0149_scan1.nii',
+      'boxes': 'A0149_scan1.nii'
+    },
+    {
+      'image' : 'A0149_scan2.nii',
+      'boxes': 'A0149_scan2.nii'
+    },
+    {
+      'image' : 'A0152_scan2.nii',
+      'boxes': 'A0152_scan2.nii'
+    },
+    {
+      'image' : 'A0153_scan3.nii',
+      'boxes': 'A0153_scan3.nii'
+    },
+    {
+      'image' : 'A0154_scan1.nii',
+      'boxes': 'A0154_scan1.nii'
+    },
+    {
+      'image' : 'A0154_scan2.nii',
+      'boxes': 'A0154_scan2.nii'
+    },
+    {
+      'image' : 'A0155_scan1.nii',
+      'boxes': 'A0155_scan1.nii'
+    },
+    {
+      'image' : 'A0155_scan2.nii',
+      'boxes': 'A0155_scan2.nii'
+    },
+    {
+      'image' : 'A0156_scan2.nii',
+      'boxes': 'A0156_scan2.nii'
+    },
+    {
+      'image' : 'A0157_scan3.nii',
+      'boxes': 'A0157_scan3.nii'
+    },
+    {
+      'image' : 'A0159_scan1.nii',
+      'boxes': 'A0159_scan1.nii'
+    },
+    {
+      'image' : 'A0159_scan2.nii',
+      'boxes': 'A0159_scan2.nii'
+    },
+    {
+      'image' : 'A0160_scan1.nii',
+      'boxes': 'A0160_scan1.nii'
+    },
+    {
+      'image' : 'A0160_scan2.nii',
+      'boxes': 'A0160_scan2.nii'
+    },
+    {
+      'image' : 'A0161_scan1.nii',
+      'boxes': 'A0161_scan1.nii'
+    },
+    {
+      'image' : 'A0161_scan2.nii',
+      'boxes': 'A0161_scan2.nii'
+    },
+    {
+      'image' : 'A0163_scan1.nii',
+      'boxes': 'A0163_scan1.nii'
+    },
+    {
+      'image' : 'A0163_scan2.nii',
+      'boxes': 'A0163_scan2.nii'
+    },
+    {
+      'image' : 'A0164_scan2.nii',
+      'boxes': 'A0164_scan2.nii'
+    },
+    {
+      'image' : 'A0165_scan1.nii',
+      'boxes': 'A0165_scan1.nii'
+    },
+    {
+      'image' : 'A0165_scan4.nii',
+      'boxes': 'A0165_scan4.nii'
+    },
+    {
+      'image' : 'A0166_scan1.nii',
+      'boxes': 'A0166_scan1.nii'
+    },
+    {
+      'image' : 'A0166_scan2.nii',
+      'boxes': 'A0166_scan2.nii'
+    },
+    {
+      'image' : 'A0166_scan4.nii',
+      'boxes': 'A0166_scan4.nii'
+    },
+    {
+      'image' : 'A0167_scan2.nii',
+      'boxes': 'A0167_scan2.nii'
+    },
+    {
+      'image' : 'A0167_scan3.nii',
+      'boxes': 'A0167_scan3.nii'
+    },
+    {
+      'image' : 'A0168_scan2.nii',
+      'boxes': 'A0168_scan2.nii'
+    },
+    {
+      'image' : 'A0168_scan3.nii',
+      'boxes': 'A0168_scan3.nii'
+    },
+    {
+      'image' : 'A0169_scan1.nii',
+      'boxes': 'A0169_scan1.nii'
+    },
+    {
+      'image' : 'A0169_scan2.nii',
+      'boxes': 'A0169_scan2.nii'
+    },
+    {
+      'image' : 'A0170_scan1.nii',
+      'boxes': 'A0170_scan1.nii'
+    },
+    {
+      'image' : 'A0170_scan3.nii',
+      'boxes': 'A0170_scan3.nii'
+    },
+    {
+      'image' : 'A0171_scan1.nii',
+      'boxes': 'A0171_scan1.nii'
+    },
+    {
+      'image' : 'A0171_scan3.nii',
+      'boxes': 'A0171_scan3.nii'
+    },
+    {
+      'image' : 'A0173_scan1.nii',
+      'boxes': 'A0173_scan1.nii'
+    },
+    {
+      'image' : 'A0174_scan2.nii',
+      'boxes': 'A0174_scan2.nii'
+    },
+    {
+      'image' : 'A0175_scan1.nii',
+      'boxes': 'A0175_scan1.nii'
+    },
+    {
+      'image' : 'A0175_scan2.nii',
+      'boxes': 'A0175_scan2.nii'
+    },
+    {
+      'image' : 'A0176_scan2.nii',
+      'boxes': 'A0176_scan2.nii'
+    },
+    {
+      'image' : 'A0177_scan1.nii',
+      'boxes': 'A0177_scan1.nii'
+    },
+    {
+      'image' : 'A0177_scan3.nii',
+      'boxes': 'A0177_scan3.nii'
+    },
+    {
+      'image' : 'A0178_scan3.nii',
+      'boxes': 'A0178_scan3.nii'
+    },
+    {
+      'image' : 'A0179_scan1.nii',
+      'boxes': 'A0179_scan1.nii'
+    },
+    {
+      'image' : 'A0179_scan3.nii',
+      'boxes': 'A0179_scan3.nii'
+    },
+    {
+      'image' : 'A0181_scan1.nii',
+      'boxes': 'A0181_scan1.nii'
+    },
+    {
+      'image' : 'A0181_scan3.nii',
+      'boxes': 'A0181_scan3.nii'
+    },
+    {
+      'image' : 'A0182_scan1.nii',
+      'boxes': 'A0182_scan1.nii'
+    },
+    {
+      'image' : 'A0182_scan2.nii',
+      'boxes': 'A0182_scan2.nii'
+    },
+    {
+      'image' : 'A0183_scan1.nii',
+      'boxes': 'A0183_scan1.nii'
+    },
+    {
+      'image' : 'A0183_scan3.nii',
+      'boxes': 'A0183_scan3.nii'
+    },
+    {
+      'image' : 'A0184_scan1.nii',
+      'boxes': 'A0184_scan1.nii'
+    },
+    {
+      'image' : 'A0184_scan3.nii',
+      'boxes': 'A0184_scan3.nii'
+    },
+    {
+      'image' : 'A0185_scan1.nii',
+      'boxes': 'A0185_scan1.nii'
+    },
+    {
+      'image' : 'A0185_scan3.nii',
+      'boxes': 'A0185_scan3.nii'
+    },
+    {
+      'image' : 'A0185_scan4.nii',
+      'boxes': 'A0185_scan4.nii'
+    },
+    {
+      'image' : 'A0187_scan1.nii',
+      'boxes': 'A0187_scan1.nii'
+    },
+    {
+      'image' : 'A0187_scan2.nii',
+      'boxes': 'A0187_scan2.nii'
+    },
+    {
+      'image' : 'A0188_scan1.nii',
+      'boxes': 'A0188_scan1.nii'
+    },
+    {
+      'image' : 'A0189_scan1.nii',
+      'boxes': 'A0189_scan1.nii'
+    },
+    {
+      'image' : 'A0190_scan3.nii',
+      'boxes': 'A0190_scan3.nii'
+    },
+    {
+      'image' : 'A0191_scan1.nii',
+      'boxes': 'A0191_scan1.nii'
+    },
+    {
+      'image' : 'A0191_scan3.nii',
+      'boxes': 'A0191_scan3.nii'
+    },
+    {
+      'image' : 'A0192_scan1.nii',
+      'boxes': 'A0192_scan1.nii'
+    },
+    {
+      'image' : 'A0193_scan1.nii',
+      'boxes': 'A0193_scan1.nii'
+    },
+    {
+      'image' : 'A0193_scan3.nii',
+      'boxes': 'A0193_scan3.nii'
+    },
+    {
+      'image' : 'A0194_scan1.nii',
+      'boxes': 'A0194_scan1.nii'
+    },
+    {
+      'image' : 'A0194_scan2.nii',
+      'boxes': 'A0194_scan2.nii'
+    },
+    {
+      'image' : 'A0195_scan1.nii',
+      'boxes': 'A0195_scan1.nii'
+    },
+    {
+      'image' : 'A0195_scan3.nii',
+      'boxes': 'A0195_scan3.nii'
+    },
+    {
+      'image' : 'A0196_scan1.nii',
+      'boxes': 'A0196_scan1.nii'
+    },
+    {
+      'image' : 'A0197_scan2.nii',
+      'boxes': 'A0197_scan2.nii'
+    },
+    {
+      'image' : 'A0197_scan3.nii',
+      'boxes': 'A0197_scan3.nii'
+    },
+    {
+      'image' : 'A0198_scan1.nii',
+      'boxes': 'A0198_scan1.nii'
+    },
+    {
+      'image' : 'A0198_scan3.nii',
+      'boxes': 'A0198_scan3.nii'
+    },
+    {
+      'image' : 'A0199_scan1.nii',
+      'boxes': 'A0199_scan1.nii'
+    },
+    {
+      'image' : 'A0199_scan3.nii',
+      'boxes': 'A0199_scan3.nii'
+    },
+    {
+      'image' : 'A0200_scan1.nii',
+      'boxes': 'A0200_scan1.nii'
+    },
+    {
+      'image' : 'A0200_scan3.nii',
+      'boxes': 'A0200_scan3.nii'
+    },
+    {
+      'image' : 'A0201_scan1.nii',
+      'boxes': 'A0201_scan1.nii'
+    },
+    {
+      'image' : 'A0201_scan3.nii',
+      'boxes': 'A0201_scan3.nii'
+    },
+    {
+      'image' : 'A0202_scan1.nii',
+      'boxes': 'A0202_scan1.nii'
+    },
+    {
+      'image' : 'A0202_scan3.nii',
+      'boxes': 'A0202_scan3.nii'
+    },
+    {
+      'image' : 'A0203_scan1.nii',
+      'boxes': 'A0203_scan1.nii'
+    },
+    {
+      'image' : 'A0203_scan3.nii',
+      'boxes': 'A0203_scan3.nii'
+    },
+    {
+      'image' : 'A0204_scan1.nii',
+      'boxes': 'A0204_scan1.nii'
+    },
+    {
+      'image' : 'A0204_scan3.nii',
+      'boxes': 'A0204_scan3.nii'
+    },
+    {
+      'image' : 'A0205_scan1.nii',
+      'boxes': 'A0205_scan1.nii'
+    },
+    {
+      'image' : 'A0205_scan2.nii',
+      'boxes': 'A0205_scan2.nii'
+    },
+    {
+      'image' : 'A0206_scan1.nii',
+      'boxes': 'A0206_scan1.nii'
+    },
+    {
+      'image' : 'A0206_scan3.nii',
+      'boxes': 'A0206_scan3.nii'
+    },
+    {
+      'image' : 'A0208_scan1.nii',
+      'boxes': 'A0208_scan1.nii'
+    },
+    {
+      'image' : 'A0208_scan3.nii',
+      'boxes': 'A0208_scan3.nii'
+    },
+    {
+      'image' : 'A0210_scan2.nii',
+      'boxes': 'A0210_scan2.nii'
+    },
+    {
+      'image' : 'A0211_scan1.nii',
+      'boxes': 'A0211_scan1.nii'
+    },
+    {
+      'image' : 'A0211_scan2.nii',
+      'boxes': 'A0211_scan2.nii'
+    },
+    {
+      'image' : 'A0213_scan1.nii',
+      'boxes': 'A0213_scan1.nii'
+    },
+    {
+      'image' : 'A0213_scan3.nii',
+      'boxes': 'A0213_scan3.nii'
+    },
+    {
+      'image' : 'A0214_scan1.nii',
+      'boxes': 'A0214_scan1.nii'
+    },
+    {
+      'image' : 'A0216_scan1.nii',
+      'boxes': 'A0216_scan1.nii'
+    },
+    {
+      'image' : 'A0217_scan1.nii',
+      'boxes': 'A0217_scan1.nii'
+    },
+    {
+      'image' : 'A0217_scan2.nii',
+      'boxes': 'A0217_scan2.nii'
+    },
+    {
+      'image' : 'A0218_scan1.nii',
+      'boxes': 'A0218_scan1.nii'
+    },
+    {
+      'image' : 'A0220_scan1.nii',
+      'boxes': 'A0220_scan1.nii'
+    },
+    {
+      'image' : 'A0221_scan1.nii',
+      'boxes': 'A0221_scan1.nii'
+    },
+    {
+      'image' : 'A0221_scan2.nii',
+      'boxes': 'A0221_scan2.nii'
+    },
+    {
+      'image' : 'A0222_scan1.nii',
+      'boxes': 'A0222_scan1.nii'
+    },
+    {
+      'image' : 'A0222_scan3.nii',
+      'boxes': 'A0222_scan3.nii'
+    },
+    {
+      'image' : 'A0223_scan1.nii',
+      'boxes': 'A0223_scan1.nii'
+    },
+    {
+      'image' : 'A0223_scan3.nii',
+      'boxes': 'A0223_scan3.nii'
+    },
+    {
+      'image' : 'A0224_scan1.nii',
+      'boxes': 'A0224_scan1.nii'
+    },
+    {
+      'image' : 'A0224_scan2.nii',
+      'boxes': 'A0224_scan2.nii'
+    },
+    {
+      'image' : 'A0225_scan1.nii',
+      'boxes': 'A0225_scan1.nii'
+    },
+    {
+      'image' : 'A0225_scan3.nii',
+      'boxes': 'A0225_scan3.nii'
+    },
+    {
+      'image' : 'A0226_scan1.nii',
+      'boxes': 'A0226_scan1.nii'
+    },
+    {
+      'image' : 'A0226_scan3.nii',
+      'boxes': 'A0226_scan3.nii'
+    },
+    {
+      'image' : 'A0227_scan1.nii',
+      'boxes': 'A0227_scan1.nii'
+    },
+    {
+      'image' : 'A0227_scan2.nii',
+      'boxes': 'A0227_scan2.nii'
+    },
+    {
+      'image' : 'A0228_scan1.nii',
+      'boxes': 'A0228_scan1.nii'
+    },
+    {
+      'image' : 'A0228_scan3.nii',
+      'boxes': 'A0228_scan3.nii'
+    },
+    {
+      'image' : 'A0229_scan1.nii',
+      'boxes': 'A0229_scan1.nii'
+    },
+    {
+      'image' : 'A0230_scan1.nii',
+      'boxes': 'A0230_scan1.nii'
+    },
+    {
+      'image' : 'A0230_scan2.nii',
+      'boxes': 'A0230_scan2.nii'
+    },
+    {
+      'image' : 'A0231_scan1.nii',
+      'boxes': 'A0231_scan1.nii'
+    },
+    {
+      'image' : 'A0232_scan1.nii',
+      'boxes': 'A0232_scan1.nii'
+    },
+    {
+      'image' : 'A0232_scan2.nii',
+      'boxes': 'A0232_scan2.nii'
+    },
+    {
+      'image' : 'A0233_scan1.nii',
+      'boxes': 'A0233_scan1.nii'
+    },
+    {
+      'image' : 'A0233_scan3.nii',
+      'boxes': 'A0233_scan3.nii'
+    },
+    {
+      'image' : 'A0234_scan1.nii',
+      'boxes': 'A0234_scan1.nii'
+    },
+    {
+      'image' : 'A0234_scan3.nii',
+      'boxes': 'A0234_scan3.nii'
+    },
+    {
+      'image' : 'A0235_scan1.nii',
+      'boxes': 'A0235_scan1.nii'
+    },
+    {
+      'image' : 'A0235_scan2.nii',
+      'boxes': 'A0235_scan2.nii'
+    },
+    {
+      'image' : 'A0236_scan1.nii',
+      'boxes': 'A0236_scan1.nii'
+    },
+    {
+      'image' : 'A0236_scan3.nii',
+      'boxes': 'A0236_scan3.nii'
+    },
+    {
+      'image' : 'A0237_scan1.nii',
+      'boxes': 'A0237_scan1.nii'
+    },
+    {
+      'image' : 'A0237_scan2.nii',
+      'boxes': 'A0237_scan2.nii'
+    },
+    {
+      'image' : 'A0238_scan1.nii',
+      'boxes': 'A0238_scan1.nii'
+    },
+    {
+      'image' : 'A0238_scan3.nii',
+      'boxes': 'A0238_scan3.nii'
+    },
+    {
+      'image' : 'A0239_scan1.nii',
+      'boxes': 'A0239_scan1.nii'
+    },
+    {
+      'image' : 'A0239_scan3.nii',
+      'boxes': 'A0239_scan3.nii'
+    },
+    {
+      'image' : 'A0240_scan1.nii',
+      'boxes': 'A0240_scan1.nii'
+    },
+    {
+      'image' : 'A0240_scan2.nii',
+      'boxes': 'A0240_scan2.nii'
+    },
+    {
+      'image' : 'A0241_scan1.nii',
+      'boxes': 'A0241_scan1.nii'
+    },
+    {
+      'image' : 'A0241_scan3.nii',
+      'boxes': 'A0241_scan3.nii'
+    },
+    {
+      'image' : 'A0242_scan1.nii',
+      'boxes': 'A0242_scan1.nii'
+    },
+    {
+      'image' : 'A0242_scan3.nii',
+      'boxes': 'A0242_scan3.nii'
+    },
+    {
+      'image' : 'A0243_scan3.nii',
+      'boxes': 'A0243_scan3.nii'
+    },
+    {
+      'image' : 'A0244_scan2.nii',
+      'boxes': 'A0244_scan2.nii'
+    },
+    {
+      'image' : 'A0244_scan3.nii',
+      'boxes': 'A0244_scan3.nii'
+    },
+    {
+      'image' : 'A0247_scan1.nii',
+      'boxes': 'A0247_scan1.nii'
+    },
+    {
+      'image' : 'A0248_scan1.nii',
+      'boxes': 'A0248_scan1.nii'
+    },
+    {
+      'image' : 'A0248_scan3.nii',
+      'boxes': 'A0248_scan3.nii'
+    },
+    {
+      'image' : 'A0249_scan1.nii',
+      'boxes': 'A0249_scan1.nii'
+    },
+    {
+      'image' : 'A0249_scan3.nii',
+      'boxes': 'A0249_scan3.nii'
+    },
+    {
+      'image' : 'A0250_scan1.nii',
+      'boxes': 'A0250_scan1.nii'
+    },
+    {
+      'image' : 'A0250_scan3.nii',
+      'boxes': 'A0250_scan3.nii'
+    },
+    {
+      'image' : 'A0252_scan1.nii',
+      'boxes': 'A0252_scan1.nii'
+    },
+    {
+      'image' : 'A0252_scan3.nii',
+      'boxes': 'A0252_scan3.nii'
+    },
+    {
+      'image' : 'A0253_scan1.nii',
+      'boxes': 'A0253_scan1.nii'
+    },
+    {
+      'image' : 'A0253_scan3.nii',
+      'boxes': 'A0253_scan3.nii'
+    },
+    {
+      'image' : 'A0254_scan1.nii',
+      'boxes': 'A0254_scan1.nii'
+    },
+    {
+      'image' : 'A0254_scan2.nii',
+      'boxes': 'A0254_scan2.nii'
+    },
+    {
+      'image' : 'A0255_scan1.nii',
+      'boxes': 'A0255_scan1.nii'
+    },
+    {
+      'image' : 'A0256_scan1.nii',
+      'boxes': 'A0256_scan1.nii'
+    },
+    {
+      'image' : 'A0256_scan2.nii',
+      'boxes': 'A0256_scan2.nii'
+    },
+    {
+      'image' : 'A0257_scan1.nii',
+      'boxes': 'A0257_scan1.nii'
+    },
+    {
+      'image' : 'A0258_scan1.nii',
+      'boxes': 'A0258_scan1.nii'
+    },
+    {
+      'image' : 'A0258_scan2.nii',
+      'boxes': 'A0258_scan2.nii'
+    },
+    {
+      'image' : 'A0258_scan4.nii',
+      'boxes': 'A0258_scan4.nii'
+    },
+    {
+      'image' : 'A0259_scan1.nii',
+      'boxes': 'A0259_scan1.nii'
+    },
+    {
+      'image' : 'A0259_scan3.nii',
+      'boxes': 'A0259_scan3.nii'
+    },
+    {
+      'image' : 'A0260_scan1.nii',
+      'boxes': 'A0260_scan1.nii'
+    },
+    {
+      'image' : 'A0260_scan2.nii',
+      'boxes': 'A0260_scan2.nii'
+    },
+    {
+      'image' : 'A0261_scan1.nii',
+      'boxes': 'A0261_scan1.nii'
+    },
+    {
+      'image' : 'A0261_scan2.nii',
+      'boxes': 'A0261_scan2.nii'
+    },
+    {
+      'image' : 'A0262_scan1.nii',
+      'boxes': 'A0262_scan1.nii'
+    },
+    {
+      'image' : 'A0262_scan3.nii',
+      'boxes': 'A0262_scan3.nii'
+    },
+    {
+      'image' : 'A0263_scan1.nii',
+      'boxes': 'A0263_scan1.nii'
+    },
+    {
+      'image' : 'A0263_scan3.nii',
+      'boxes': 'A0263_scan3.nii'
+    },
+    {
+      'image' : 'A0264_scan1.nii',
+      'boxes': 'A0264_scan1.nii'
+    },
+    {
+      'image' : 'A0264_scan3.nii',
+      'boxes': 'A0264_scan3.nii'
+    },
+    {
+      'image' : 'A0265_scan3.nii',
+      'boxes': 'A0265_scan3.nii'
+    },
+    {
+      'image' : 'B0001_scan2.nii',
+      'boxes': 'B0001_scan2.nii'
+    },
+    {
+      'image' : 'B0002_scan2.nii',
+      'boxes': 'B0002_scan2.nii'
+    },
+    {
+      'image' : 'B0003_scan2.nii',
+      'boxes': 'B0003_scan2.nii'
+    },
+    {
+      'image' : 'B0004_scan1.nii',
+      'boxes': 'B0004_scan1.nii'
+    },
+    {
+      'image' : 'B0004_scan2.nii',
+      'boxes': 'B0004_scan2.nii'
+    },
+    {
+      'image' : 'B0005_scan2.nii',
+      'boxes': 'B0005_scan2.nii'
+    },
+    {
+      'image' : 'B0006_scan1.nii',
+      'boxes': 'B0006_scan1.nii'
+    },
+    {
+      'image' : 'B0006_scan2.nii',
+      'boxes': 'B0006_scan2.nii'
+    },
+    {
+      'image' : 'B0007_scan2.nii',
+      'boxes': 'B0007_scan2.nii'
+    },
+    {
+      'image' : 'B0008_scan1.nii',
+      'boxes': 'B0008_scan1.nii'
+    },
+    {
+      'image' : 'B0008_scan2.nii',
+      'boxes': 'B0008_scan2.nii'
+    },
+    {
+      'image' : 'B0009_scan1.nii',
+      'boxes': 'B0009_scan1.nii'
+    },
+    {
+      'image' : 'B0009_scan2.nii',
+      'boxes': 'B0009_scan2.nii'
+    },
+    {
+      'image' : 'B0011_scan2.nii',
+      'boxes': 'B0011_scan2.nii'
+    },
+    {
+      'image' : 'B0012_scan3.nii',
+      'boxes': 'B0012_scan3.nii'
+    },
+    {
+      'image' : 'B0012_scan4.nii',
+      'boxes': 'B0012_scan4.nii'
+    },
+    {
+      'image' : 'B0014_scan1.nii',
+      'boxes': 'B0014_scan1.nii'
+    },
+    {
+      'image' : 'B0014_scan2.nii',
+      'boxes': 'B0014_scan2.nii'
+    },
+    {
+      'image' : 'B0016_scan1.nii',
+      'boxes': 'B0016_scan1.nii'
+    },
+    {
+      'image' : 'B0016_scan2.nii',
+      'boxes': 'B0016_scan2.nii'
+    },
+    {
+      'image' : 'B0017_scan2.nii',
+      'boxes': 'B0017_scan2.nii'
+    },
+    {
+      'image' : 'B0018_scan1.nii',
+      'boxes': 'B0018_scan1.nii'
+    },
+    {
+      'image' : 'B0019_scan3.nii',
+      'boxes': 'B0019_scan3.nii'
+    },
+    {
+      'image' : 'B0021_scan2.nii',
+      'boxes': 'B0021_scan2.nii'
+    },
+    {
+      'image' : 'B0022_scan1.nii',
+      'boxes': 'B0022_scan1.nii'
+    },
+    {
+      'image' : 'B0022_scan2.nii',
+      'boxes': 'B0022_scan2.nii'
+    },
+    {
+      'image' : 'B0023_scan1.nii',
+      'boxes': 'B0023_scan1.nii'
+    },
+    {
+      'image' : 'B0023_scan2.nii',
+      'boxes': 'B0023_scan2.nii'
+    },
+    {
+      'image' : 'B0024_scan1.nii',
+      'boxes': 'B0024_scan1.nii'
+    },
+    {
+      'image' : 'B0024_scan2.nii',
+      'boxes': 'B0024_scan2.nii'
+    },
+    {
+      'image' : 'B0025_scan2.nii',
+      'boxes': 'B0025_scan2.nii'
+    },
+    {
+      'image' : 'B0026_scan1.nii',
+      'boxes': 'B0026_scan1.nii'
+    },
+    {
+      'image' : 'B0026_scan2.nii',
+      'boxes': 'B0026_scan2.nii'
+    },
+    {
+      'image' : 'B0027_scan1.nii',
+      'boxes': 'B0027_scan1.nii'
+    },
+    {
+      'image' : 'B0027_scan2.nii',
+      'boxes': 'B0027_scan2.nii'
+    },
+    {
+      'image' : 'B0028_scan1.nii',
+      'boxes': 'B0028_scan1.nii'
+    },
+    {
+      'image' : 'B0028_scan2.nii',
+      'boxes': 'B0028_scan2.nii'
+    },
+    {
+      'image' : 'B0031_scan1.nii',
+      'boxes': 'B0031_scan1.nii'
+    },
+    {
+      'image' : 'B0031_scan2.nii',
+      'boxes': 'B0031_scan2.nii'
+    },
+    {
+      'image' : 'B0033_scan1.nii',
+      'boxes': 'B0033_scan1.nii'
+    },
+    {
+      'image' : 'B0033_scan3.nii',
+      'boxes': 'B0033_scan3.nii'
+    },
+    {
+      'image' : 'B0034_scan1.nii',
+      'boxes': 'B0034_scan1.nii'
+    },
+    {
+      'image' : 'B0034_scan3.nii',
+      'boxes': 'B0034_scan3.nii'
+    },
+    {
+      'image' : 'B0036_scan1.nii',
+      'boxes': 'B0036_scan1.nii'
+    },
+    {
+      'image' : 'B0036_scan2.nii',
+      'boxes': 'B0036_scan2.nii'
+    },
+    {
+      'image' : 'B0037_scan1.nii',
+      'boxes': 'B0037_scan1.nii'
+    },
+    {
+      'image' : 'B0037_scan2.nii',
+      'boxes': 'B0037_scan2.nii'
+    },
+    {
+      'image' : 'B0038_scan1.nii',
+      'boxes': 'B0038_scan1.nii'
+    },
+    {
+      'image' : 'B0038_scan2.nii',
+      'boxes': 'B0038_scan2.nii'
+    },
+    {
+      'image' : 'B0040_scan1.nii',
+      'boxes': 'B0040_scan1.nii'
+    },
+    {
+      'image' : 'B0040_scan2.nii',
+      'boxes': 'B0040_scan2.nii'
+    },
+    {
+      'image' : 'B0040_scan3.nii',
+      'boxes': 'B0040_scan3.nii'
+    },
+    {
+      'image' : 'B0040_scan4.nii',
+      'boxes': 'B0040_scan4.nii'
+    },
+    {
+      'image' : 'B0041_scan1.nii',
+      'boxes': 'B0041_scan1.nii'
+    },
+    {
+      'image' : 'B0041_scan2.nii',
+      'boxes': 'B0041_scan2.nii'
+    },
+    {
+      'image' : 'B0042_scan1.nii',
+      'boxes': 'B0042_scan1.nii'
+    },
+    {
+      'image' : 'B0043_scan1.nii',
+      'boxes': 'B0043_scan1.nii'
+    },
+    {
+      'image' : 'B0043_scan2.nii',
+      'boxes': 'B0043_scan2.nii'
+    },
+    {
+      'image' : 'B0044_scan2.nii',
+      'boxes': 'B0044_scan2.nii'
+    },
+    {
+      'image' : 'E0001_scan2.nii',
+      'boxes': 'E0001_scan2.nii'
+    },
+    {
+      'image' : 'E0002_scan1.nii',
+      'boxes': 'E0002_scan1.nii'
+    },
+    {
+      'image' : 'E0003_scan2.nii',
+      'boxes': 'E0003_scan2.nii'
+    },
+    {
+      'image' : 'E0004_scan1.nii',
+      'boxes': 'E0004_scan1.nii'
+    },
+    {
+      'image' : 'E0004_scan2.nii',
+      'boxes': 'E0004_scan2.nii'
+    },
+    {
+      'image' : 'E0005_scan3.nii',
+      'boxes': 'E0005_scan3.nii'
+    },
+    {
+      'image' : 'G0002_scan1.nii',
+      'boxes': 'G0002_scan1.nii'
+    },
+    {
+      'image' : 'G0002_scan2.nii',
+      'boxes': 'G0002_scan2.nii'
+    },
+    {
+      'image' : 'G0003_scan2.nii',
+      'boxes': 'G0003_scan2.nii'
+    },
+    {
+      'image' : 'G0004_scan2.nii',
+      'boxes': 'G0004_scan2.nii'
+    },
+    {
+      'image' : 'G0005_scan1.nii',
+      'boxes': 'G0005_scan1.nii'
+    },
+    {
+      'image' : 'G0005_scan2.nii',
+      'boxes': 'G0005_scan2.nii'
+    },
+    {
+      'image' : 'G0006_scan2.nii',
+      'boxes': 'G0006_scan2.nii'
+    },
+    {
+      'image' : 'G0007_scan1.nii',
+      'boxes': 'G0007_scan1.nii'
+    },
+    {
+      'image' : 'G0007_scan2.nii',
+      'boxes': 'G0007_scan2.nii'
+    },
+    {
+      'image' : 'G0008_scan1.nii',
+      'boxes': 'G0008_scan1.nii'
+    },
+    {
+      'image' : 'G0008_scan2.nii',
+      'boxes': 'G0008_scan2.nii'
+    },
+    {
+      'image' : 'G0009_scan1.nii',
+      'boxes': 'G0009_scan1.nii'
+    },
+    {
+      'image' : 'G0009_scan2.nii',
+      'boxes': 'G0009_scan2.nii'
+    },
+    {
+      'image' : 'G0011_scan2.nii',
+      'boxes': 'G0011_scan2.nii'
+    },
+    {
+      'image' : 'G0012_scan2.nii',
+      'boxes': 'G0012_scan2.nii'
+    },
+    {
+      'image' : 'G0013_scan2.nii',
+      'boxes': 'G0013_scan2.nii'
+    },
+    {
+      'image' : 'G0014_scan1.nii',
+      'boxes': 'G0014_scan1.nii'
+    },
+    {
+      'image' : 'G0014_scan3.nii',
+      'boxes': 'G0014_scan3.nii'
+    },
+    {
+      'image' : 'G0016_scan2.nii',
+      'boxes': 'G0016_scan2.nii'
+    },
+    {
+      'image' : 'G0017_scan2.nii',
+      'boxes': 'G0017_scan2.nii'
+    },
+    {
+      'image' : 'G0018_scan2.nii',
+      'boxes': 'G0018_scan2.nii'
+    },
+    {
+      'image' : 'G0019_scan1.nii',
+      'boxes': 'G0019_scan1.nii'
+    },
+    {
+      'image' : 'G0019_scan2.nii',
+      'boxes': 'G0019_scan2.nii'
+    },
+    {
+      'image' : 'G0020_scan1.nii',
+      'boxes': 'G0020_scan1.nii'
+    },
+    {
+      'image' : 'G0020_scan2.nii',
+      'boxes': 'G0020_scan2.nii'
+    },
+    {
+      'image' : 'G0021_scan2.nii',
+      'boxes': 'G0021_scan2.nii'
+    },
+    {
+      'image' : 'G0022_scan2.nii',
+      'boxes': 'G0022_scan2.nii'
+    },
+    {
+      'image' : 'G0023_scan2.nii',
+      'boxes': 'G0023_scan2.nii'
+    },
+    {
+      'image' : 'G0024_scan1.nii',
+      'boxes': 'G0024_scan1.nii'
+    },
+    {
+      'image' : 'G0024_scan2.nii',
+      'boxes': 'G0024_scan2.nii'
+    },
+    {
+      'image' : 'G0025_scan2.nii',
+      'boxes': 'G0025_scan2.nii'
+    },
+    {
+      'image' : 'G0026_scan2.nii',
+      'boxes': 'G0026_scan2.nii'
+    },
+    {
+      'image' : 'G0027_scan2.nii',
+      'boxes': 'G0027_scan2.nii'
+    },
+    {
+      'image' : 'G0028_scan2.nii',
+      'boxes': 'G0028_scan2.nii'
+    },
+    {
+      'image' : 'G0029_scan2.nii',
+      'boxes': 'G0029_scan2.nii'
+    },
+    {
+      'image' : 'G0030_scan4.nii',
+      'boxes': 'G0030_scan4.nii'
+    },
+    {
+      'image' : 'G0031_scan2.nii',
+      'boxes': 'G0031_scan2.nii'
+    },
+    {
+      'image' : 'G0032_scan1.nii',
+      'boxes': 'G0032_scan1.nii'
+    },
+    {
+      'image' : 'G0032_scan2.nii',
+      'boxes': 'G0032_scan2.nii'
+    },
+    {
+      'image' : 'G0032_scan3.nii',
+      'boxes': 'G0032_scan3.nii'
+    },
+    {
+      'image' : 'G0032_scan4.nii',
+      'boxes': 'G0032_scan4.nii'
+    },
+    {
+      'image' : 'G0033_scan1.nii',
+      'boxes': 'G0033_scan1.nii'
+    },
+    {
+      'image' : 'G0034_scan1.nii',
+      'boxes': 'G0034_scan1.nii'
+    },
+    {
+      'image' : 'G0034_scan3.nii',
+      'boxes': 'G0034_scan3.nii'
+    },
+    {
+      'image' : 'G0035_scan1.nii',
+      'boxes': 'G0035_scan1.nii'
+    },
+    {
+      'image' : 'G0036_scan1.nii',
+      'boxes': 'G0036_scan1.nii'
+    },
+    {
+      'image' : 'G0036_scan3.nii',
+      'boxes': 'G0036_scan3.nii'
+    },
+    {
+      'image' : 'G0037_scan1.nii',
+      'boxes': 'G0037_scan1.nii'
+    },
+    {
+      'image' : 'G0037_scan4.nii',
+      'boxes': 'G0037_scan4.nii'
+    },
+    {
+      'image' : 'G0038_scan1.nii',
+      'boxes': 'G0038_scan1.nii'
+    },
+    {
+      'image' : 'G0038_scan2.nii',
+      'boxes': 'G0038_scan2.nii'
+    },
+    {
+      'image' : 'G0039_scan1.nii',
+      'boxes': 'G0039_scan1.nii'
+    },
+    {
+      'image' : 'G0039_scan3.nii',
+      'boxes': 'G0039_scan3.nii'
+    },
+    {
+      'image' : 'G0040_scan1.nii',
+      'boxes': 'G0040_scan1.nii'
+    },
+    {
+      'image' : 'G0040_scan3.nii',
+      'boxes': 'G0040_scan3.nii'
+    },
+    {
+      'image' : 'G0041_scan2.nii',
+      'boxes': 'G0041_scan2.nii'
+    },
+    {
+      'image' : 'G0041_scan3.nii',
+      'boxes': 'G0041_scan3.nii'
+    },
+    {
+      'image' : 'G0042_scan1.nii',
+      'boxes': 'G0042_scan1.nii'
+    },
+    {
+      'image' : 'G0042_scan3.nii',
+      'boxes': 'G0042_scan3.nii'
+    },
+    {
+      'image' : 'G0043_scan1.nii',
+      'boxes': 'G0043_scan1.nii'
+    },
+    {
+      'image' : 'G0043_scan3.nii',
+      'boxes': 'G0043_scan3.nii'
+    },
+    {
+      'image' : 'G0044_scan1.nii',
+      'boxes': 'G0044_scan1.nii'
+    },
+    {
+      'image' : 'G0044_scan3.nii',
+      'boxes': 'G0044_scan3.nii'
+    },
+    {
+      'image' : 'G0045_scan1.nii',
+      'boxes': 'G0045_scan1.nii'
+    },
+    {
+      'image' : 'G0045_scan3.nii',
+      'boxes': 'G0045_scan3.nii'
+    },
+    {
+      'image' : 'G0046_scan1.nii',
+      'boxes': 'G0046_scan1.nii'
+    },
+    {
+      'image' : 'G0046_scan3.nii',
+      'boxes': 'G0046_scan3.nii'
+    },
+    {
+      'image' : 'G0047_scan1.nii',
+      'boxes': 'G0047_scan1.nii'
+    },
+    {
+      'image' : 'G0048_scan1.nii',
+      'boxes': 'G0048_scan1.nii'
+    },
+    {
+      'image' : 'G0049_scan1.nii',
+      'boxes': 'G0049_scan1.nii'
+    },
+    {
+      'image' : 'G0049_scan3.nii',
+      'boxes': 'G0049_scan3.nii'
+    },
+    {
+      'image' : 'G0050_scan1.nii',
+      'boxes': 'G0050_scan1.nii'
+    },
+    {
+      'image' : 'G0050_scan3.nii',
+      'boxes': 'G0050_scan3.nii'
+    },
+    {
+      'image' : 'G0051_scan1.nii',
+      'boxes': 'G0051_scan1.nii'
+    },
+    {
+      'image' : 'G0051_scan3.nii',
+      'boxes': 'G0051_scan3.nii'
+    },
+    {
+      'image' : 'G0052_scan1.nii',
+      'boxes': 'G0052_scan1.nii'
+    },
+    {
+      'image' : 'G0052_scan3.nii',
+      'boxes': 'G0052_scan3.nii'
+    },
+    {
+      'image' : 'G0053_scan2.nii',
+      'boxes': 'G0053_scan2.nii'
+    },
+    {
+      'image' : 'G0053_scan3.nii',
+      'boxes': 'G0053_scan3.nii'
+    },
+    {
+      'image' : 'G0054_scan1.nii',
+      'boxes': 'G0054_scan1.nii'
+    },
+    {
+      'image' : 'G0054_scan2.nii',
+      'boxes': 'G0054_scan2.nii'
+    },
+    {
+      'image' : 'G0055_scan1.nii',
+      'boxes': 'G0055_scan1.nii'
+    },
+    {
+      'image' : 'G0055_scan3.nii',
+      'boxes': 'G0055_scan3.nii'
+    },
+    {
+      'image' : 'G0056_scan1.nii',
+      'boxes': 'G0056_scan1.nii'
+    },
+    {
+      'image' : 'G0056_scan3.nii',
+      'boxes': 'G0056_scan3.nii'
+    },
+    {
+      'image' : 'G0057_scan1.nii',
+      'boxes': 'G0057_scan1.nii'
+    },
+    {
+      'image' : 'G0057_scan3.nii',
+      'boxes': 'G0057_scan3.nii'
+    },
+    {
+      'image' : 'G0058_scan1.nii',
+      'boxes': 'G0058_scan1.nii'
+    },
+    {
+      'image' : 'G0058_scan3.nii',
+      'boxes': 'G0058_scan3.nii'
+    },
+    {
+      'image' : 'G0059_scan1.nii',
+      'boxes': 'G0059_scan1.nii'
+    },
+    {
+      'image' : 'G0059_scan2.nii',
+      'boxes': 'G0059_scan2.nii'
+    },
+    {
+      'image' : 'G0060_scan1.nii',
+      'boxes': 'G0060_scan1.nii'
+    },
+    {
+      'image' : 'G0060_scan2.nii',
+      'boxes': 'G0060_scan2.nii'
+    },
+    {
+      'image' : 'G0062_scan1.nii',
+      'boxes': 'G0062_scan1.nii'
+    },
+    {
+      'image' : 'G0062_scan3.nii',
+      'boxes': 'G0062_scan3.nii'
+    },
+
+]

@@ -1,0 +1,29 @@
+device: 'cuda'
+
+data:
+  train_dataset: "/home/tumor/LungTumorSegmentation/Resources/Malvik/teacher_data.yaml"
+  aug_prob: 0.25
+  scale_dim:
+    d_0: 128
+    d_1: 128
+    d_2: 128
+
+model:
+  architecture: UNet5_Teacher
+  loss: DiceLoss
+  filter_base: 64
+  filter_expansion: 2
+  weights:
+  optimizer:
+    name: 'Adam'
+    lr: 0.000025
+
+train:
+  max_epochs: 500
+  val_frequency: 1
+  output_threshold: 0.5
+  metric_path: "/home/tumor/out/metric.csv"
+  save_frequency: 50
+  model_directory: "/home/tumor/out/models/"
+  batch_size: 10
+

@@ -1,0 +1,18 @@
+device: 'cuda'
+
+data:
+  dataset: "/cluster/work/sosevle/LungTumorSegmentation/Resources/Inference/teacher_inference_data.yaml"
+  scale_dim:
+    d_0: 256
+    d_1: 256
+    d_2: 128
+
+model:
+  architecture: UNet_test
+  weights: "/cluster/work/sosevle/model_last_128.pth"
+  loss: DiceLoss
+  filter_base: 128
+  filter_expansion: 2
+
+inference:
+  save_directory: '/cluster/work/sosevle/Lung-Dx_Cropped/Cropped/Labels/'

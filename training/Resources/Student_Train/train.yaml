@@ -1,0 +1,28 @@
+device: 'cuda'
+
+data:
+  train_dataset: "/home/tumor/LungTumorSegmentation/Resources/Student_Train/data.yaml"
+  aug_prob: 0.1
+  scale_dim:
+    d_0: 256
+    d_1: 256
+    d_2: 128
+
+model:
+  architecture: UNet4
+  loss: DiceLoss
+  weights: 
+  filter_base: 32
+  filter_expansion: 2
+  optimizer:
+    name: 'Adam'
+    lr: 0.000025
+
+train:
+  max_epochs: 500
+  val_frequency: 1
+  output_threshold: 0.5
+  metric_path: "/home/tumor/out/metric.csv"
+  save_frequency: 50
+  model_directory: "/home/tumor/out/models/"
+  steps_per_plot: 10

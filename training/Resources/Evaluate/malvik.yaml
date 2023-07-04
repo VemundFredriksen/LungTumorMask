@@ -1,0 +1,23 @@
+device: 'cuda'
+
+data:
+  train_dataset: "/home/tumor/LungTumorSegmentation/Resources/Inference/malvik_inference_data2.yaml"
+  scale_dim:
+    d_0: 256
+    d_1: 256
+    d_2: 128
+
+model:
+  architecture: UNet_test
+  weights: ""
+  loss: DiceLoss
+  filter_base: 32
+  filter_expansion: 2
+  optimizer:
+    name: 'Adam'
+    lr: 0.01
+
+evaluate:
+  save_segmentations: True
+  save_directory: ''
+  output_threshold: 0.5

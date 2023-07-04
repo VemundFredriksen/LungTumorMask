@@ -1,0 +1,2533 @@
+image_prefix: "/home/tumor/data/LungDx-Tumor/Images/"
+boxes_prefix: "/home/tumor/data/LungDx-Tumor/Boxes/"
+test:
+  [
+    {
+      'image' : 'A0028_scan2.nii.gz',
+      'boxes': 'A0028_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0222_scan2.nii.gz',
+      'boxes': 'A0222_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0231_scan1.nii.gz',
+      'boxes': 'A0231_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0155_scan1.nii.gz',
+      'boxes': 'A0155_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0113_scan2.nii.gz',
+      'boxes': 'A0113_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0134_scan5.nii.gz',
+      'boxes': 'A0134_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0261_scan2.nii.gz',
+      'boxes': 'A0261_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0078_scan6.nii.gz',
+      'boxes': 'A0078_scan6.nii.gz'
+    },
+    {
+      'image' : 'G0050_scan2.nii.gz',
+      'boxes': 'G0050_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0009_scan2.nii.gz',
+      'boxes': 'A0009_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0022_scan2.nii.gz',
+      'boxes': 'A0022_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0168_scan1.nii.gz',
+      'boxes': 'A0168_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0022_scan2.nii.gz',
+      'boxes': 'B0022_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0063_scan3.nii.gz',
+      'boxes': 'A0063_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0136_scan1.nii.gz',
+      'boxes': 'A0136_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0056_scan2.nii.gz',
+      'boxes': 'G0056_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0102_scan1.nii.gz',
+      'boxes': 'A0102_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0161_scan1.nii.gz',
+      'boxes': 'A0161_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0260_scan2.nii.gz',
+      'boxes': 'A0260_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0086_scan1.nii.gz',
+      'boxes': 'A0086_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0121_scan2.nii.gz',
+      'boxes': 'A0121_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0166_scan1.nii.gz',
+      'boxes': 'A0166_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0049_scan2.nii.gz',
+      'boxes': 'G0049_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0147_scan2.nii.gz',
+      'boxes': 'A0147_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0022_scan1.nii.gz',
+      'boxes': 'B0022_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0248_scan2.nii.gz',
+      'boxes': 'A0248_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0024_scan2.nii.gz',
+      'boxes': 'B0024_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0052_scan1.nii.gz',
+      'boxes': 'G0052_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0112_scan3.nii.gz',
+      'boxes': 'A0112_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0029_scan3.nii.gz',
+      'boxes': 'A0029_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0063_scan2.nii.gz',
+      'boxes': 'A0063_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0052_scan2.nii.gz',
+      'boxes': 'G0052_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0041_scan1.nii.gz',
+      'boxes': 'A0041_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0019_scan2.nii.gz',
+      'boxes': 'G0019_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0193_scan1.nii.gz',
+      'boxes': 'A0193_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0230_scan1.nii.gz',
+      'boxes': 'A0230_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0094_scan1.nii.gz',
+      'boxes': 'A0094_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0182_scan1.nii.gz',
+      'boxes': 'A0182_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0059_scan2.nii.gz',
+      'boxes': 'G0059_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0093_scan1.nii.gz',
+      'boxes': 'A0093_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0166_scan3.nii.gz',
+      'boxes': 'A0166_scan3.nii.gz'
+    },
+    {
+      'image' : 'G0009_scan2.nii.gz',
+      'boxes': 'G0009_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0126_scan2.nii.gz',
+      'boxes': 'A0126_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0194_scan2.nii.gz',
+      'boxes': 'A0194_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0011_scan1.nii.gz',
+      'boxes': 'A0011_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0083_scan6.nii.gz',
+      'boxes': 'A0083_scan6.nii.gz'
+    },
+    {
+      'image' : 'B0031_scan2.nii.gz',
+      'boxes': 'B0031_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0164_scan2.nii.gz',
+      'boxes': 'A0164_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0156_scan1.nii.gz',
+      'boxes': 'A0156_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0041_scan4.nii.gz',
+      'boxes': 'A0041_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0031_scan1.nii.gz',
+      'boxes': 'A0031_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0046_scan1.nii.gz',
+      'boxes': 'G0046_scan1.nii.gz'
+    },
+    {
+      'image' : 'E0002_scan2.nii.gz',
+      'boxes': 'E0002_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0191_scan1.nii.gz',
+      'boxes': 'A0191_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0013_scan1.nii.gz',
+      'boxes': 'A0013_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0144_scan2.nii.gz',
+      'boxes': 'A0144_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0054_scan2.nii.gz',
+      'boxes': 'G0054_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0106_scan2.nii.gz',
+      'boxes': 'A0106_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0117_scan2.nii.gz',
+      'boxes': 'A0117_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0166_scan2.nii.gz',
+      'boxes': 'A0166_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0032_scan4.nii.gz',
+      'boxes': 'G0032_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0127_scan1.nii.gz',
+      'boxes': 'A0127_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0004_scan1.nii.gz',
+      'boxes': 'G0004_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0059_scan1.nii.gz',
+      'boxes': 'G0059_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0171_scan1.nii.gz',
+      'boxes': 'A0171_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0007_scan1.nii.gz',
+      'boxes': 'B0007_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0045_scan1.nii.gz',
+      'boxes': 'G0045_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0161_scan2.nii.gz',
+      'boxes': 'A0161_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0108_scan1.nii.gz',
+      'boxes': 'A0108_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0126_scan4.nii.gz',
+      'boxes': 'A0126_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0198_scan1.nii.gz',
+      'boxes': 'A0198_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0144_scan1.nii.gz',
+      'boxes': 'A0144_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0167_scan1.nii.gz',
+      'boxes': 'A0167_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0038_scan2.nii.gz',
+      'boxes': 'G0038_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0078_scan1.nii.gz',
+      'boxes': 'A0078_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0137_scan1.nii.gz',
+      'boxes': 'A0137_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0176_scan1.nii.gz',
+      'boxes': 'A0176_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0246_scan2.nii.gz',
+      'boxes': 'A0246_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0012_scan1.nii.gz',
+      'boxes': 'G0012_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0034_scan1.nii.gz',
+      'boxes': 'A0034_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0007_scan1.nii.gz',
+      'boxes': 'G0007_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0048_scan1.nii.gz',
+      'boxes': 'A0048_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0196_scan1.nii.gz',
+      'boxes': 'A0196_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0117_scan3.nii.gz',
+      'boxes': 'A0117_scan3.nii.gz'
+    },
+    {
+      'image' : 'B0025_scan1.nii.gz',
+      'boxes': 'B0025_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0198_scan2.nii.gz',
+      'boxes': 'A0198_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0205_scan2.nii.gz',
+      'boxes': 'A0205_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0029_scan1.nii.gz',
+      'boxes': 'A0029_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0034_scan2.nii.gz',
+      'boxes': 'B0034_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0174_scan2.nii.gz',
+      'boxes': 'A0174_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0008_scan2.nii.gz',
+      'boxes': 'B0008_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0088_scan2.nii.gz',
+      'boxes': 'A0088_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0211_scan1.nii.gz',
+      'boxes': 'A0211_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0033_scan2.nii.gz',
+      'boxes': 'G0033_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0141_scan2.nii.gz',
+      'boxes': 'A0141_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0074_scan1.nii.gz',
+      'boxes': 'A0074_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0036_scan2.nii.gz',
+      'boxes': 'G0036_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0124_scan1.nii.gz',
+      'boxes': 'A0124_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0088_scan1.nii.gz',
+      'boxes': 'A0088_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan1.nii.gz',
+      'boxes': 'A0103_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0213_scan1.nii.gz',
+      'boxes': 'A0213_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0133_scan2.nii.gz',
+      'boxes': 'A0133_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0063_scan1.nii.gz',
+      'boxes': 'A0063_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0043_scan1.nii.gz',
+      'boxes': 'B0043_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0056_scan1.nii.gz',
+      'boxes': 'A0056_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0175_scan1.nii.gz',
+      'boxes': 'A0175_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0105_scan2.nii.gz',
+      'boxes': 'A0105_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0237_scan2.nii.gz',
+      'boxes': 'A0237_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0026_scan1.nii.gz',
+      'boxes': 'G0026_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0175_scan2.nii.gz',
+      'boxes': 'A0175_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0095_scan1.nii.gz',
+      'boxes': 'A0095_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0025_scan1.nii.gz',
+      'boxes': 'G0025_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0049_scan1.nii.gz',
+      'boxes': 'G0049_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0026_scan2.nii.gz',
+      'boxes': 'B0026_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0026_scan2.nii.gz',
+      'boxes': 'A0026_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0053_scan2.nii.gz',
+      'boxes': 'G0053_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0096_scan1.nii.gz',
+      'boxes': 'A0096_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0001_scan2.nii.gz',
+      'boxes': 'A0001_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0232_scan2.nii.gz',
+      'boxes': 'A0232_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0146_scan2.nii.gz',
+      'boxes': 'A0146_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0182_scan2.nii.gz',
+      'boxes': 'A0182_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0246_scan1.nii.gz',
+      'boxes': 'A0246_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0228_scan1.nii.gz',
+      'boxes': 'A0228_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0063_scan5.nii.gz',
+      'boxes': 'A0063_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0008_scan1.nii.gz',
+      'boxes': 'A0008_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0098_scan2.nii.gz',
+      'boxes': 'A0098_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0174_scan1.nii.gz',
+      'boxes': 'A0174_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0008_scan2.nii.gz',
+      'boxes': 'A0008_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0014_scan1.nii.gz',
+      'boxes': 'B0014_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0029_scan1.nii.gz',
+      'boxes': 'G0029_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0111_scan2.nii.gz',
+      'boxes': 'A0111_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0002_scan1.nii.gz',
+      'boxes': 'A0002_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0260_scan1.nii.gz',
+      'boxes': 'A0260_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0019_scan3.nii.gz',
+      'boxes': 'A0019_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0179_scan1.nii.gz',
+      'boxes': 'A0179_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0080_scan2.nii.gz',
+      'boxes': 'A0080_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0094_scan3.nii.gz',
+      'boxes': 'A0094_scan3.nii.gz'
+    },
+    {
+      'image' : 'G0002_scan1.nii.gz',
+      'boxes': 'G0002_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0146_scan1.nii.gz',
+      'boxes': 'A0146_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0022_scan1.nii.gz',
+      'boxes': 'A0022_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0087_scan1.nii.gz',
+      'boxes': 'A0087_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0063_scan4.nii.gz',
+      'boxes': 'A0063_scan4.nii.gz'
+    },
+    {
+      'image' : 'B0027_scan2.nii.gz',
+      'boxes': 'B0027_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0254_scan2.nii.gz',
+      'boxes': 'A0254_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0228_scan2.nii.gz',
+      'boxes': 'A0228_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0084_scan5.nii.gz',
+      'boxes': 'A0084_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0087_scan2.nii.gz',
+      'boxes': 'A0087_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0110_scan2.nii.gz',
+      'boxes': 'A0110_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0194_scan1.nii.gz',
+      'boxes': 'A0194_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0178_scan1.nii.gz',
+      'boxes': 'A0178_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0119_scan2.nii.gz',
+      'boxes': 'A0119_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0007_scan2.nii.gz',
+      'boxes': 'G0007_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan3.nii.gz',
+      'boxes': 'A0103_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0069_scan1.nii.gz',
+      'boxes': 'A0069_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0002_scan2.nii.gz',
+      'boxes': 'A0002_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0033_scan1.nii.gz',
+      'boxes': 'A0033_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0170_scan1.nii.gz',
+      'boxes': 'A0170_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0012_scan4.nii.gz',
+      'boxes': 'B0012_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0138_scan2.nii.gz',
+      'boxes': 'A0138_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0026_scan1.nii.gz',
+      'boxes': 'B0026_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0040_scan1.nii.gz',
+      'boxes': 'G0040_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0264_scan2.nii.gz',
+      'boxes': 'A0264_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0037_scan1.nii.gz',
+      'boxes': 'B0037_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0017_scan1.nii.gz',
+      'boxes': 'B0017_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0029_scan2.nii.gz',
+      'boxes': 'A0029_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0072_scan1.nii.gz',
+      'boxes': 'A0072_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0087_scan4.nii.gz',
+      'boxes': 'A0087_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0167_scan2.nii.gz',
+      'boxes': 'A0167_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0084_scan4.nii.gz',
+      'boxes': 'A0084_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0187_scan1.nii.gz',
+      'boxes': 'A0187_scan1.nii.gz'
+    },
+    {
+      'image' : 'E0003_scan1.nii.gz',
+      'boxes': 'E0003_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan2.nii.gz',
+      'boxes': 'A0104_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0033_scan2.nii.gz',
+      'boxes': 'B0033_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0111_scan1.nii.gz',
+      'boxes': 'A0111_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0244_scan2.nii.gz',
+      'boxes': 'A0244_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0018_scan1.nii.gz',
+      'boxes': 'B0018_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0188_scan1.nii.gz',
+      'boxes': 'A0188_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0030_scan1.nii.gz',
+      'boxes': 'G0030_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0055_scan2.nii.gz',
+      'boxes': 'G0055_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0005_scan1.nii.gz',
+      'boxes': 'G0005_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0112_scan1.nii.gz',
+      'boxes': 'A0112_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0094_scan4.nii.gz',
+      'boxes': 'A0094_scan4.nii.gz'
+    },
+    {
+      'image' : 'B0040_scan3.nii.gz',
+      'boxes': 'B0040_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0004_scan2.nii.gz',
+      'boxes': 'A0004_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0264_scan1.nii.gz',
+      'boxes': 'A0264_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0014_scan1.nii.gz',
+      'boxes': 'G0014_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0044_scan2.nii.gz',
+      'boxes': 'A0044_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0130_scan1.nii.gz',
+      'boxes': 'A0130_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0134_scan3.nii.gz',
+      'boxes': 'A0134_scan3.nii.gz'
+    },
+    {
+      'image' : 'G0038_scan1.nii.gz',
+      'boxes': 'G0038_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0035_scan2.nii.gz',
+      'boxes': 'A0035_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0060_scan2.nii.gz',
+      'boxes': 'G0060_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0131_scan1.nii.gz',
+      'boxes': 'A0131_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0043_scan2.nii.gz',
+      'boxes': 'G0043_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0083_scan2.nii.gz',
+      'boxes': 'A0083_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0192_scan2.nii.gz',
+      'boxes': 'A0192_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0003_scan1.nii.gz',
+      'boxes': 'A0003_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0006_scan1.nii.gz',
+      'boxes': 'B0006_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0078_scan2.nii.gz',
+      'boxes': 'A0078_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0220_scan1.nii.gz',
+      'boxes': 'A0220_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0141_scan1.nii.gz',
+      'boxes': 'A0141_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0041_scan2.nii.gz',
+      'boxes': 'G0041_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0129_scan2.nii.gz',
+      'boxes': 'A0129_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0111_scan3.nii.gz',
+      'boxes': 'A0111_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0210_scan1.nii.gz',
+      'boxes': 'A0210_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0126_scan3.nii.gz',
+      'boxes': 'A0126_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0149_scan2.nii.gz',
+      'boxes': 'A0149_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0051_scan2.nii.gz',
+      'boxes': 'A0051_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0202_scan1.nii.gz',
+      'boxes': 'A0202_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0056_scan1.nii.gz',
+      'boxes': 'G0056_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0033_scan1.nii.gz',
+      'boxes': 'G0033_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0105_scan1.nii.gz',
+      'boxes': 'A0105_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0187_scan2.nii.gz',
+      'boxes': 'A0187_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0052_scan1.nii.gz',
+      'boxes': 'A0052_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0184_scan1.nii.gz',
+      'boxes': 'A0184_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0005_scan2.nii.gz',
+      'boxes': 'G0005_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0081_scan1.nii.gz',
+      'boxes': 'A0081_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0011_scan1.nii.gz',
+      'boxes': 'G0011_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0057_scan2.nii.gz',
+      'boxes': 'G0057_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0091_scan4.nii.gz',
+      'boxes': 'A0091_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0224_scan1.nii.gz',
+      'boxes': 'A0224_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0024_scan1.nii.gz',
+      'boxes': 'B0024_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0023_scan1.nii.gz',
+      'boxes': 'B0023_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0085_scan1.nii.gz',
+      'boxes': 'A0085_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0099_scan1.nii.gz',
+      'boxes': 'A0099_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0100_scan1.nii.gz',
+      'boxes': 'A0100_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0043_scan2.nii.gz',
+      'boxes': 'A0043_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0212_scan2.nii.gz',
+      'boxes': 'A0212_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0002_scan2.nii.gz',
+      'boxes': 'G0002_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0211_scan2.nii.gz',
+      'boxes': 'A0211_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0226_scan1.nii.gz',
+      'boxes': 'A0226_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0204_scan1.nii.gz',
+      'boxes': 'A0204_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0074_scan2.nii.gz',
+      'boxes': 'A0074_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0043_scan1.nii.gz',
+      'boxes': 'G0043_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0037_scan2.nii.gz',
+      'boxes': 'B0037_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0200_scan1.nii.gz',
+      'boxes': 'A0200_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0022_scan1.nii.gz',
+      'boxes': 'G0022_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0014_scan2.nii.gz',
+      'boxes': 'B0014_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0037_scan1.nii.gz',
+      'boxes': 'A0037_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0105_scan4.nii.gz',
+      'boxes': 'A0105_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0102_scan2.nii.gz',
+      'boxes': 'A0102_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0021_scan1.nii.gz',
+      'boxes': 'G0021_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0134_scan1.nii.gz',
+      'boxes': 'A0134_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0195_scan2.nii.gz',
+      'boxes': 'A0195_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0023_scan2.nii.gz',
+      'boxes': 'B0023_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0006_scan1.nii.gz',
+      'boxes': 'G0006_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0054_scan1.nii.gz',
+      'boxes': 'A0054_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0225_scan2.nii.gz',
+      'boxes': 'A0225_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0041_scan1.nii.gz',
+      'boxes': 'B0041_scan1.nii.gz'
+    },
+    {
+      'image' : 'E0004_scan2.nii.gz',
+      'boxes': 'E0004_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0028_scan2.nii.gz',
+      'boxes': 'B0028_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0259_scan2.nii.gz',
+      'boxes': 'A0259_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0169_scan2.nii.gz',
+      'boxes': 'A0169_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0012_scan3.nii.gz',
+      'boxes': 'B0012_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0238_scan1.nii.gz',
+      'boxes': 'A0238_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0078_scan3.nii.gz',
+      'boxes': 'A0078_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0206_scan1.nii.gz',
+      'boxes': 'A0206_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0117_scan4.nii.gz',
+      'boxes': 'A0117_scan4.nii.gz'
+    },
+    {
+      'image' : 'B0041_scan2.nii.gz',
+      'boxes': 'B0041_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0249_scan1.nii.gz',
+      'boxes': 'A0249_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0089_scan2.nii.gz',
+      'boxes': 'A0089_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0039_scan1.nii.gz',
+      'boxes': 'A0039_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0036_scan1.nii.gz',
+      'boxes': 'G0036_scan1.nii.gz'
+    },
+    {
+      'image' : 'E0001_scan1.nii.gz',
+      'boxes': 'E0001_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0252_scan1.nii.gz',
+      'boxes': 'A0252_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0031_scan1.nii.gz',
+      'boxes': 'G0031_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0201_scan2.nii.gz',
+      'boxes': 'A0201_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0016_scan1.nii.gz',
+      'boxes': 'B0016_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0197_scan1.nii.gz',
+      'boxes': 'A0197_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0019_scan1.nii.gz',
+      'boxes': 'G0019_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0181_scan1.nii.gz',
+      'boxes': 'A0181_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0112_scan2.nii.gz',
+      'boxes': 'A0112_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0208_scan2.nii.gz',
+      'boxes': 'A0208_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0062_scan1.nii.gz',
+      'boxes': 'G0062_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0006_scan2.nii.gz',
+      'boxes': 'B0006_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0022_scan3.nii.gz',
+      'boxes': 'A0022_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0117_scan6.nii.gz',
+      'boxes': 'A0117_scan6.nii.gz'
+    },
+    {
+      'image' : 'A0168_scan2.nii.gz',
+      'boxes': 'A0168_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0041_scan3.nii.gz',
+      'boxes': 'A0041_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0105_scan6.nii.gz',
+      'boxes': 'A0105_scan6.nii.gz'
+    },
+    {
+      'image' : 'B0002_scan1.nii.gz',
+      'boxes': 'B0002_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0010_scan2.nii.gz',
+      'boxes': 'A0010_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0084_scan6.nii.gz',
+      'boxes': 'A0084_scan6.nii.gz'
+    },
+    {
+      'image' : 'A0004_scan1.nii.gz',
+      'boxes': 'A0004_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0090_scan4.nii.gz',
+      'boxes': 'A0090_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0263_scan2.nii.gz',
+      'boxes': 'A0263_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0015_scan1.nii.gz',
+      'boxes': 'A0015_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0034_scan1.nii.gz',
+      'boxes': 'B0034_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0265_scan1.nii.gz',
+      'boxes': 'A0265_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0171_scan2.nii.gz',
+      'boxes': 'A0171_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0106_scan1.nii.gz',
+      'boxes': 'A0106_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0230_scan2.nii.gz',
+      'boxes': 'A0230_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0036_scan2.nii.gz',
+      'boxes': 'B0036_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0015_scan2.nii.gz',
+      'boxes': 'A0015_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0065_scan1.nii.gz',
+      'boxes': 'A0065_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0070_scan2.nii.gz',
+      'boxes': 'A0070_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0217_scan1.nii.gz',
+      'boxes': 'A0217_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0134_scan2.nii.gz',
+      'boxes': 'A0134_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0242_scan1.nii.gz',
+      'boxes': 'A0242_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0121_scan1.nii.gz',
+      'boxes': 'A0121_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0040_scan1.nii.gz',
+      'boxes': 'B0040_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0195_scan1.nii.gz',
+      'boxes': 'A0195_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0024_scan2.nii.gz',
+      'boxes': 'G0024_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0038_scan1.nii.gz',
+      'boxes': 'B0038_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0006_scan4.nii.gz',
+      'boxes': 'A0006_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0059_scan1.nii.gz',
+      'boxes': 'A0059_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0147_scan1.nii.gz',
+      'boxes': 'A0147_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0051_scan2.nii.gz',
+      'boxes': 'G0051_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0048_scan1.nii.gz',
+      'boxes': 'G0048_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0115_scan1.nii.gz',
+      'boxes': 'A0115_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0244_scan1.nii.gz',
+      'boxes': 'A0244_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0034_scan2.nii.gz',
+      'boxes': 'A0034_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0054_scan1.nii.gz',
+      'boxes': 'G0054_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0060_scan1.nii.gz',
+      'boxes': 'G0060_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0008_scan1.nii.gz',
+      'boxes': 'G0008_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0185_scan1.nii.gz',
+      'boxes': 'A0185_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0214_scan1.nii.gz',
+      'boxes': 'A0214_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0040_scan4.nii.gz',
+      'boxes': 'B0040_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0165_scan2.nii.gz',
+      'boxes': 'A0165_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0234_scan1.nii.gz',
+      'boxes': 'A0234_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0154_scan1.nii.gz',
+      'boxes': 'A0154_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan4.nii.gz',
+      'boxes': 'A0104_scan4.nii.gz'
+    },
+    {
+      'image' : 'B0016_scan2.nii.gz',
+      'boxes': 'B0016_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0038_scan2.nii.gz',
+      'boxes': 'B0038_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan5.nii.gz',
+      'boxes': 'A0103_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0256_scan1.nii.gz',
+      'boxes': 'A0256_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0185_scan2.nii.gz',
+      'boxes': 'A0185_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0028_scan1.nii.gz',
+      'boxes': 'A0028_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0212_scan1.nii.gz',
+      'boxes': 'A0212_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0129_scan1.nii.gz',
+      'boxes': 'A0129_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0263_scan1.nii.gz',
+      'boxes': 'A0263_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0258_scan2.nii.gz',
+      'boxes': 'A0258_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0145_scan2.nii.gz',
+      'boxes': 'A0145_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0116_scan1.nii.gz',
+      'boxes': 'A0116_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0070_scan1.nii.gz',
+      'boxes': 'A0070_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0180_scan1.nii.gz',
+      'boxes': 'A0180_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0059_scan2.nii.gz',
+      'boxes': 'A0059_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0091_scan2.nii.gz',
+      'boxes': 'A0091_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0223_scan1.nii.gz',
+      'boxes': 'A0223_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0046_scan1.nii.gz',
+      'boxes': 'A0046_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0075_scan1.nii.gz',
+      'boxes': 'A0075_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0225_scan1.nii.gz',
+      'boxes': 'A0225_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0180_scan2.nii.gz',
+      'boxes': 'A0180_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0132_scan2.nii.gz',
+      'boxes': 'A0132_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0090_scan6.nii.gz',
+      'boxes': 'A0090_scan6.nii.gz'
+    },
+    {
+      'image' : 'A0049_scan1.nii.gz',
+      'boxes': 'A0049_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0035_scan1.nii.gz',
+      'boxes': 'A0035_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0037_scan2.nii.gz',
+      'boxes': 'G0037_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0247_scan1.nii.gz',
+      'boxes': 'A0247_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0032_scan2.nii.gz',
+      'boxes': 'G0032_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0201_scan1.nii.gz',
+      'boxes': 'A0201_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0041_scan1.nii.gz',
+      'boxes': 'G0041_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0100_scan2.nii.gz',
+      'boxes': 'A0100_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0110_scan3.nii.gz',
+      'boxes': 'A0110_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0023_scan1.nii.gz',
+      'boxes': 'A0023_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0203_scan1.nii.gz',
+      'boxes': 'A0203_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0101_scan1.nii.gz',
+      'boxes': 'A0101_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0177_scan1.nii.gz',
+      'boxes': 'A0177_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan2.nii.gz',
+      'boxes': 'A0103_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0256_scan2.nii.gz',
+      'boxes': 'A0256_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0227_scan1.nii.gz',
+      'boxes': 'A0227_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan5.nii.gz',
+      'boxes': 'A0104_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0061_scan1.nii.gz',
+      'boxes': 'A0061_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0036_scan1.nii.gz',
+      'boxes': 'B0036_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0032_scan1.nii.gz',
+      'boxes': 'G0032_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0204_scan2.nii.gz',
+      'boxes': 'A0204_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0033_scan1.nii.gz',
+      'boxes': 'B0033_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0109_scan3.nii.gz',
+      'boxes': 'A0109_scan3.nii.gz'
+    },
+    {
+      'image' : 'G0028_scan1.nii.gz',
+      'boxes': 'G0028_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0009_scan1.nii.gz',
+      'boxes': 'A0009_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0084_scan1.nii.gz',
+      'boxes': 'A0084_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0179_scan2.nii.gz',
+      'boxes': 'A0179_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0258_scan1.nii.gz',
+      'boxes': 'A0258_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0080_scan1.nii.gz',
+      'boxes': 'A0080_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0183_scan1.nii.gz',
+      'boxes': 'A0183_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0034_scan1.nii.gz',
+      'boxes': 'G0034_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0090_scan5.nii.gz',
+      'boxes': 'A0090_scan5.nii.gz'
+    },
+    {
+      'image' : 'E0004_scan1.nii.gz',
+      'boxes': 'E0004_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0193_scan2.nii.gz',
+      'boxes': 'A0193_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan1.nii.gz',
+      'boxes': 'A0104_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0035_scan1.nii.gz',
+      'boxes': 'G0035_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0236_scan2.nii.gz',
+      'boxes': 'A0236_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0217_scan2.nii.gz',
+      'boxes': 'A0217_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0205_scan1.nii.gz',
+      'boxes': 'A0205_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0233_scan1.nii.gz',
+      'boxes': 'A0233_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0134_scan4.nii.gz',
+      'boxes': 'A0134_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan6.nii.gz',
+      'boxes': 'A0104_scan6.nii.gz'
+    },
+    {
+      'image' : 'G0050_scan1.nii.gz',
+      'boxes': 'G0050_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0192_scan1.nii.gz',
+      'boxes': 'A0192_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0053_scan1.nii.gz',
+      'boxes': 'G0053_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0032_scan3.nii.gz',
+      'boxes': 'G0032_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0258_scan3.nii.gz',
+      'boxes': 'A0258_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan3.nii.gz',
+      'boxes': 'A0104_scan3.nii.gz'
+    },
+    {
+      'image' : 'B0004_scan2.nii.gz',
+      'boxes': 'B0004_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0113_scan5.nii.gz',
+      'boxes': 'A0113_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0051_scan1.nii.gz',
+      'boxes': 'A0051_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0090_scan2.nii.gz',
+      'boxes': 'A0090_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0128_scan2.nii.gz',
+      'boxes': 'A0128_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0173_scan2.nii.gz',
+      'boxes': 'A0173_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0240_scan2.nii.gz',
+      'boxes': 'A0240_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0040_scan1.nii.gz',
+      'boxes': 'A0040_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0083_scan4.nii.gz',
+      'boxes': 'A0083_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0191_scan2.nii.gz',
+      'boxes': 'A0191_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0262_scan1.nii.gz',
+      'boxes': 'A0262_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0178_scan2.nii.gz',
+      'boxes': 'A0178_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0237_scan1.nii.gz',
+      'boxes': 'A0237_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0119_scan1.nii.gz',
+      'boxes': 'A0119_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0160_scan2.nii.gz',
+      'boxes': 'A0160_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0234_scan2.nii.gz',
+      'boxes': 'A0234_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0126_scan5.nii.gz',
+      'boxes': 'A0126_scan5.nii.gz'
+    },
+    {
+      'image' : 'G0018_scan1.nii.gz',
+      'boxes': 'G0018_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0039_scan2.nii.gz',
+      'boxes': 'G0039_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0078_scan5.nii.gz',
+      'boxes': 'A0078_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0235_scan1.nii.gz',
+      'boxes': 'A0235_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0009_scan1.nii.gz',
+      'boxes': 'B0009_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0006_scan1.nii.gz',
+      'boxes': 'A0006_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0044_scan1.nii.gz',
+      'boxes': 'G0044_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0117_scan5.nii.gz',
+      'boxes': 'A0117_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0084_scan2.nii.gz',
+      'boxes': 'A0084_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0092_scan1.nii.gz',
+      'boxes': 'A0092_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0044_scan1.nii.gz',
+      'boxes': 'B0044_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0218_scan1.nii.gz',
+      'boxes': 'A0218_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0139_scan1.nii.gz',
+      'boxes': 'A0139_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0004_scan1.nii.gz',
+      'boxes': 'B0004_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0252_scan2.nii.gz',
+      'boxes': 'A0252_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0084_scan3.nii.gz',
+      'boxes': 'A0084_scan3.nii.gz'
+    },
+    {
+      'image' : 'G0009_scan1.nii.gz',
+      'boxes': 'G0009_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0239_scan1.nii.gz',
+      'boxes': 'A0239_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0226_scan2.nii.gz',
+      'boxes': 'A0226_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0185_scan3.nii.gz',
+      'boxes': 'A0185_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0253_scan1.nii.gz',
+      'boxes': 'A0253_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0164_scan1.nii.gz',
+      'boxes': 'A0164_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0019_scan1.nii.gz',
+      'boxes': 'B0019_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0098_scan1.nii.gz',
+      'boxes': 'A0098_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0134_scan6.nii.gz',
+      'boxes': 'A0134_scan6.nii.gz'
+    },
+    {
+      'image' : 'E0002_scan1.nii.gz',
+      'boxes': 'E0002_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0222_scan1.nii.gz',
+      'boxes': 'A0222_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0203_scan2.nii.gz',
+      'boxes': 'A0203_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0128_scan1.nii.gz',
+      'boxes': 'A0128_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0003_scan1.nii.gz',
+      'boxes': 'B0003_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0133_scan1.nii.gz',
+      'boxes': 'A0133_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0026_scan1.nii.gz',
+      'boxes': 'A0026_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0056_scan2.nii.gz',
+      'boxes': 'A0056_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0110_scan1.nii.gz',
+      'boxes': 'A0110_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0240_scan1.nii.gz',
+      'boxes': 'A0240_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0047_scan1.nii.gz',
+      'boxes': 'A0047_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0083_scan3.nii.gz',
+      'boxes': 'A0083_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0163_scan2.nii.gz',
+      'boxes': 'A0163_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0109_scan1.nii.gz',
+      'boxes': 'A0109_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0020_scan2.nii.gz',
+      'boxes': 'G0020_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0010_scan1.nii.gz',
+      'boxes': 'A0010_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0086_scan2.nii.gz',
+      'boxes': 'A0086_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0132_scan1.nii.gz',
+      'boxes': 'A0132_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0017_scan1.nii.gz',
+      'boxes': 'G0017_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0094_scan2.nii.gz',
+      'boxes': 'A0094_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0229_scan1.nii.gz',
+      'boxes': 'A0229_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0018_scan1.nii.gz',
+      'boxes': 'A0018_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0071_scan1.nii.gz',
+      'boxes': 'A0071_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0097_scan2.nii.gz',
+      'boxes': 'A0097_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0023_scan1.nii.gz',
+      'boxes': 'G0023_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0257_scan1.nii.gz',
+      'boxes': 'A0257_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0005_scan2.nii.gz',
+      'boxes': 'A0005_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0116_scan2.nii.gz',
+      'boxes': 'A0116_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0048_scan2.nii.gz',
+      'boxes': 'A0048_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0124_scan2.nii.gz',
+      'boxes': 'A0124_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0098_scan3.nii.gz',
+      'boxes': 'A0098_scan3.nii.gz'
+    },
+    {
+      'image' : 'B0042_scan2.nii.gz',
+      'boxes': 'B0042_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0255_scan1.nii.gz',
+      'boxes': 'A0255_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0001_scan2.nii.gz',
+      'boxes': 'G0001_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0126_scan1.nii.gz',
+      'boxes': 'A0126_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0029_scan4.nii.gz',
+      'boxes': 'A0029_scan4.nii.gz'
+    },
+    {
+      'image' : 'G0039_scan1.nii.gz',
+      'boxes': 'G0039_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0152_scan1.nii.gz',
+      'boxes': 'A0152_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0213_scan2.nii.gz',
+      'boxes': 'A0213_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0020_scan1.nii.gz',
+      'boxes': 'G0020_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0009_scan2.nii.gz',
+      'boxes': 'B0009_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0073_scan1.nii.gz',
+      'boxes': 'A0073_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0053_scan1.nii.gz',
+      'boxes': 'A0053_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0014_scan2.nii.gz',
+      'boxes': 'G0014_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0083_scan1.nii.gz',
+      'boxes': 'A0083_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0170_scan2.nii.gz',
+      'boxes': 'A0170_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0044_scan1.nii.gz',
+      'boxes': 'A0044_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0055_scan1.nii.gz',
+      'boxes': 'G0055_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0106_scan3.nii.gz',
+      'boxes': 'A0106_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0137_scan2.nii.gz',
+      'boxes': 'A0137_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0028_scan1.nii.gz',
+      'boxes': 'B0028_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0202_scan2.nii.gz',
+      'boxes': 'A0202_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0236_scan1.nii.gz',
+      'boxes': 'A0236_scan1.nii.gz'
+    },
+    {
+      'image' : 'E0005_scan1.nii.gz',
+      'boxes': 'E0005_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0138_scan1.nii.gz',
+      'boxes': 'A0138_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0046_scan2.nii.gz',
+      'boxes': 'G0046_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0095_scan2.nii.gz',
+      'boxes': 'A0095_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan4.nii.gz',
+      'boxes': 'A0103_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0123_scan1.nii.gz',
+      'boxes': 'A0123_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0090_scan1.nii.gz',
+      'boxes': 'A0090_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0018_scan2.nii.gz',
+      'boxes': 'A0018_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0078_scan4.nii.gz',
+      'boxes': 'A0078_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0148_scan2.nii.gz',
+      'boxes': 'A0148_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0262_scan2.nii.gz',
+      'boxes': 'A0262_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0082_scan1.nii.gz',
+      'boxes': 'A0082_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0091_scan1.nii.gz',
+      'boxes': 'A0091_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0197_scan2.nii.gz',
+      'boxes': 'A0197_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0013_scan1.nii.gz',
+      'boxes': 'G0013_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0092_scan2.nii.gz',
+      'boxes': 'A0092_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0233_scan2.nii.gz',
+      'boxes': 'A0233_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0081_scan2.nii.gz',
+      'boxes': 'A0081_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0096_scan3.nii.gz',
+      'boxes': 'A0096_scan3.nii.gz'
+    },
+    {
+      'image' : 'G0042_scan1.nii.gz',
+      'boxes': 'G0042_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0235_scan2.nii.gz',
+      'boxes': 'A0235_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0083_scan5.nii.gz',
+      'boxes': 'A0083_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0096_scan2.nii.gz',
+      'boxes': 'A0096_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0265_scan2.nii.gz',
+      'boxes': 'A0265_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0007_scan2.nii.gz',
+      'boxes': 'A0007_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0189_scan1.nii.gz',
+      'boxes': 'A0189_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0011_scan2.nii.gz',
+      'boxes': 'B0011_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0097_scan1.nii.gz',
+      'boxes': 'A0097_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0091_scan3.nii.gz',
+      'boxes': 'A0091_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0042_scan1.nii.gz',
+      'boxes': 'A0042_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0117_scan1.nii.gz',
+      'boxes': 'A0117_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0238_scan2.nii.gz',
+      'boxes': 'A0238_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0160_scan1.nii.gz',
+      'boxes': 'A0160_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0165_scan1.nii.gz',
+      'boxes': 'A0165_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0105_scan3.nii.gz',
+      'boxes': 'A0105_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0221_scan1.nii.gz',
+      'boxes': 'A0221_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0206_scan2.nii.gz',
+      'boxes': 'A0206_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0253_scan2.nii.gz',
+      'boxes': 'A0253_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0106_scan4.nii.gz',
+      'boxes': 'A0106_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0243_scan2.nii.gz',
+      'boxes': 'A0243_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0080_scan3.nii.gz',
+      'boxes': 'A0080_scan3.nii.gz'
+    },
+    {
+      'image' : 'B0043_scan2.nii.gz',
+      'boxes': 'B0043_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0062_scan2.nii.gz',
+      'boxes': 'G0062_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0031_scan1.nii.gz',
+      'boxes': 'B0031_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0047_scan1.nii.gz',
+      'boxes': 'G0047_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0105_scan5.nii.gz',
+      'boxes': 'A0105_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0113_scan4.nii.gz',
+      'boxes': 'A0113_scan4.nii.gz'
+    },
+    {
+      'image' : 'G0037_scan1.nii.gz',
+      'boxes': 'G0037_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0042_scan2.nii.gz',
+      'boxes': 'G0042_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0014_scan1.nii.gz',
+      'boxes': 'A0014_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0120_scan1.nii.gz',
+      'boxes': 'A0120_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0089_scan1.nii.gz',
+      'boxes': 'A0089_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0051_scan1.nii.gz',
+      'boxes': 'G0051_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0027_scan1.nii.gz',
+      'boxes': 'B0027_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0087_scan3.nii.gz',
+      'boxes': 'A0087_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0019_scan2.nii.gz',
+      'boxes': 'A0019_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0216_scan1.nii.gz',
+      'boxes': 'A0216_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0043_scan1.nii.gz',
+      'boxes': 'A0043_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0157_scan1.nii.gz',
+      'boxes': 'A0157_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0008_scan2.nii.gz',
+      'boxes': 'G0008_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0109_scan2.nii.gz',
+      'boxes': 'A0109_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0145_scan1.nii.gz',
+      'boxes': 'A0145_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0073_scan2.nii.gz',
+      'boxes': 'A0073_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0241_scan2.nii.gz',
+      'boxes': 'A0241_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0173_scan1.nii.gz',
+      'boxes': 'A0173_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0250_scan2.nii.gz',
+      'boxes': 'A0250_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0040_scan2.nii.gz',
+      'boxes': 'G0040_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0242_scan2.nii.gz',
+      'boxes': 'A0242_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0184_scan2.nii.gz',
+      'boxes': 'A0184_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0155_scan2.nii.gz',
+      'boxes': 'A0155_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0041_scan2.nii.gz',
+      'boxes': 'A0041_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0181_scan2.nii.gz',
+      'boxes': 'A0181_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0011_scan2.nii.gz',
+      'boxes': 'A0011_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0129_scan3.nii.gz',
+      'boxes': 'A0129_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0254_scan1.nii.gz',
+      'boxes': 'A0254_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0042_scan1.nii.gz',
+      'boxes': 'B0042_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0090_scan3.nii.gz',
+      'boxes': 'A0090_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0159_scan1.nii.gz',
+      'boxes': 'A0159_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0249_scan2.nii.gz',
+      'boxes': 'A0249_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0022_scan4.nii.gz',
+      'boxes': 'A0022_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0261_scan1.nii.gz',
+      'boxes': 'A0261_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0183_scan2.nii.gz',
+      'boxes': 'A0183_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0005_scan1.nii.gz',
+      'boxes': 'A0005_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0248_scan1.nii.gz',
+      'boxes': 'A0248_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0153_scan1.nii.gz',
+      'boxes': 'A0153_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0250_scan1.nii.gz',
+      'boxes': 'A0250_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0159_scan2.nii.gz',
+      'boxes': 'A0159_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0125_scan1.nii.gz',
+      'boxes': 'A0125_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0052_scan2.nii.gz',
+      'boxes': 'A0052_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0093_scan2.nii.gz',
+      'boxes': 'A0093_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0005_scan1.nii.gz',
+      'boxes': 'B0005_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0223_scan2.nii.gz',
+      'boxes': 'A0223_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0021_scan1.nii.gz',
+      'boxes': 'B0021_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0177_scan2.nii.gz',
+      'boxes': 'A0177_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0024_scan1.nii.gz',
+      'boxes': 'G0024_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0034_scan2.nii.gz',
+      'boxes': 'G0034_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0113_scan3.nii.gz',
+      'boxes': 'A0113_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0176_scan2.nii.gz',
+      'boxes': 'A0176_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0058_scan2.nii.gz',
+      'boxes': 'G0058_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0018_scan2.nii.gz',
+      'boxes': 'B0018_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0227_scan2.nii.gz',
+      'boxes': 'A0227_scan2.nii.gz'
+    },
+    {
+      'image' : 'B0001_scan1.nii.gz',
+      'boxes': 'B0001_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0019_scan1.nii.gz',
+      'boxes': 'A0019_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0149_scan1.nii.gz',
+      'boxes': 'A0149_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0064_scan1.nii.gz',
+      'boxes': 'A0064_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0045_scan2.nii.gz',
+      'boxes': 'G0045_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0114_scan1.nii.gz',
+      'boxes': 'A0114_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0044_scan2.nii.gz',
+      'boxes': 'G0044_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0032_scan1.nii.gz',
+      'boxes': 'A0032_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0007_scan1.nii.gz',
+      'boxes': 'A0007_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0143_scan1.nii.gz',
+      'boxes': 'A0143_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0016_scan1.nii.gz',
+      'boxes': 'G0016_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0208_scan1.nii.gz',
+      'boxes': 'A0208_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0163_scan1.nii.gz',
+      'boxes': 'A0163_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0148_scan1.nii.gz',
+      'boxes': 'A0148_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0221_scan2.nii.gz',
+      'boxes': 'A0221_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0190_scan2.nii.gz',
+      'boxes': 'A0190_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0239_scan2.nii.gz',
+      'boxes': 'A0239_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0210_scan2.nii.gz',
+      'boxes': 'A0210_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0058_scan1.nii.gz',
+      'boxes': 'G0058_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0085_scan2.nii.gz',
+      'boxes': 'A0085_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0241_scan1.nii.gz',
+      'boxes': 'A0241_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0003_scan1.nii.gz',
+      'boxes': 'G0003_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0199_scan1.nii.gz',
+      'boxes': 'A0199_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0077_scan1.nii.gz',
+      'boxes': 'A0077_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0040_scan2.nii.gz',
+      'boxes': 'B0040_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0224_scan2.nii.gz',
+      'boxes': 'A0224_scan2.nii.gz'
+    },
+    {
+      'image' : 'G0001_scan1.nii.gz',
+      'boxes': 'G0001_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0036_scan1.nii.gz',
+      'boxes': 'A0036_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0169_scan1.nii.gz',
+      'boxes': 'A0169_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0027_scan1.nii.gz',
+      'boxes': 'G0027_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0087_scan5.nii.gz',
+      'boxes': 'A0087_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0259_scan1.nii.gz',
+      'boxes': 'A0259_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0001_scan1.nii.gz',
+      'boxes': 'A0001_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0142_scan1.nii.gz',
+      'boxes': 'A0142_scan1.nii.gz'
+    },
+    {
+      'image' : 'B0008_scan1.nii.gz',
+      'boxes': 'B0008_scan1.nii.gz'
+    },
+    {
+      'image' : 'G0057_scan1.nii.gz',
+      'boxes': 'G0057_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0154_scan2.nii.gz',
+      'boxes': 'A0154_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0135_scan1.nii.gz',
+      'boxes': 'A0135_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0200_scan2.nii.gz',
+      'boxes': 'A0200_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0232_scan1.nii.gz',
+      'boxes': 'A0232_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0113_scan1.nii.gz',
+      'boxes': 'A0113_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0003_scan2.nii.gz',
+      'boxes': 'A0003_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0199_scan2.nii.gz',
+      'boxes': 'A0199_scan2.nii.gz'
+    }
+]
