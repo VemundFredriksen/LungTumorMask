@@ -1,0 +1,23 @@
+device: 'cuda'
+
+data:
+  train_dataset: "D:\\Repos\\LungTumorSegmentation\\Resources\\Windows_Files\\evaluate_data.yaml"
+  scale_dim:
+    d_0: 128
+    d_1: 128
+    d_2: 128
+
+model:
+  architecture: UNet_test
+  weights: "D:\\idun_models\\3\\m_test.pth"
+  loss: DiceLoss
+  filter_base: 32
+  filter_expansion: 2
+  optimizer:
+    name: 'Adam'
+    lr: 0.01
+
+evaluate:
+  save_segmentations: True
+  save_directory: 'D:\\Repos\\LungTumorSegmentation\\m_128\\'
+  output_threshold: 0.5

@@ -1,0 +1,41 @@
+image_prefix: "D:\\Datasets\\Task06_Lung\\imagesTr\\"
+boxes_prefix: "D:\\Datasets\\Task06_Lung\\boxes\\"
+label_prefix: "D:\\Datasets\\Task06_Lung\\labelsTr\\"
+
+data: [
+        {
+      'image' : 'lung_092.nii\\lung_092.nii',
+      'boxes' : 'lung_092.nii',
+      'label' : 'lung_092.nii\\lung_092.nii'
+    },
+    {
+      'image' : 'lung_093.nii\\lung_093.nii',
+      'boxes' : 'lung_093.nii',
+      'label' : 'lung_093.nii\\lung_093.nii'
+    },
+    {
+      'image' : 'lung_095.nii\\lung_095.nii',
+      'boxes' : 'lung_095.nii',
+      'label' : 'lung_095.nii\\lung_095.nii'
+    },
+    {
+      'image' : 'lung_081.nii\\lung_081.nii',
+      'boxes' : 'lung_081.nii',
+      'label' : 'lung_081.nii\\lung_081.nii'
+    },
+    {
+      'image' : 'lung_083.nii\\lung_083.nii',
+      'boxes' : 'lung_083.nii',
+      'label' : 'lung_083.nii\\lung_083.nii'
+    },
+    {
+      'image' : 'lung_084.nii\\lung_084.nii',
+      'boxes' : 'lung_084.nii',
+      'label' : 'lung_084.nii\\lung_084.nii'
+    },
+    {
+      'image' : 'lung_086.nii\\lung_086.nii',
+      'boxes' : 'lung_086.nii',
+      'label' : 'lung_086.nii\\lung_086.nii'
+    }
+]

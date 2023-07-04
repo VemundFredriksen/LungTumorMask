@@ -1,0 +1,18 @@
+device: 'cuda'
+
+data:
+  dataset: "/home/tumor/LungTumorSegmentation/Resources/Inference/malvik_inference_data2.yaml"
+  scale_dim:
+    d_0: 256
+    d_1: 256
+    d_2: 128
+
+model:
+  architecture: UNet_test
+  weights: "/home/tumor/model_last_128.pth"
+  loss: DiceLoss
+  filter_base: 128
+  filter_expansion: 2
+
+inference:
+  save_directory: '/home/tumor/data/SoftLabels/'

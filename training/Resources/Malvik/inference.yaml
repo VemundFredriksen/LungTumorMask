@@ -1,0 +1,23 @@
+device: 'cuda'
+
+data:
+  dataset: "/home/tumor/LungTumorSegmentation/Resources/Malvik/msd_dataset.yaml"
+  aug_prob: 0.1
+  scale_dim:
+    d_0: 256
+    d_1: 256
+    d_2: 128
+
+model:
+  architecture: UNet4
+  loss: DiceLoss
+  weights: "/home/tumor/out/models/model_best.pth"
+  filter_base: 16
+  filter_expansion: 2
+  optimizer:
+    name: 'Adam'
+    lr: 0.0001
+
+inference:
+  save_directory: "/home/tumor/segs/"
+

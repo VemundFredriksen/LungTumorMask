@@ -1,0 +1,27 @@
+device: 'cuda'
+
+data:
+  train_dataset: "/home/tumor/LungTumorSegmentation/Resources/Malvik_train_1/standard.yaml"
+  aug_prob: 0.1
+  scale_dim:
+    d_0: 128
+    d_1: 128
+    d_2: 128
+
+model:
+  architecture: UNet_test
+  loss: DiceLoss
+  filter_base: 64
+  filter_expansion: 2
+  optimizer:
+    name: 'Adam'
+    lr: 0.00001
+
+train:
+  max_epochs: 500
+  val_frequency: 1
+  output_threshold: 0.5
+  metric_path: "/home/tumor/out/full_filter.csv"
+  save_frequency: 15
+  model_directory: "/home/tumor/out/models/"
+  batch_size: 10

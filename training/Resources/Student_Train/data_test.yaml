@@ -1,0 +1,109 @@
+
+
+data: [
+    {
+      'image' : 'A0101_scan2.nii.gz',
+      'boxes': 'A0101_scan2.nii.gz'
+      'label': 'A0101_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0102_scan1.nii.gz',
+      'boxes': 'A0102_scan1.nii.gz'
+      'label': 'A0102_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan1.nii.gz',
+      'boxes': 'A0103_scan1.nii.gz'
+      'label': 'A0103_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan2.nii.gz',
+      'boxes': 'A0103_scan2.nii.gz'
+      'label': 'A0103_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan3.nii.gz',
+      'boxes': 'A0103_scan3.nii.gz'
+      'label': 'A0103_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan4.nii.gz',
+      'boxes': 'A0103_scan4.nii.gz'
+      'label': 'A0103_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0103_scan5.nii.gz',
+      'boxes': 'A0103_scan5.nii.gz'
+      'label': 'A0103_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan1.nii.gz',
+      'boxes': 'A0104_scan1.nii.gz'
+      'label': 'A0104_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan2.nii.gz',
+      'boxes': 'A0104_scan2.nii.gz'
+      'label': 'A0104_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan3.nii.gz',
+      'boxes': 'A0104_scan3.nii.gz'
+      'label': 'A0104_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan4.nii.gz',
+      'boxes': 'A0104_scan4.nii.gz'
+      'label': 'A0104_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan5.nii.gz',
+      'boxes': 'A0104_scan5.nii.gz'
+      'label': 'A0104_scan5.nii.gz'
+    },
+    {
+      'image' : 'A0104_scan6.nii.gz',
+      'boxes': 'A0104_scan6.nii.gz'
+      'label': 'A0104_scan6.nii.gz'
+    },
+    {
+      'image' : 'A0106_scan1.nii.gz',
+      'boxes': 'A0106_scan1.nii.gz'
+      'label': 'A0106_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0106_scan2.nii.gz',
+      'boxes': 'A0106_scan2.nii.gz'
+      'label': 'A0106_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0106_scan3.nii.gz',
+      'boxes': 'A0106_scan3.nii.gz'
+      'label': 'A0106_scan3.nii.gz'
+    },
+    {
+      'image' : 'A0106_scan4.nii.gz',
+      'boxes': 'A0106_scan4.nii.gz'
+      'label': 'A0106_scan4.nii.gz'
+    },
+    {
+      'image' : 'A0108_scan2.nii.gz',
+      'boxes': 'A0108_scan2.nii.gz'
+      'label': 'A0108_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0109_scan1.nii.gz',
+      'boxes': 'A0109_scan1.nii.gz'
+      'label': 'A0109_scan1.nii.gz'
+    },
+    {
+      'image' : 'A0109_scan2.nii.gz',
+      'boxes': 'A0109_scan2.nii.gz'
+      'label': 'A0109_scan2.nii.gz'
+    },
+    {
+      'image' : 'A0109_scan3.nii.gz',
+      'boxes': 'A0109_scan3.nii.gz'
+      'label': 'A0109_scan3.nii.gz'
+    },
+]

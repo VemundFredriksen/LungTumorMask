@@ -1,0 +1,66 @@
+image_prefix: "/home/tumor/data/LungDx-Lung/Images/"
+label_prefix: "/home/tumor/data/LungDx-Lung/Labels/"
+boxes_prefix: "/home/tumor/data/LungDx-Lung/Boxes/"
+
+train: 
+  [
+    {
+      'image' : 'A0250_scan1_right.nii.gz',
+      'label' : 'A0250_scan1_right.nii.gz',
+      'boxes' : 'A0250_scan1_right.nii.gz'
+    },
+    {
+      'image' : 'G0049_scan1_right.nii.gz',
+      'label' : 'G0049_scan1_right.nii.gz',
+      'boxes' : 'G0049_scan1_right.nii.gz'
+    },
+    {
+      'image' : 'A0250_scan2_right.nii.gz',
+      'label' : 'A0250_scan2_right.nii.gz',
+      'boxes' : 'A0250_scan2_right.nii.gz'
+    },
+    {
+      'image' : 'G0049_scan2_right.nii.gz',
+      'label' : 'G0049_scan2_right.nii.gz',
+      'boxes' : 'G0049_scan2_right.nii.gz'
+    },
+    {
+      'image' : 'A0184_scan1_right.nii.gz',
+      'label' : 'A0184_scan1_right.nii.gz',
+      'boxes' : 'A0184_scan1_right.nii.gz'
+    },
+    {
+      'image' : 'A0263_scan1_left.nii.gz',
+      'label' : 'A0263_scan1_left.nii.gz',
+      'boxes' : 'A0263_scan1_left.nii.gz'
+    },
+    {
+      'image' : 'A0184_scan2_right.nii.gz',
+      'label' : 'A0184_scan2_right.nii.gz',
+      'boxes' : 'A0184_scan2_right.nii.gz'
+    },
+    {
+      'image' : 'B0041_scan2_right.nii.gz',
+      'label' : 'B0041_scan2_right.nii.gz',
+      'boxes' : 'B0041_scan2_right.nii.gz'
+    }
+  ]
+
+val:
+  [
+    {
+      'image' : 'A0263_scan1_left.nii.gz',
+      'label' : 'A0263_scan1_left.nii.gz',
+      'boxes' : 'A0263_scan1_left.nii.gz'
+    },
+    {
+      'image' : 'A0184_scan2_right.nii.gz',
+      'label' : 'A0184_scan2_right.nii.gz',
+      'boxes' : 'A0184_scan2_right.nii.gz'
+    },
+    {
+      'image' : 'B0041_scan2_right.nii.gz',
+      'label' : 'B0041_scan2_right.nii.gz',
+      'boxes' : 'B0041_scan2_right.nii.gz'
+    }
+  ]

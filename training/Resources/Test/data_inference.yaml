@@ -1,0 +1,15 @@
+image_prefix: "D:\\Datasets\\Task06_Lung\\imagesTr\\"
+boxes_prefix: "D:\\Datasets\\Task06_Lung\\boxes\\"
+label_prefix: ""
+
+data:
+  [
+    {
+      'image' : 'lung_001.nii\\lung_001.nii',
+      'boxes' : 'lung_001.nii',
+    },
+    {
+      'image' : 'lung_003.nii\\lung_003.nii',
+      'boxes' : 'lung_003.nii',
+    }
+]

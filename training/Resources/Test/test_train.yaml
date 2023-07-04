@@ -1,0 +1,31 @@
+device: 'cuda'
+
+data:
+  train_dataset: ["D:\\Repos\\LungTumorSegmentation\\Resources\\Test\\data_test_train.yaml",
+    "D:\\Repos\\LungTumorSegmentation\\Resources\\Test\\data_test_train.yaml",
+    "D:\\Repos\\LungTumorSegmentation\\Resources\\Test\\data_test_train.yaml"]
+  aug_prob: 0.0
+  scale_dim:
+    d_0: 64
+    d_1: 64
+    d_2: 64
+
+model:
+  architecture: UNet_monai
+  loss: DiceLoss
+  weights: 
+  filter_base: 32
+  filter_expansion: 2
+  filters: [2, 3, 4, 5]
+  optimizer:
+    name: 'Adam'
+    lr: 0.001
+
+train:
+  max_epochs: 3
+  val_frequency: 1
+  output_threshold: 0.5
+  metric_path: "D:\\Repos\\LungTumorSegmentation\\metrics.csv"
+  save_frequency: 5
+  model_directory: "D:\\Repos\\LungTumorSegmentation\\models\\"
+  batch_size: 3
