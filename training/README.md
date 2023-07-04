@@ -10,14 +10,14 @@ Project aims to utilize multiple different datasets with different label types (
 
 Requires python >= 3.6
 
-Install python dependencies with pip. The requirements file is located in */Resources/*
+Install python dependencies with pip. The requirements file is located in `/Resources/`:
 ```
 pip install -r requirements.txt
 ```
 
-Build repository files as packages using setuptools. If you alter the code, remember to run the setup again.
+Build repository files as packages using setuptools. If you alter the code, remember to run the setup again:
 ```
-python setupy.py install
+python setup.py install
 ```
 
 ## Usage
