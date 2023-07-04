@@ -8,7 +8,7 @@ This is the official repository for the paper [_"Teacher-student approach for lu
 
 A pretrained model is made available in a command line tool and can be used as you please. However, the current model is not intended for clinical use. The model is the result of a proof-of-concept study. An improved model will be made available in the future, when more training data is made available.
 
-The source code used to train the model and conduct the experiments presented in the paper, are available in the [training](https://github.com/VemundFredriksen/LungTumorMask/tree/main/training) directory.
+The source code used to train the model and conduct the experiments presented in the paper, are available in the [training](https://github.com/VemundFredriksen/LungTumorMask/tree/main/training) directory. The code is provided as is and is not meant to directly applicable to new setups, cohorts, and use cases. It should however contain all the necessary details to reproduce the experiments in the study.
 
 <img src="https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_images.png" width="70%">
 
