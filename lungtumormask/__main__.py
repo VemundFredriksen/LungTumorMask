@@ -19,9 +19,13 @@ def main():
                         help='which radius to use for morphological post-processing segmentation smoothing.')
     parser.add_argument('--batch-size', metavar='batch-size', type=int, default=5,
                         help='which batch size to use for lungmask inference.')
+    parser.add_argument('--cpu', action='store_true', help='whether to force computation to happen on CPU only.')
 
-    argsin = sys.argv[1:]
-    args = parser.parse_args(argsin)
+    args = parser.parse_args(sys.argv[1:])
+
+    # whether to force CPU computation
+    if args.cpu:
+        os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
     
     # import method here to enable faster testing
     from lungtumormask import mask
