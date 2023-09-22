@@ -22,7 +22,7 @@ Software has been tested against Python `3.7-3.10`.
 
 Stable latest release:
 ```
-pip install https://github.com/VemundFredriksen/LungTumorMask/releases/download/v1.2.1/lungtumormask-1.2.1-py2.py3-none-any.whl
+pip install https://github.com/VemundFredriksen/LungTumorMask/releases/download/v1.3.0/lungtumormask-1.3.0-py2.py3-none-any.whl
 ```
 
 Or from source:
