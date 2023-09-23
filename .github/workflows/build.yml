@@ -62,7 +62,7 @@ jobs:
           pip install --upgrade --no-cache-dir wget
           mkdir samples
           cd samples
-          wget https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/lung_001.nii.gz
+          python -m wget https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/lung_001.nii.gz
 
       - name: Test CLI
         run: lungtumormask --help
