@@ -15,6 +15,7 @@ app_file: demo/app.py
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
 [![Build Actions Status](https://github.com/VemundFredriksen/LungTumorMask/workflows/Build/badge.svg)](https://github.com/VemundFredriksen/LungTumorMask/actions)
 [![Paper](https://zenodo.org/badge/DOI/10.1371/journal.pone.0266147.svg)](https://doi.org/10.1371/journal.pone.0266147)
+<a target="_blank" href="https://huggingface.co/spaces/andreped/LungTumorMask"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
 
 This is the official repository for the paper [_"Teacher-student approach for lung tumor segmentation from mixed-supervised datasets"_](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266147), published in PLOS ONE.
 
@@ -26,7 +27,10 @@ The source code used to train the model and conduct the experiments presented in
 
 <img src="https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_renders.png" width="70%">
 
-&nbsp;
+## [Demo](https://github.com/VemundFredriksen/LungTumorMask#demo) <a target="_blank" href="https://huggingface.co/spaces/andreped/LungTumorMask"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
+
+An online version of the tool has been made openly available at Hugging Face spaces, to enable researchers to easily test the software on their own data without downloading it. To access it, click on the badge above.
+
 
 ## [Installation](https://github.com/VemundFredriksen/LungTumorMask#installation)
 
