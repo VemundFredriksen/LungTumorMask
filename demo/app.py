@@ -10,7 +10,7 @@ def main():
     class_name = "tumor"
 
     # initialize and run app
-    app = WebUI(model_name=model_name, class_name=class_name, cwd=cwd)
+    app = WebUI(class_name=class_name, cwd=cwd)
     app.run()
 
 
