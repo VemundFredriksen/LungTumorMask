@@ -59,10 +59,10 @@ jobs:
 
       - name: Download test data
         run: |
-          pip install --upgrade --no-cache-dir gdown
+          pip install --upgrade --no-cache-dir wget
           mkdir samples
           cd samples
-          gdown --no-cookies https://drive.google.com/uc?id=1EBU130MSupgrux-VXz2i1tY2P6kKng5w
+          python -m wget https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/lung_001.nii.gz
 
       - name: Test CLI
         run: lungtumormask --help
