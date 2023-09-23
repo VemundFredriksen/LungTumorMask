@@ -11,7 +11,7 @@ class WebUI:
         self.pred_images = []
 
         # @TODO: This should be dynamically set based on chosen volume size
-        self.nb_slider_items = 100
+        self.nb_slider_items = 160
 
         self.class_name = class_name
         self.cwd = cwd
@@ -34,9 +34,9 @@ class WebUI:
     def load_mesh(self, mesh_file_name):
         path = mesh_file_name.name
         run_model(path)
-        nifti_to_glb("prediction-livermask.nii")
+        nifti_to_glb("./prediction.nii.gz")
         self.images = load_ct_to_numpy(path)
-        self.pred_images = load_pred_volume_to_numpy("./prediction-livermask.nii")
+        self.pred_images = load_pred_volume_to_numpy("./prediction.nii.gz")
         self.slider = self.slider.update(value=2)
         return "./prediction.obj"
     
@@ -74,7 +74,7 @@ class WebUI:
             
             with gr.Row():
                 gr.Examples(
-                    examples=[self.cwd + "test-volume.nii"],
+                    examples=[self.cwd + "lung_001.nii.gz"],
                     inputs=file_output,
                     outputs=file_output,
                     fn=self.upload_file,

@@ -11,8 +11,8 @@ def load_ct_to_numpy(data_path):
 
     data = np.rot90(data, k=1, axes=(0, 1))
 
-    data[data < -150] = -150
-    data[data > 250] = 250
+    data[data < -1024] = 1024
+    data[data > 1024] = 1024
 
     data = data - np.amin(data)
     data = data / np.amax(data) * 255
