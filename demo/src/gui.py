@@ -11,7 +11,7 @@ class WebUI:
         self.pred_images = []
 
         # @TODO: This should be dynamically set based on chosen volume size
-        self.nb_slider_items = 160
+        self.nb_slider_items = 300
 
         self.class_name = class_name
         self.cwd = cwd
@@ -100,4 +100,4 @@ class WebUI:
 
         # sharing app publicly -> share=True: https://gradio.app/sharing-your-app/
         # inference times > 60 seconds -> need queue(): https://github.com/tloen/alpaca-lora/issues/60#issuecomment-1510006062
-        demo.queue().launch(server_name="0.0.0.0", server_port=7860, share=True)
+        demo.queue().launch(server_name="0.0.0.0", server_port=7860, share=False)

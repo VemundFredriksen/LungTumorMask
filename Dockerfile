@@ -1,33 +1,18 @@
 # read the doc: https://huggingface.co/docs/hub/spaces-sdks-docker
 # you will also find guides on how best to write your Dockerfile
-FROM tensorflow/tensorflow:2.4.2-gpu
-
-# fix for broken keys in Ubuntu-18.04
-RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/3bf863cc.pub
-
-# install Python 3.7
-RUN apt-get update && apt-get install -y --no-install-recommends software-properties-common \
-    libsm6 libxext6 libxrender-dev curl \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN echo "**** Installing Python ****" && \
-    add-apt-repository ppa:deadsnakes/ppa &&  \
-    apt-get install -y build-essential python3.7 python3.7-dev python3-pip && \
-    curl -O https://bootstrap.pypa.io/get-pip.py && \
-    python3.7 get-pip.py && \
-    rm -rf /var/lib/apt/lists/*
+#FROM pytorch/pytorch:1.10.0-cuda11.3-cudnn8-runtime
+FROM python:3.8.10-slim
 
 WORKDIR /code
 
 RUN apt-get update -y
+#RUN apt-get install -y python3 python3-pip
 RUN apt install git --fix-missing -y
+RUN apt install wget -y
 
 # install dependencies
 COPY ./demo/requirements.txt /code/demo/requirements.txt
-RUN python3.7 -m pip install --no-cache-dir --upgrade -r /code/demo/requirements.txt
-
-# Install wget
-RUN apt install wget -y
+RUN python -m pip install --no-cache-dir --upgrade -r /code/demo/requirements.txt
 
 # Set up a new user named "user" with user ID 1000
 RUN useradd -m -u 1000 user
@@ -51,4 +36,4 @@ COPY --chown=user . $HOME/app
 # Download test sample
 RUN wget https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/lung_001.nii.gz
 
-CMD ["python3.7", "demo/app.py"]
+CMD ["python", "demo/app.py"]
