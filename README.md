@@ -26,11 +26,11 @@ The source code used to train the model and conduct the experiments presented in
 
 <img src="https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_images.png" width="70%">
 
-<img src="https://github.com/VemundFredriksen/LungTumorMask/releases/download/0.0.1/sample_renders.png" width="70%">
-
 ## [Demo](https://github.com/VemundFredriksen/LungTumorMask#demo) <a target="_blank" href="https://huggingface.co/spaces/andreped/LungTumorMask"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
 
 An online version of the tool has been made openly available at Hugging Face spaces, to enable researchers to easily test the software on their own data without downloading it. To access it, click on the badge above.
+
+![381534051_1449704982474782_2203714937846032529_n](https://github.com/VemundFredriksen/LungTumorMask/assets/29090665/e04d7c6c-b5b8-4218-9f72-be639d5c207d)
 
 
 ## [Installation](https://github.com/VemundFredriksen/LungTumorMask#installation)
