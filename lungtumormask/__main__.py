@@ -27,6 +27,10 @@ def main():
     if args.cpu:
         os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
     
+    # check if chosen threshold is in accepted range
+    if not (((args.threshold >= 0.0) and (args.threshold <= 1.0)) or (args.threshold == -1)):
+        raise ValueError("Chosen threshold must be -1 or in range [0.0, 1.0], but was:", args.threshold)
+    
     # import method here to enable faster testing
     from lungtumormask import mask
     
