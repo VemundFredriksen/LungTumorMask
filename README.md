@@ -63,6 +63,8 @@ lungtumormask patient_01.nii.gz mask_01.nii.gz --lung-filter --threshold 0.3 --r
 In the last example, we filter tumor candidates outside the lungs, use a lower probability threshold to boost recall, use a morphological smoothing step
 to fill holes inside segmentations using a disk kernel of radius 3, and `--cpu` to disable the GPU during computation.
 
+You can also output the raw probability map (without any post-processing), by setting `--threshold -1` instead. By default a threshold of 0.5 is used.
+
 ## [Applications](https://github.com/VemundFredriksen/LungTumorMask#applications)
 * The software has been successfully integrated into the open platform [Fraxinus](https://github.com/SINTEFMedtek/Fraxinus).
 

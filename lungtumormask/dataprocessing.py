@@ -226,20 +226,30 @@ def post_process(left, right, preprocess_dump, lung_filter, threshold, radius):
     left = voxel_space(left, preprocess_dump['left_extremes'])
     right = voxel_space(right, preprocess_dump['right_extremes'])
 
-    left = (left >= threshold).astype(int)
-    right = (right >= threshold).astype(int)
+    if threshold != -1:
+        left = (left >= threshold).astype(int)
+        right = (right >= threshold).astype(int)
 
     left = stitch(preprocess_dump['org_shape'], left, preprocess_dump['left_extremes'])
     right = stitch(preprocess_dump['org_shape'], right, preprocess_dump['right_extremes'])
 
-    stitched = np.logical_or(left, right).astype(int)
+    # fuse left and right lung preds together (but keep probability maps if available)
+    stitched = np.maximum(left, right)
+    del left, right
 
     # filter tumor predictions outside the predicted lung area
     if lung_filter:
         stitched[preprocess_dump['lungmask'] == 0] = 0
     
-    # final post-processing - fix fragmentation
-    for i in range(stitched.shape[-1]):
-        stitched[..., i] = binary_closing(stitched[..., i], footprint=disk(radius=radius))
+    # final post-processing - fix fragmentation (only relevant for binary volume)
+    if threshold != -1:
+        for i in range(stitched.shape[-1]):
+            stitched[..., i] = binary_closing(stitched[..., i], footprint=disk(radius=radius))
+
+    # for threshold != -1, set result to uint8 dtype, else float32 (for probability map)
+    if threshold == -1:
+        stitched = stitched.astype("float32")
+    else:
+        stitched = stitched.astype("uint8")
 
     return stitched
