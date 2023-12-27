@@ -35,7 +35,7 @@ An online version of the tool has been made openly available at Hugging Face spa
 
 ## [Installation](https://github.com/VemundFredriksen/LungTumorMask#installation)
 
-Software has been tested against Python `3.7-3.10`.
+Software has been tested against Python `3.8-3.10`.
 
 Stable latest release:
 ```
