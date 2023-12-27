@@ -50,7 +50,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Download artifact
-        uses: actions/download-artifact@master
+        uses: actions/download-artifact@v3
         with:
           name: "Python wheel"
 
