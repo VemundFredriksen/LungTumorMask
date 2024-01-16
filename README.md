@@ -66,7 +66,9 @@ to fill holes inside segmentations using a disk kernel of radius 3, and `--cpu` 
 You can also output the raw probability map (without any post-processing), by setting `--threshold -1` instead. By default a threshold of 0.5 is used.
 
 ## [Applications](https://github.com/VemundFredriksen/LungTumorMask#applications)
-* The software has been successfully integrated into the open platform [Fraxinus](https://github.com/SINTEFMedtek/Fraxinus).
+* Kim et al., _"Deep learning–radiomics integrated noninvasive detection of epidermal growth factor receptor mutations in non-small cell lung cancer patients"_ (2024), Scientific Reports, https://doi.org/10.1038/s41598-024-51630-6
+* A web demo application was developed and hosted on [Hugging Face](https://huggingface.co/) (see [here](https://huggingface.co/spaces/andreped/LungTumorMask))
+* LungTumorMask CLI integrated into [Fraxinus](https://github.com/SINTEFMedtek/Fraxinus)
 
 ## [Citation](https://github.com/VemundFredriksen/LungTumorMask#citation)
 If you found this repository useful in your study, please, cite the following paper:
